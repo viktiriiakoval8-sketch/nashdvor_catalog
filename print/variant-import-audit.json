@@ -1,0 +1,3426 @@
+{
+  "source": "53036adf9439ec9d6d7375fbfcb4941f.xlsx",
+  "excludedBasaltRows": 69,
+  "imported": [
+    {
+      "parent": "TU-1112",
+      "sku": "TU-1112",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 677.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-1112",
+      "sku": "TU-1113",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 761.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-1112",
+      "sku": "TU-1114",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 846.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-1112",
+      "sku": "TU-1115",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 1043.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-1112",
+      "sku": "TU-1116",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 1156.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-1112",
+      "sku": "TU-1122",
+      "base": "Пінополістирол",
+      "mm": 30,
+      "price": 790.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-1112",
+      "sku": "TU-1123",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 1015.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-1112",
+      "sku": "TU-1124",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 1314.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-1112",
+      "sku": "TU-1125",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 1720.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-1112",
+      "sku": "TU-1132",
+      "base": "Скловолоконна сітка",
+      "mm": 0,
+      "price": 553.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-1212",
+      "sku": "TU-1212",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 677.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-1212",
+      "sku": "TU-1213",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 761.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-1212",
+      "sku": "TU-1214",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 846.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-1212",
+      "sku": "TU-1215",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 1043.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-1212",
+      "sku": "TU-1216",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 1156.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-1212",
+      "sku": "TU-1222",
+      "base": "Пінополістирол",
+      "mm": 30,
+      "price": 790.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-1212",
+      "sku": "TU-1223",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 1015.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-1212",
+      "sku": "TU-1224",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 1314.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-1212",
+      "sku": "TU-1225",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 1720.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-1212",
+      "sku": "TU-1232",
+      "base": "Скловолоконна сітка",
+      "mm": 0,
+      "price": 553.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2112",
+      "sku": "TU-2112",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 677.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2112",
+      "sku": "TU-2113",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 761.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2112",
+      "sku": "TU-2114",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 846.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2112",
+      "sku": "TU-2115",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 1043.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2112",
+      "sku": "TU-2116",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 1156.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2112",
+      "sku": "TU-2122",
+      "base": "Пінополістирол",
+      "mm": 30,
+      "price": 790.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2112",
+      "sku": "TU-2123",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 1015.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2112",
+      "sku": "TU-2124",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 1314.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2112",
+      "sku": "TU-2125",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 1720.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2112",
+      "sku": "TU-2132",
+      "base": "Скловолоконна сітка",
+      "mm": 0,
+      "price": 553.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2212",
+      "sku": "TU-2212",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 677.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2212",
+      "sku": "TU-2213",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 761.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2212",
+      "sku": "TU-2214",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 846.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2212",
+      "sku": "TU-2215",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 1043.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2212",
+      "sku": "TU-2216",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 1156.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2212",
+      "sku": "TU-2222",
+      "base": "Пінополістирол",
+      "mm": 30,
+      "price": 790.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2212",
+      "sku": "TU-2223",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 1015.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2212",
+      "sku": "TU-2224",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 1314.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2212",
+      "sku": "TU-2225",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 1720.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2212",
+      "sku": "TU-2232",
+      "base": "Скловолоконна сітка",
+      "mm": 0,
+      "price": 553.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2312",
+      "sku": "TU-2312",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 677.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2312",
+      "sku": "TU-2313",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 761.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2312",
+      "sku": "TU-2314",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 846.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2312",
+      "sku": "TU-2315",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 1043.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2312",
+      "sku": "TU-2316",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 1156.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2312",
+      "sku": "TU-2322",
+      "base": "Пінополістирол",
+      "mm": 30,
+      "price": 790.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2312",
+      "sku": "TU-2323",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 1015.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2312",
+      "sku": "TU-2324",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 1314.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2312",
+      "sku": "TU-2325",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 1720.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2312",
+      "sku": "TU-2332",
+      "base": "Скловолоконна сітка",
+      "mm": 0,
+      "price": 553.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2412",
+      "sku": "TU-2412",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 677.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2412",
+      "sku": "TU-2413",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 761.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2412",
+      "sku": "TU-2414",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 846.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2412",
+      "sku": "TU-2415",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 1043.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2412",
+      "sku": "TU-2416",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 1156.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2412",
+      "sku": "TU-2422",
+      "base": "Пінополістирол",
+      "mm": 30,
+      "price": 790.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2412",
+      "sku": "TU-2423",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 1015.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2412",
+      "sku": "TU-2424",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 1314.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2412",
+      "sku": "TU-2425",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 1720.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2412",
+      "sku": "TU-2432",
+      "base": "Скловолоконна сітка",
+      "mm": 0,
+      "price": 553.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2612",
+      "sku": "TU-2612",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 677.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2612",
+      "sku": "TU-2613",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 761.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2612",
+      "sku": "TU-2614",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 846.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2612",
+      "sku": "TU-2615",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 1043.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2612",
+      "sku": "TU-2616",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 1156.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2612",
+      "sku": "TU-2622",
+      "base": "Пінополістирол",
+      "mm": 30,
+      "price": 790.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2612",
+      "sku": "TU-2623",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 1015.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2612",
+      "sku": "TU-2624",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 1314.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2612",
+      "sku": "TU-2625",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 1720.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2612",
+      "sku": "TU-2632",
+      "base": "Скловолоконна сітка",
+      "mm": 0,
+      "price": 553.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2512",
+      "sku": "TU-2512",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 677.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2512",
+      "sku": "TU-2513",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 761.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2512",
+      "sku": "TU-2514",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 846.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2512",
+      "sku": "TU-2515",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 1043.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2512",
+      "sku": "TU-2516",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 1156.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2512",
+      "sku": "TU-2522",
+      "base": "Пінополістирол",
+      "mm": 30,
+      "price": 790.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2512",
+      "sku": "TU-2523",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 1015.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2512",
+      "sku": "TU-2524",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 1314.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2512",
+      "sku": "TU-2525",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 1720.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-2512",
+      "sku": "TU-2532",
+      "base": "Скловолоконна сітка",
+      "mm": 0,
+      "price": 553.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3112",
+      "sku": "TU-3112",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 677.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3112",
+      "sku": "TU-3113",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 761.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3112",
+      "sku": "TU-3114",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 846.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3112",
+      "sku": "TU-3115",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 1043.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3112",
+      "sku": "TU-3116",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 1156.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3112",
+      "sku": "TU-3122",
+      "base": "Пінополістирол",
+      "mm": 30,
+      "price": 790.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3112",
+      "sku": "TU-3123",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 1015.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3112",
+      "sku": "TU-3124",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 1314.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3112",
+      "sku": "TU-3125",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 1720.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3112",
+      "sku": "TU-3132",
+      "base": "Скловолоконна сітка",
+      "mm": 0,
+      "price": 553.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3212",
+      "sku": "TU-3212",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 677.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3212",
+      "sku": "TU-3213",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 761.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3212",
+      "sku": "TU-3214",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 846.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3212",
+      "sku": "TU-3215",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 1043.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3212",
+      "sku": "TU-3216",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 1156.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3212",
+      "sku": "TU-3222",
+      "base": "Пінополістирол",
+      "mm": 30,
+      "price": 790.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3212",
+      "sku": "TU-3223",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 1015.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3212",
+      "sku": "TU-3224",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 1314.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3212",
+      "sku": "TU-3225",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 1720.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3212",
+      "sku": "TU-3232",
+      "base": "Скловолоконна сітка",
+      "mm": 0,
+      "price": 553.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3312",
+      "sku": "TU-3312",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 677.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3312",
+      "sku": "TU-3313",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 761.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3312",
+      "sku": "TU-3314",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 846.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3312",
+      "sku": "TU-3315",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 1043.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3312",
+      "sku": "TU-3316",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 1156.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3312",
+      "sku": "TU-3322",
+      "base": "Пінополістирол",
+      "mm": 30,
+      "price": 790.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3312",
+      "sku": "TU-3323",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 1015.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3312",
+      "sku": "TU-3324",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 1314.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3312",
+      "sku": "TU-3325",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 1720.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3312",
+      "sku": "TU-3332",
+      "base": "Скловолоконна сітка",
+      "mm": 0,
+      "price": 553.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3412",
+      "sku": "TU-3412",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 677.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3412",
+      "sku": "TU-3413",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 761.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3412",
+      "sku": "TU-3414",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 846.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3412",
+      "sku": "TU-3415",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 1043.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3412",
+      "sku": "TU-3416",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 1156.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3412",
+      "sku": "TU-3422",
+      "base": "Пінополістирол",
+      "mm": 30,
+      "price": 790.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3412",
+      "sku": "TU-3423",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 1015.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3412",
+      "sku": "TU-3424",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 1314.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3412",
+      "sku": "TU-3425",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 1720.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-3412",
+      "sku": "TU-3432",
+      "base": "Скловолоконна сітка",
+      "mm": 0,
+      "price": 553.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4112",
+      "sku": "TU-4112",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 677.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4112",
+      "sku": "TU-4113",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 761.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4112",
+      "sku": "TU-4114",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 846.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4112",
+      "sku": "TU-4115",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 1043.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4112",
+      "sku": "TU-4116",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 1156.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4112",
+      "sku": "TU-4122",
+      "base": "Пінополістирол",
+      "mm": 30,
+      "price": 790.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4112",
+      "sku": "TU-4123",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 1015.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4112",
+      "sku": "TU-4124",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 1314.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4112",
+      "sku": "TU-4125",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 1720.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4112",
+      "sku": "TU-4132",
+      "base": "Скловолоконна сітка",
+      "mm": 0,
+      "price": 553.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4212",
+      "sku": "TU-4212",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 677.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4212",
+      "sku": "TU-4213",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 761.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4212",
+      "sku": "TU-4214",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 846.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4212",
+      "sku": "TU-4215",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 1043.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4212",
+      "sku": "TU-4216",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 1156.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4212",
+      "sku": "TU-4222",
+      "base": "Пінополістирол",
+      "mm": 30,
+      "price": 790.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4212",
+      "sku": "TU-4223",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 1015.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4212",
+      "sku": "TU-4224",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 1314.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4212",
+      "sku": "TU-4225",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 1720.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4212",
+      "sku": "TU-4232",
+      "base": "Скловолоконна сітка",
+      "mm": 0,
+      "price": 553.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4312",
+      "sku": "TU-4312",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 677.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4312",
+      "sku": "TU-4313",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 761.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4312",
+      "sku": "TU-4314",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 846.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4312",
+      "sku": "TU-4315",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 1043.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4312",
+      "sku": "TU-4316",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 1156.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4312",
+      "sku": "TU-4322",
+      "base": "Пінополістирол",
+      "mm": 30,
+      "price": 790.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4312",
+      "sku": "TU-4323",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 1015.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4312",
+      "sku": "TU-4324",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 1314.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4312",
+      "sku": "TU-4325",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 1720.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4312",
+      "sku": "TU-4332",
+      "base": "Скловолоконна сітка",
+      "mm": 0,
+      "price": 553.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4412",
+      "sku": "TU-4412",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 677.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4412",
+      "sku": "TU-4413",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 761.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4412",
+      "sku": "TU-4414",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 846.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4412",
+      "sku": "TU-4415",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 1043.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4412",
+      "sku": "TU-4416",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 1156.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4412",
+      "sku": "TU-4422",
+      "base": "Пінополістирол",
+      "mm": 30,
+      "price": 790.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4412",
+      "sku": "TU-4423",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 1015.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4412",
+      "sku": "TU-4424",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 1314.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4412",
+      "sku": "TU-4425",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 1720.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-4412",
+      "sku": "TU-4432",
+      "base": "Скловолоконна сітка",
+      "mm": 0,
+      "price": 553.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5112",
+      "sku": "TU-5112",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 677.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5112",
+      "sku": "TU-5113",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 761.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5112",
+      "sku": "TU-5114",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 846.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5112",
+      "sku": "TU-5115",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 1043.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5112",
+      "sku": "TU-5116",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 1156.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5112",
+      "sku": "TU-5122",
+      "base": "Пінополістирол",
+      "mm": 30,
+      "price": 790.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5112",
+      "sku": "TU-5123",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 1015.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5112",
+      "sku": "TU-5124",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 1314.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5112",
+      "sku": "TU-5125",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 1720.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5112",
+      "sku": "TU-5132",
+      "base": "Скловолоконна сітка",
+      "mm": 0,
+      "price": 553.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5212",
+      "sku": "TU-5212",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 677.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5212",
+      "sku": "TU-5213",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 761.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5212",
+      "sku": "TU-5214",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 846.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5212",
+      "sku": "TU-5215",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 1043.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5212",
+      "sku": "TU-5216",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 1156.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5212",
+      "sku": "TU-5222",
+      "base": "Пінополістирол",
+      "mm": 30,
+      "price": 790.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5212",
+      "sku": "TU-5223",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 1015.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5212",
+      "sku": "TU-5224",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 1314.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5212",
+      "sku": "TU-5225",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 1720.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5212",
+      "sku": "TU-5232",
+      "base": "Скловолоконна сітка",
+      "mm": 0,
+      "price": 553.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5312",
+      "sku": "TU-5312",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 677.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5312",
+      "sku": "TU-5313",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 761.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5312",
+      "sku": "TU-5314",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 846.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5312",
+      "sku": "TU-5315",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 1043.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5312",
+      "sku": "TU-5316",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 1156.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5312",
+      "sku": "TU-5322",
+      "base": "Пінополістирол",
+      "mm": 30,
+      "price": 790.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5312",
+      "sku": "TU-5323",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 1015.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5312",
+      "sku": "TU-5324",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 1314.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5312",
+      "sku": "TU-5325",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 1720.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5312",
+      "sku": "TU-5332",
+      "base": "Скловолоконна сітка",
+      "mm": 0,
+      "price": 553.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5412",
+      "sku": "TU-5412",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 677.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5412",
+      "sku": "TU-5413",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 761.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5412",
+      "sku": "TU-5414",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 846.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5412",
+      "sku": "TU-5415",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 1043.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5412",
+      "sku": "TU-5416",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 1156.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5412",
+      "sku": "TU-5422",
+      "base": "Пінополістирол",
+      "mm": 30,
+      "price": 790.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5412",
+      "sku": "TU-5423",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 1015.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5412",
+      "sku": "TU-5424",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 1314.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5412",
+      "sku": "TU-5425",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 1720.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-5412",
+      "sku": "TU-5432",
+      "base": "Скловолоконна сітка",
+      "mm": 0,
+      "price": 553.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-6112",
+      "sku": "TU-6112",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 677.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-6112",
+      "sku": "TU-6113",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 761.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-6112",
+      "sku": "TU-6114",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 846.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-6112",
+      "sku": "TU-6115",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 1043.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-6112",
+      "sku": "TU-6116",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 1156.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-6112",
+      "sku": "TU-6122",
+      "base": "Пінополістирол",
+      "mm": 30,
+      "price": 790.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-6112",
+      "sku": "TU-6123",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 1015.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-6112",
+      "sku": "TU-6124",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 1314.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-6112",
+      "sku": "TU-6125",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 1720.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-6112",
+      "sku": "TU-6132",
+      "base": "Скловолоконна сітка",
+      "mm": 0,
+      "price": 553.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-6212",
+      "sku": "TU-6212",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 677.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-6212",
+      "sku": "TU-6213",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 761.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-6212",
+      "sku": "TU-6214",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 846.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-6212",
+      "sku": "TU-6215",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 1043.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-6212",
+      "sku": "TU-6216",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 1156.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-6212",
+      "sku": "TU-6222",
+      "base": "Пінополістирол",
+      "mm": 30,
+      "price": 790.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-6212",
+      "sku": "TU-6223",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 1015.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-6212",
+      "sku": "TU-6224",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 1314.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-6212",
+      "sku": "TU-6225",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 1720.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-6212",
+      "sku": "TU-6232",
+      "base": "Скловолоконна сітка",
+      "mm": 0,
+      "price": 553.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-7112",
+      "sku": "TU-7112",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 677.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-7112",
+      "sku": "TU-7113",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 761.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-7112",
+      "sku": "TU-7114",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 846.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-7112",
+      "sku": "TU-7115",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 1043.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-7112",
+      "sku": "TU-7116",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 1156.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-7112",
+      "sku": "TU-7122",
+      "base": "Пінополістирол",
+      "mm": 30,
+      "price": 790.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-7112",
+      "sku": "TU-7123",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 1015.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-7112",
+      "sku": "TU-7124",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 1314.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-7112",
+      "sku": "TU-7125",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 1720.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-7112",
+      "sku": "TU-7132",
+      "base": "Скловолоконна сітка",
+      "mm": 0,
+      "price": 553.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "TU-8110",
+      "sku": "TU-8110",
+      "base": "Пінопласт",
+      "mm": 20,
+      "price": 445.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8110",
+      "sku": "TU-8111",
+      "base": "Пінопласт",
+      "mm": 30,
+      "price": 460.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8110",
+      "sku": "TU-8112",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 535.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8110",
+      "sku": "TU-8113",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 560.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8110",
+      "sku": "TU-8114",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 590.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8110",
+      "sku": "TU-8115",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 685.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8110",
+      "sku": "TU-8116",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 780.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8110",
+      "sku": "TU-8117",
+      "base": "Пінопласт",
+      "mm": 40,
+      "price": 490.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8110",
+      "sku": "TU-8118",
+      "base": "Пінопласт",
+      "mm": 120,
+      "price": 630.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8210",
+      "sku": "TU-8210",
+      "base": "Пінопласт",
+      "mm": 20,
+      "price": 445.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8210",
+      "sku": "TU-8211",
+      "base": "Пінопласт",
+      "mm": 30,
+      "price": 460.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8210",
+      "sku": "TU-8212",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 535.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8210",
+      "sku": "TU-8213",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 560.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8210",
+      "sku": "TU-8214",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 590.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8210",
+      "sku": "TU-8215",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 685.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8210",
+      "sku": "TU-8216",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 780.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8210",
+      "sku": "TU-8217",
+      "base": "Пінопласт",
+      "mm": 40,
+      "price": 490.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8210",
+      "sku": "TU-8218",
+      "base": "Пінопласт",
+      "mm": 120,
+      "price": 630.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8310",
+      "sku": "TU-8310",
+      "base": "Пінопласт",
+      "mm": 20,
+      "price": 445.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-8310",
+      "sku": "TU-8311",
+      "base": "Пінопласт",
+      "mm": 30,
+      "price": 460.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-8310",
+      "sku": "TU-8312",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 535.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-8310",
+      "sku": "TU-8313",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 560.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-8310",
+      "sku": "TU-8314",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 590.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-8310",
+      "sku": "TU-8315",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 685.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-8310",
+      "sku": "TU-8316",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 780.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-8310",
+      "sku": "TU-8317",
+      "base": "Пінопласт",
+      "mm": 40,
+      "price": 490.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-8310",
+      "sku": "TU-8318",
+      "base": "Пінопласт",
+      "mm": 120,
+      "price": 630.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-8410",
+      "sku": "TU-8410",
+      "base": "Пінопласт",
+      "mm": 20,
+      "price": 425.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8410",
+      "sku": "TU-8411",
+      "base": "Пінопласт",
+      "mm": 30,
+      "price": 440.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8410",
+      "sku": "TU-8412",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 500.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8410",
+      "sku": "TU-8413",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 560.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8410",
+      "sku": "TU-8414",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 590.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8410",
+      "sku": "TU-8415",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 665.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8410",
+      "sku": "TU-8416",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 760.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8410",
+      "sku": "TU-8417",
+      "base": "Пінопласт",
+      "mm": 40,
+      "price": 470.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8410",
+      "sku": "TU-8418",
+      "base": "Пінопласт",
+      "mm": 120,
+      "price": 610.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8510",
+      "sku": "TU-8510",
+      "base": "Пінопласт",
+      "mm": 20,
+      "price": 425.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8510",
+      "sku": "TU-8511",
+      "base": "Пінопласт",
+      "mm": 30,
+      "price": 440.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8510",
+      "sku": "TU-8512",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 500.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8510",
+      "sku": "TU-8513",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 560.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8510",
+      "sku": "TU-8514",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 590.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8510",
+      "sku": "TU-8515",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 665.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8510",
+      "sku": "TU-8516",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 760.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8510",
+      "sku": "TU-8517",
+      "base": "Пінопласт",
+      "mm": 40,
+      "price": 470.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8510",
+      "sku": "TU-8518",
+      "base": "Пінопласт",
+      "mm": 120,
+      "price": 610.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8610",
+      "sku": "TU-8610",
+      "base": "Пінопласт",
+      "mm": 20,
+      "price": 425.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8610",
+      "sku": "TU-8611",
+      "base": "Пінопласт",
+      "mm": 30,
+      "price": 440.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8610",
+      "sku": "TU-8612",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 500.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8610",
+      "sku": "TU-8613",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 560.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8610",
+      "sku": "TU-8614",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 590.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8610",
+      "sku": "TU-8615",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 665.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8610",
+      "sku": "TU-8616",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 760.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8610",
+      "sku": "TU-8617",
+      "base": "Пінопласт",
+      "mm": 40,
+      "price": 470.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8610",
+      "sku": "TU-8618",
+      "base": "Пінопласт",
+      "mm": 120,
+      "price": 610.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8710",
+      "sku": "TU-8710",
+      "base": "Пінопласт",
+      "mm": 20,
+      "price": 425.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8710",
+      "sku": "TU-8711",
+      "base": "Пінопласт",
+      "mm": 30,
+      "price": 440.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8710",
+      "sku": "TU-8712",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 500.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8710",
+      "sku": "TU-8713",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 560.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8710",
+      "sku": "TU-8714",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 590.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8710",
+      "sku": "TU-8715",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 665.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8710",
+      "sku": "TU-8716",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 760.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8710",
+      "sku": "TU-8717",
+      "base": "Пінопласт",
+      "mm": 40,
+      "price": 470.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8710",
+      "sku": "TU-8718",
+      "base": "Пінопласт",
+      "mm": 120,
+      "price": 610.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8810",
+      "sku": "TU-8810",
+      "base": "Пінопласт",
+      "mm": 20,
+      "price": 425.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-8810",
+      "sku": "TU-8811",
+      "base": "Пінопласт",
+      "mm": 30,
+      "price": 440.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-8810",
+      "sku": "TU-8812",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 500.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-8810",
+      "sku": "TU-8813",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 560.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-8810",
+      "sku": "TU-8814",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 590.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-8810",
+      "sku": "TU-8815",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 665.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-8810",
+      "sku": "TU-8816",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 760.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-8810",
+      "sku": "TU-8817",
+      "base": "Пінопласт",
+      "mm": 40,
+      "price": 470.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-8810",
+      "sku": "TU-8818",
+      "base": "Пінопласт",
+      "mm": 120,
+      "price": 610.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-8910",
+      "sku": "TU-8910",
+      "base": "Пінопласт",
+      "mm": 20,
+      "price": 425.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8910",
+      "sku": "TU-8911",
+      "base": "Пінопласт",
+      "mm": 30,
+      "price": 440.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8910",
+      "sku": "TU-8912",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 500.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8910",
+      "sku": "TU-8913",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 560.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8910",
+      "sku": "TU-8914",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 590.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8910",
+      "sku": "TU-8915",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 665.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8910",
+      "sku": "TU-8916",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 760.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8910",
+      "sku": "TU-8917",
+      "base": "Пінопласт",
+      "mm": 40,
+      "price": 470.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-8910",
+      "sku": "TU-8918",
+      "base": "Пінопласт",
+      "mm": 120,
+      "price": 610.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-9010",
+      "sku": "TU-9010",
+      "base": "Пінопласт",
+      "mm": 20,
+      "price": 425.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-9010",
+      "sku": "TU-9011",
+      "base": "Пінопласт",
+      "mm": 30,
+      "price": 440.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-9010",
+      "sku": "TU-9012",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 500.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-9010",
+      "sku": "TU-9013",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 560.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-9010",
+      "sku": "TU-9014",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 590.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-9010",
+      "sku": "TU-9015",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 665.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-9010",
+      "sku": "TU-9016",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 760.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-9010",
+      "sku": "TU-9017",
+      "base": "Пінопласт",
+      "mm": 40,
+      "price": 470.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-9010",
+      "sku": "TU-9018",
+      "base": "Пінопласт",
+      "mm": 120,
+      "price": 610.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-9110",
+      "sku": "TU-9110",
+      "base": "Пінопласт",
+      "mm": 20,
+      "price": 425.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-9110",
+      "sku": "TU-9111",
+      "base": "Пінопласт",
+      "mm": 30,
+      "price": 440.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-9110",
+      "sku": "TU-9112",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 500.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-9110",
+      "sku": "TU-9113",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 560.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-9110",
+      "sku": "TU-9114",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 590.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-9110",
+      "sku": "TU-9115",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 665.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-9110",
+      "sku": "TU-9116",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 760.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-9110",
+      "sku": "TU-9117",
+      "base": "Пінопласт",
+      "mm": 40,
+      "price": 470.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-9110",
+      "sku": "TU-9118",
+      "base": "Пінопласт",
+      "mm": 120,
+      "price": 610.0,
+      "currency": "грн/м²",
+      "visible": true
+    },
+    {
+      "parent": "TU-9210",
+      "sku": "TU-9210",
+      "base": "Пінопласт",
+      "mm": 20,
+      "price": 425.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-9210",
+      "sku": "TU-9211",
+      "base": "Пінопласт",
+      "mm": 30,
+      "price": 440.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-9210",
+      "sku": "TU-9212",
+      "base": "Пінопласт",
+      "mm": 50,
+      "price": 500.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-9210",
+      "sku": "TU-9213",
+      "base": "Пінопласт",
+      "mm": 80,
+      "price": 560.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-9210",
+      "sku": "TU-9214",
+      "base": "Пінопласт",
+      "mm": 100,
+      "price": 590.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-9210",
+      "sku": "TU-9215",
+      "base": "Пінопласт",
+      "mm": 150,
+      "price": 665.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-9210",
+      "sku": "TU-9216",
+      "base": "Пінопласт",
+      "mm": 200,
+      "price": 760.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-9210",
+      "sku": "TU-9217",
+      "base": "Пінопласт",
+      "mm": 40,
+      "price": 470.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "TU-9210",
+      "sku": "TU-9218",
+      "base": "Пінопласт",
+      "mm": 120,
+      "price": 610.0,
+      "currency": "грн/м²",
+      "visible": false
+    },
+    {
+      "parent": "NASHDVOR-IMK-01-50",
+      "sku": "NASHDVOR-IMK-01-100",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 540.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-01-50",
+      "sku": "NASHDVOR-IMK-01-50",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 491.4,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-01-50",
+      "sku": "NASHDVOR-IMK-01-80",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 515.7,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-02-50",
+      "sku": "NASHDVOR-IMK-02-100",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 540.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-02-50",
+      "sku": "NASHDVOR-IMK-02-50",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 491.4,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-02-50",
+      "sku": "NASHDVOR-IMK-02-80",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 515.7,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-03-50",
+      "sku": "NASHDVOR-IMK-03-100",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 540.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-03-50",
+      "sku": "NASHDVOR-IMK-03-50",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 491.4,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-03-50",
+      "sku": "NASHDVOR-IMK-03-80",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 515.7,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-04-50",
+      "sku": "NASHDVOR-IMK-04-100",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 540.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-04-50",
+      "sku": "NASHDVOR-IMK-04-50",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 491.4,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-04-50",
+      "sku": "NASHDVOR-IMK-04-80",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 515.7,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-05-50",
+      "sku": "NASHDVOR-IMK-05-100",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 540.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-05-50",
+      "sku": "NASHDVOR-IMK-05-50",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 491.4,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-05-50",
+      "sku": "NASHDVOR-IMK-05-80",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 515.7,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-06-50",
+      "sku": "NASHDVOR-IMK-06-100",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 540.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-06-50",
+      "sku": "NASHDVOR-IMK-06-50",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 491.4,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-06-50",
+      "sku": "NASHDVOR-IMK-06-80",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 515.7,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-07-50",
+      "sku": "NASHDVOR-IMK-07-100",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 540.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-07-50",
+      "sku": "NASHDVOR-IMK-07-50",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 491.4,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-07-50",
+      "sku": "NASHDVOR-IMK-07-80",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 515.7,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-08-50",
+      "sku": "NASHDVOR-IMK-08-100",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 540.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-08-50",
+      "sku": "NASHDVOR-IMK-08-50",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 491.4,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-08-50",
+      "sku": "NASHDVOR-IMK-08-80",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 515.7,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-09-50",
+      "sku": "NASHDVOR-IMK-09-100",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 540.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-09-50",
+      "sku": "NASHDVOR-IMK-09-50",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 491.4,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-09-50",
+      "sku": "NASHDVOR-IMK-09-80",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 515.7,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-10-50",
+      "sku": "NASHDVOR-IMK-10-100",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 540.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-10-50",
+      "sku": "NASHDVOR-IMK-10-50",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 491.4,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-10-50",
+      "sku": "NASHDVOR-IMK-10-80",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 515.7,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-11-50",
+      "sku": "NASHDVOR-IMK-11-100",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 540.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-11-50",
+      "sku": "NASHDVOR-IMK-11-50",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 491.4,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-11-50",
+      "sku": "NASHDVOR-IMK-11-80",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 515.7,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-12-50",
+      "sku": "NASHDVOR-IMK-12-100",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 540.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-12-50",
+      "sku": "NASHDVOR-IMK-12-50",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 491.4,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-12-50",
+      "sku": "NASHDVOR-IMK-12-80",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 515.7,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-13-50",
+      "sku": "NASHDVOR-IMK-13-100",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 540.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-13-50",
+      "sku": "NASHDVOR-IMK-13-50",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 491.4,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-13-50",
+      "sku": "NASHDVOR-IMK-13-80",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 515.7,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-14-50",
+      "sku": "NASHDVOR-IMK-14-100",
+      "base": "Пінополістирол",
+      "mm": 100,
+      "price": 540.0,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-14-50",
+      "sku": "NASHDVOR-IMK-14-50",
+      "base": "Пінополістирол",
+      "mm": 50,
+      "price": 491.4,
+      "currency": "грн/панель",
+      "visible": true
+    },
+    {
+      "parent": "NASHDVOR-IMK-14-50",
+      "sku": "NASHDVOR-IMK-14-80",
+      "base": "Пінополістирол",
+      "mm": 80,
+      "price": 515.7,
+      "currency": "грн/панель",
+      "visible": true
+    }
+  ]
+}

@@ -45,7 +45,7 @@ pdfmetrics.registerFontFamily('Body', normal='Body', bold='Bold', italic='Body',
 C = canvas.Canvas(str(PDF), pagesize=(W, H), pageCompression=1)
 C.setTitle('NASH DVOR — Каталог фасадних термопанелей')
 C.setAuthor('NASH DVOR · Центр благоустрою')
-C.setSubject('58 панелей, 4 розділи. Основи, товщини та ціни за м².')
+C.setSubject('58 панелей, 4 розділи. Основи, товщини та ціни з одиницями виміру.')
 C.setCreator('NASH DVOR print catalog builder')
 C.setViewerPreference('DisplayDocTitle', 'true')
 IMAGES = {}
@@ -164,12 +164,17 @@ def photo(i, x, y, w, h):
         MANIFEST['photoCounts']['missing'] += 1
 
 
+def format_price(value):
+    whole, fraction = f'{value:.2f}'.split('.')
+    return f'{int(whole):,}'.replace(',', ' ') + (',' + fraction if fraction != '00' else '')
+
+
 def price_table(i, x, top, width):
     ts = i['thicknesses']
     bases = i['bases']
     stub = 28 * MM if len(ts) <= 6 else 24 * MM
     col = (width - stub) / len(ts)
-    rowh = 8 * MM
+    rowh = (6.5 if len(bases) >= 3 else 8) * MM
     rgb(PAPER)
     C.rect(x, top - rowh, width, rowh, fill=1, stroke=0)
     label('Основа / мм', x + 2 * MM, top - 5.2 * MM, 6.7, MUTED, True)
@@ -189,7 +194,7 @@ def price_table(i, x, top, width):
             if key not in i.get('combinations', list(i.get('price', {}))):
                 value, color = '—', MUTED
             elif isinstance(price, (int, float)):
-                value, color = f'{price:,.0f}'.replace(',', ' '), INK
+                value, color = format_price(price), INK
             else:
                 value, color = 'Уточн.', MUTED
             label(value, x + stub + ti * col + 1.2 * MM, y - 5.2 * MM,
@@ -221,7 +226,7 @@ label('ПАНЕЛЕЙ', M + 45 * MM, 49 * MM, 7.5, MUTED)
 para('Інформаційний каталог<br/>для вибору матеріалів фасаду.', M + 92 * MM, 62 * MM, 85 * MM, 10, MUTED)
 line(M, 38 * MM, W - M)
 label('nashdvor.com.ua', M, 29 * MM, 10, INK, True)
-right('Ціни за м² · 4 розділи', W - M, 29 * MM, 7.3, MUTED)
+right('Основи · товщини · ціни', W - M, 29 * MM, 7.3, MUTED)
 right('Дати цін — у кожному розділі', W - M, 23 * MM, 7, MUTED)
 footer('ВІД ІДЕЇ ДО ВТІЛЕННЯ')
 page_end()
@@ -231,7 +236,7 @@ page_start('contents', 'Зміст та позначення')
 brand(M, H - 28 * MM, 64 * MM)
 label('ДОВІДНИК КАТАЛОГУ', M, H - 44 * MM, 7.7, ORANGE, True)
 para('Знайдіть свій фасад.', M, H - 52 * MM, CW, 26, INK, True)
-contents = [('01', 'Керамограніт', '23 панелі · пінопласт', 3, 8),
+contents = [('01', 'Керамограніт', '23 панелі · пінопласт / пінополістирол / сітка', 3, 8),
             ('02', 'Клінкер · Польща', '9 панелей · пінопласт / скловолоконна сітка', 9, 11),
             ('03', 'Під фарбування', '12 фактур · пінопласт 20–200 мм', 12, 15),
             ('04', 'Імітація клінкера', '14 декорів · термозамок', 16, 19)]
@@ -245,11 +250,11 @@ for n, title, sub, first, last in contents:
     line(M, y - 12 * MM, W - M)
     y -= 28 * MM
 para('Як читати таблиці', M, 98 * MM, CW, 14, INK, True)
-para('<b>Усі числові ціни — грн/м².</b> Стовпці позначають товщину утеплювача в мм, рядки — основу. '
+para('<b>Одиниці цін зазначені в кожному розділі.</b> Керамограніт та імітація клінкера — грн/панель; польський клінкер і панелі під фарбування — грн/м². Стовпці — товщина в мм, рядки — основа. '
      '<b>«Уточн.»</b> — варіант зазначений у джерелі, але ціна не підтверджена. '
      '<b>«—»</b> — таке поєднання основи й товщини не передбачене.', M, 88 * MM, CW, 9)
-para('Прайсові ціни керамограніту й польського клінкера — від <b>01.09.2026</b>. '
-     'Для панелей під фарбування та імітації клінкера дату актуальності цін уточнюйте. '
+para('Прайсові ціни польського клінкера — від <b>01.09.2026</b>. '
+     'Для решти розділів дату актуальності цін уточнюйте. '
      'Остаточну вартість і наявність уточнюйте у менеджера.', M, 65 * MM, CW, 8.3, MUTED)
 para('QR-код у полі фотографії відкриває картку товару на сайті: перегляньте фактуру та деталі онлайн. '
      'Контакти — на сторінці 20.', M, 43 * MM, CW, 8.3, MUTED)
@@ -275,8 +280,7 @@ for si, sec in enumerate(CATALOG['sections']):
         label(f'{si + 1:02d}', M, H - 44 * MM, 20, ORANGE, True)
         label(sec['title'], M + 17 * MM, H - 43 * MM, 19, INK, True)
         right(f'{pi + 1} / {len(chunks)}', W - M, H - 43 * MM, 8, MUTED)
-        subtitle = ('Ціни за м² · прайс від 01.09.2026' if si < 2
-                    else 'Ціни за м² · дату актуальності уточнюйте')
+        subtitle = ('Ціни за м² · прайс від 01.09.2026' if si == 1 else ('Ціни за м² · дату актуальності уточнюйте' if si == 2 else 'Ціни за одну панель · дату актуальності уточнюйте'))
         label(subtitle, M + 17 * MM, H - 51 * MM, 7.4, MUTED)
         top = H - 61 * MM
         row_height = 49 * MM if chunk_size == 4 else 62 * MM
@@ -299,7 +303,7 @@ for si, sec in enumerate(CATALOG['sections']):
             if i.get('status'):
                 label(i['status'], tablex, tabtop - th - 5 * MM, 7, MUTED)
             elif si == 2:
-                label('Інші товщини: ціну уточнюйте.', tablex, tabtop - th - 5 * MM, 7, MUTED)
+                label('Панелі постачаються під фарбування.', tablex, tabtop - th - 5 * MM, 7, MUTED)
             elif si == 3:
                 label('975×600 мм · корисна площа 0,54 м²', tablex, tabtop - th - 5 * MM, 7, MUTED)
             if idx < len(chunk) - 1:
@@ -312,9 +316,9 @@ for si, sec in enumerate(CATALOG['sections']):
         elif si == 2:
             notes = 'Пінопласт М25, 11 кг/м³. Панелі постачаються під фарбування. Наявність і ціни позначених позицій уточнюйте.'
         elif si == 3:
-            notes = 'Панелі з термозамком на пінопласті 50 мм. Розмір 975×600 мм, корисна площа 0,54 м².'
+            notes = 'Пінополістирол 50 / 80 / 100 мм. Розмір 975×600 мм, корисна площа 0,54 м². Ціни за одну панель.'
         else:
-            notes = 'Пінопласт. Ціни наведені за 1 м². Наявність матеріалів і актуальну вартість уточнюйте у менеджера.'
+            notes = 'Ціна за панель площею 0,564 м². Сітка — без утеплювача. Наявність та актуальну вартість уточнюйте.'
         para(escape(notes), M, 30 * MM, CW, 7.2, MUTED, maxh=12 * MM)
         footer(sec['title'].upper())
         page_end()

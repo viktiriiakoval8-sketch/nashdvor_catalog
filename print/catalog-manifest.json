@@ -106,460 +106,690 @@
       "page": 3,
       "section": "porcelain",
       "sku": "TU-1112",
-      "name": "Керамогранітна термопанель Baker Street — бежевий",
+      "name": "Керамогранітна термопанель Baker Street — Коричневий",
       "prices": {
-        "eps_50": 1200,
-        "eps_80": 1350,
-        "eps_100": 1500,
-        "eps_150": 1850,
-        "eps_200": 2050
+        "eps_50": 677.0,
+        "eps_80": 761.0,
+        "eps_100": 846.0,
+        "eps_150": 1043.0,
+        "eps_200": 1156.0,
+        "polystyrene_30": 790.0,
+        "polystyrene_50": 1015.0,
+        "polystyrene_80": 1314.0,
+        "polystyrene_100": 1720.0,
+        "mesh_0": 553.0
       },
       "combinations": [
         "eps_50",
         "eps_80",
         "eps_100",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "polystyrene_30",
+        "polystyrene_50",
+        "polystyrene_80",
+        "polystyrene_100",
+        "mesh_0"
       ]
     },
     {
       "page": 3,
       "section": "porcelain",
       "sku": "TU-1212",
-      "name": "Керамогранітна термопанель Baker Street — світло-бежевий",
+      "name": "Керамогранітна термопанель Baker Street — Бежевий",
       "prices": {
-        "eps_50": 1200,
-        "eps_80": 1350,
-        "eps_100": 1500,
-        "eps_150": 1850,
-        "eps_200": 2050
+        "eps_50": 677.0,
+        "eps_80": 761.0,
+        "eps_100": 846.0,
+        "eps_150": 1043.0,
+        "eps_200": 1156.0,
+        "polystyrene_30": 790.0,
+        "polystyrene_50": 1015.0,
+        "polystyrene_80": 1314.0,
+        "polystyrene_100": 1720.0,
+        "mesh_0": 553.0
       },
       "combinations": [
         "eps_50",
         "eps_80",
         "eps_100",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "polystyrene_30",
+        "polystyrene_50",
+        "polystyrene_80",
+        "polystyrene_100",
+        "mesh_0"
       ]
     },
     {
       "page": 3,
       "section": "porcelain",
       "sku": "TU-2112",
-      "name": "Керамогранітна термопанель Fino — антрацитовий",
+      "name": "Керамогранітна термопанель Fino — Темно-синій",
       "prices": {
-        "eps_50": 1200,
-        "eps_80": 1350,
-        "eps_100": 1500,
-        "eps_150": 1850,
-        "eps_200": 2050
+        "eps_50": 677.0,
+        "eps_80": 761.0,
+        "eps_100": 846.0,
+        "eps_150": 1043.0,
+        "eps_200": 1156.0,
+        "polystyrene_30": 790.0,
+        "polystyrene_50": 1015.0,
+        "polystyrene_80": 1314.0,
+        "polystyrene_100": 1720.0,
+        "mesh_0": 553.0
       },
       "combinations": [
         "eps_50",
         "eps_80",
         "eps_100",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "polystyrene_30",
+        "polystyrene_50",
+        "polystyrene_80",
+        "polystyrene_100",
+        "mesh_0"
       ]
     },
     {
       "page": 3,
       "section": "porcelain",
       "sku": "TU-2212",
-      "name": "Керамогранітна термопанель Fino — білий",
+      "name": "Керамогранітна термопанель Fino — Білий",
       "prices": {
-        "eps_50": 1200,
-        "eps_80": 1350,
-        "eps_100": 1500,
-        "eps_150": 1850,
-        "eps_200": 2050
+        "eps_50": 677.0,
+        "eps_80": 761.0,
+        "eps_100": 846.0,
+        "eps_150": 1043.0,
+        "eps_200": 1156.0,
+        "polystyrene_30": 790.0,
+        "polystyrene_50": 1015.0,
+        "polystyrene_80": 1314.0,
+        "polystyrene_100": 1720.0,
+        "mesh_0": 553.0
       },
       "combinations": [
         "eps_50",
         "eps_80",
         "eps_100",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "polystyrene_30",
+        "polystyrene_50",
+        "polystyrene_80",
+        "polystyrene_100",
+        "mesh_0"
       ]
     },
     {
       "page": 4,
       "section": "porcelain",
       "sku": "TU-2312",
-      "name": "Керамогранітна термопанель Fino — бежевий",
+      "name": "Керамогранітна термопанель Fino — Коричневий",
       "prices": {
-        "eps_50": 1200,
-        "eps_80": 1350,
-        "eps_100": 1500,
-        "eps_150": 1850,
-        "eps_200": 2050
+        "eps_50": 677.0,
+        "eps_80": 761.0,
+        "eps_100": 846.0,
+        "eps_150": 1043.0,
+        "eps_200": 1156.0,
+        "polystyrene_30": 790.0,
+        "polystyrene_50": 1015.0,
+        "polystyrene_80": 1314.0,
+        "polystyrene_100": 1720.0,
+        "mesh_0": 553.0
       },
       "combinations": [
         "eps_50",
         "eps_80",
         "eps_100",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "polystyrene_30",
+        "polystyrene_50",
+        "polystyrene_80",
+        "polystyrene_100",
+        "mesh_0"
       ]
     },
     {
       "page": 4,
       "section": "porcelain",
       "sku": "TU-2412",
-      "name": "Керамогранітна термопанель Fino — коричневий",
+      "name": "Керамогранітна термопанель Fino — Чорний",
       "prices": {
-        "eps_50": 1200,
-        "eps_80": 1350,
-        "eps_100": 1500,
-        "eps_150": 1850,
-        "eps_200": 2050
+        "eps_50": 677.0,
+        "eps_80": 761.0,
+        "eps_100": 846.0,
+        "eps_150": 1043.0,
+        "eps_200": 1156.0,
+        "polystyrene_30": 790.0,
+        "polystyrene_50": 1015.0,
+        "polystyrene_80": 1314.0,
+        "polystyrene_100": 1720.0,
+        "mesh_0": 553.0
       },
       "combinations": [
         "eps_50",
         "eps_80",
         "eps_100",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "polystyrene_30",
+        "polystyrene_50",
+        "polystyrene_80",
+        "polystyrene_100",
+        "mesh_0"
       ]
     },
     {
       "page": 4,
       "section": "porcelain",
       "sku": "TU-2612",
-      "name": "Керамогранітна термопанель Fino — світло-бежевий",
+      "name": "Керамогранітна термопанель Fino — Світло-бежевий",
       "prices": {
-        "eps_50": 1200,
-        "eps_80": 1350,
-        "eps_100": 1500,
-        "eps_150": 1850,
-        "eps_200": 2050
+        "eps_50": 677.0,
+        "eps_80": 761.0,
+        "eps_100": 846.0,
+        "eps_150": 1043.0,
+        "eps_200": 1156.0,
+        "polystyrene_30": 790.0,
+        "polystyrene_50": 1015.0,
+        "polystyrene_80": 1314.0,
+        "polystyrene_100": 1720.0,
+        "mesh_0": 553.0
       },
       "combinations": [
         "eps_50",
         "eps_80",
         "eps_100",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "polystyrene_30",
+        "polystyrene_50",
+        "polystyrene_80",
+        "polystyrene_100",
+        "mesh_0"
       ]
     },
     {
       "page": 4,
       "section": "porcelain",
       "sku": "TU-2512",
-      "name": "Керамогранітна термопанель Fino — темно-бежевий",
+      "name": "Керамогранітна термопанель Fino — Бежевий",
       "prices": {
-        "eps_50": 1200,
-        "eps_80": 1350,
-        "eps_100": 1500,
-        "eps_150": 1850,
-        "eps_200": 2050
+        "eps_50": 677.0,
+        "eps_80": 761.0,
+        "eps_100": 846.0,
+        "eps_150": 1043.0,
+        "eps_200": 1156.0,
+        "polystyrene_30": 790.0,
+        "polystyrene_50": 1015.0,
+        "polystyrene_80": 1314.0,
+        "polystyrene_100": 1720.0,
+        "mesh_0": 553.0
       },
       "combinations": [
         "eps_50",
         "eps_80",
         "eps_100",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "polystyrene_30",
+        "polystyrene_50",
+        "polystyrene_80",
+        "polystyrene_100",
+        "mesh_0"
       ]
     },
     {
       "page": 5,
       "section": "porcelain",
       "sku": "TU-3112",
-      "name": "Керамогранітна термопанель Klinker Brick — білий",
+      "name": "Керамогранітна термопанель Klinker Brick — Білий",
       "prices": {
-        "eps_50": 1200,
-        "eps_80": 1350,
-        "eps_100": 1500,
-        "eps_150": 1850,
-        "eps_200": 2050
+        "eps_50": 677.0,
+        "eps_80": 761.0,
+        "eps_100": 846.0,
+        "eps_150": 1043.0,
+        "eps_200": 1156.0,
+        "polystyrene_30": 790.0,
+        "polystyrene_50": 1015.0,
+        "polystyrene_80": 1314.0,
+        "polystyrene_100": 1720.0,
+        "mesh_0": 553.0
       },
       "combinations": [
         "eps_50",
         "eps_80",
         "eps_100",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "polystyrene_30",
+        "polystyrene_50",
+        "polystyrene_80",
+        "polystyrene_100",
+        "mesh_0"
       ]
     },
     {
       "page": 5,
       "section": "porcelain",
       "sku": "TU-3212",
-      "name": "Керамогранітна термопанель Klinker Brick — бежевий",
+      "name": "Керамогранітна термопанель Klinker Brick — Коричневий №1",
       "prices": {
-        "eps_50": 1200,
-        "eps_80": 1350,
-        "eps_100": 1500,
-        "eps_150": 1850,
-        "eps_200": 2050
+        "eps_50": 677.0,
+        "eps_80": 761.0,
+        "eps_100": 846.0,
+        "eps_150": 1043.0,
+        "eps_200": 1156.0,
+        "polystyrene_30": 790.0,
+        "polystyrene_50": 1015.0,
+        "polystyrene_80": 1314.0,
+        "polystyrene_100": 1720.0,
+        "mesh_0": 553.0
       },
       "combinations": [
         "eps_50",
         "eps_80",
         "eps_100",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "polystyrene_30",
+        "polystyrene_50",
+        "polystyrene_80",
+        "polystyrene_100",
+        "mesh_0"
       ]
     },
     {
       "page": 5,
       "section": "porcelain",
       "sku": "TU-3312",
-      "name": "Керамогранітна термопанель Klinker Brick — сірий",
+      "name": "Керамогранітна термопанель Klinker Brick — Сірий",
       "prices": {
-        "eps_50": 1200,
-        "eps_80": 1350,
-        "eps_100": 1500,
-        "eps_150": 1850,
-        "eps_200": 2050
+        "eps_50": 677.0,
+        "eps_80": 761.0,
+        "eps_100": 846.0,
+        "eps_150": 1043.0,
+        "eps_200": 1156.0,
+        "polystyrene_30": 790.0,
+        "polystyrene_50": 1015.0,
+        "polystyrene_80": 1314.0,
+        "polystyrene_100": 1720.0,
+        "mesh_0": 553.0
       },
       "combinations": [
         "eps_50",
         "eps_80",
         "eps_100",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "polystyrene_30",
+        "polystyrene_50",
+        "polystyrene_80",
+        "polystyrene_100",
+        "mesh_0"
       ]
     },
     {
       "page": 5,
       "section": "porcelain",
       "sku": "TU-3412",
-      "name": "Керамогранітна термопанель Klinker Brick — помаранчевий",
+      "name": "Керамогранітна термопанель Klinker Brick — Коричневий №2",
       "prices": {
-        "eps_50": 1200,
-        "eps_80": 1350,
-        "eps_100": 1500,
-        "eps_150": 1850,
-        "eps_200": 2050
+        "eps_50": 677.0,
+        "eps_80": 761.0,
+        "eps_100": 846.0,
+        "eps_150": 1043.0,
+        "eps_200": 1156.0,
+        "polystyrene_30": 790.0,
+        "polystyrene_50": 1015.0,
+        "polystyrene_80": 1314.0,
+        "polystyrene_100": 1720.0,
+        "mesh_0": 553.0
       },
       "combinations": [
         "eps_50",
         "eps_80",
         "eps_100",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "polystyrene_30",
+        "polystyrene_50",
+        "polystyrene_80",
+        "polystyrene_100",
+        "mesh_0"
       ]
     },
     {
       "page": 6,
       "section": "porcelain",
       "sku": "TU-4112",
-      "name": "Керамогранітна термопанель London — бежевий",
+      "name": "Керамогранітна термопанель London — Коричневий",
       "prices": {
-        "eps_50": 1200,
-        "eps_80": 1350,
-        "eps_100": 1500,
-        "eps_150": 1850,
-        "eps_200": 2050
+        "eps_50": 677.0,
+        "eps_80": 761.0,
+        "eps_100": 846.0,
+        "eps_150": 1043.0,
+        "eps_200": 1156.0,
+        "polystyrene_30": 790.0,
+        "polystyrene_50": 1015.0,
+        "polystyrene_80": 1314.0,
+        "polystyrene_100": 1720.0,
+        "mesh_0": 553.0
       },
       "combinations": [
         "eps_50",
         "eps_80",
         "eps_100",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "polystyrene_30",
+        "polystyrene_50",
+        "polystyrene_80",
+        "polystyrene_100",
+        "mesh_0"
       ]
     },
     {
       "page": 6,
       "section": "porcelain",
       "sku": "TU-4212",
-      "name": "Керамогранітна термопанель London — димчастий",
+      "name": "Керамогранітна термопанель London — Білий",
       "prices": {
-        "eps_50": 1200,
-        "eps_80": 1350,
-        "eps_100": 1500,
-        "eps_150": 1850,
-        "eps_200": 2050
+        "eps_50": 677.0,
+        "eps_80": 761.0,
+        "eps_100": 846.0,
+        "eps_150": 1043.0,
+        "eps_200": 1156.0,
+        "polystyrene_30": 790.0,
+        "polystyrene_50": 1015.0,
+        "polystyrene_80": 1314.0,
+        "polystyrene_100": 1720.0,
+        "mesh_0": 553.0
       },
       "combinations": [
         "eps_50",
         "eps_80",
         "eps_100",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "polystyrene_30",
+        "polystyrene_50",
+        "polystyrene_80",
+        "polystyrene_100",
+        "mesh_0"
       ]
     },
     {
       "page": 6,
       "section": "porcelain",
       "sku": "TU-4312",
-      "name": "Керамогранітна термопанель London — кремовий",
+      "name": "Керамогранітна термопанель London — Бежевий",
       "prices": {
-        "eps_50": 1200,
-        "eps_80": 1350,
-        "eps_100": 1500,
-        "eps_150": 1850,
-        "eps_200": 2050
+        "eps_50": 677.0,
+        "eps_80": 761.0,
+        "eps_100": 846.0,
+        "eps_150": 1043.0,
+        "eps_200": 1156.0,
+        "polystyrene_30": 790.0,
+        "polystyrene_50": 1015.0,
+        "polystyrene_80": 1314.0,
+        "polystyrene_100": 1720.0,
+        "mesh_0": 553.0
       },
       "combinations": [
         "eps_50",
         "eps_80",
         "eps_100",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "polystyrene_30",
+        "polystyrene_50",
+        "polystyrene_80",
+        "polystyrene_100",
+        "mesh_0"
       ]
     },
     {
       "page": 6,
       "section": "porcelain",
       "sku": "TU-4412",
-      "name": "Керамогранітна термопанель London — антрацитовий",
+      "name": "Керамогранітна термопанель London — Сірий",
       "prices": {
-        "eps_50": 1200,
-        "eps_80": 1350,
-        "eps_100": 1500,
-        "eps_150": 1850,
-        "eps_200": 2050
+        "eps_50": 677.0,
+        "eps_80": 761.0,
+        "eps_100": 846.0,
+        "eps_150": 1043.0,
+        "eps_200": 1156.0,
+        "polystyrene_30": 790.0,
+        "polystyrene_50": 1015.0,
+        "polystyrene_80": 1314.0,
+        "polystyrene_100": 1720.0,
+        "mesh_0": 553.0
       },
       "combinations": [
         "eps_50",
         "eps_80",
         "eps_100",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "polystyrene_30",
+        "polystyrene_50",
+        "polystyrene_80",
+        "polystyrene_100",
+        "mesh_0"
       ]
     },
     {
       "page": 7,
       "section": "porcelain",
       "sku": "TU-5112",
-      "name": "Керамогранітна термопанель Seven Tones — бежевий",
+      "name": "Керамогранітна термопанель Seven Tones — Бежевий",
       "prices": {
-        "eps_50": 1150,
-        "eps_80": 1350,
-        "eps_100": 1450,
-        "eps_150": 1750,
-        "eps_200": 1950
+        "eps_50": 677.0,
+        "eps_80": 761.0,
+        "eps_100": 846.0,
+        "eps_150": 1043.0,
+        "eps_200": 1156.0,
+        "polystyrene_30": 790.0,
+        "polystyrene_50": 1015.0,
+        "polystyrene_80": 1314.0,
+        "polystyrene_100": 1720.0,
+        "mesh_0": 553.0
       },
       "combinations": [
         "eps_50",
         "eps_80",
         "eps_100",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "polystyrene_30",
+        "polystyrene_50",
+        "polystyrene_80",
+        "polystyrene_100",
+        "mesh_0"
       ]
     },
     {
       "page": 7,
       "section": "porcelain",
       "sku": "TU-5212",
-      "name": "Керамогранітна термопанель Seven Tones — сірий",
+      "name": "Керамогранітна термопанель Seven Tones — Сірий",
       "prices": {
-        "eps_50": 1150,
-        "eps_80": 1350,
-        "eps_100": 1450,
-        "eps_150": 1750,
-        "eps_200": 1950
+        "eps_50": 677.0,
+        "eps_80": 761.0,
+        "eps_100": 846.0,
+        "eps_150": 1043.0,
+        "eps_200": 1156.0,
+        "polystyrene_30": 790.0,
+        "polystyrene_50": 1015.0,
+        "polystyrene_80": 1314.0,
+        "polystyrene_100": 1720.0,
+        "mesh_0": 553.0
       },
       "combinations": [
         "eps_50",
         "eps_80",
         "eps_100",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "polystyrene_30",
+        "polystyrene_50",
+        "polystyrene_80",
+        "polystyrene_100",
+        "mesh_0"
       ]
     },
     {
       "page": 7,
       "section": "porcelain",
       "sku": "TU-5312",
-      "name": "Керамогранітна термопанель Seven Tones — тютюновий",
+      "name": "Керамогранітна термопанель Seven Tones — Коричневий №1",
       "prices": {
-        "eps_50": 1150,
-        "eps_80": 1350,
-        "eps_100": 1450,
-        "eps_150": 1750,
-        "eps_200": 1950
+        "eps_50": 677.0,
+        "eps_80": 761.0,
+        "eps_100": 846.0,
+        "eps_150": 1043.0,
+        "eps_200": 1156.0,
+        "polystyrene_30": 790.0,
+        "polystyrene_50": 1015.0,
+        "polystyrene_80": 1314.0,
+        "polystyrene_100": 1720.0,
+        "mesh_0": 553.0
       },
       "combinations": [
         "eps_50",
         "eps_80",
         "eps_100",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "polystyrene_30",
+        "polystyrene_50",
+        "polystyrene_80",
+        "polystyrene_100",
+        "mesh_0"
       ]
     },
     {
       "page": 7,
       "section": "porcelain",
       "sku": "TU-5412",
-      "name": "Керамогранітна термопанель Seven Tones — помаранчевий",
+      "name": "Керамогранітна термопанель Seven Tones — Коричневий №2",
       "prices": {
-        "eps_50": 1150,
-        "eps_80": 1350,
-        "eps_100": 1450,
-        "eps_150": 1750,
-        "eps_200": 1950
+        "eps_50": 677.0,
+        "eps_80": 761.0,
+        "eps_100": 846.0,
+        "eps_150": 1043.0,
+        "eps_200": 1156.0,
+        "polystyrene_30": 790.0,
+        "polystyrene_50": 1015.0,
+        "polystyrene_80": 1314.0,
+        "polystyrene_100": 1720.0,
+        "mesh_0": 553.0
       },
       "combinations": [
         "eps_50",
         "eps_80",
         "eps_100",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "polystyrene_30",
+        "polystyrene_50",
+        "polystyrene_80",
+        "polystyrene_100",
+        "mesh_0"
       ]
     },
     {
       "page": 8,
       "section": "porcelain",
       "sku": "TU-6112",
-      "name": "Керамогранітна термопанель The Strand — білий",
+      "name": "Керамогранітна термопанель The Strand — Білий",
       "prices": {
-        "eps_50": 1200,
-        "eps_80": 1350,
-        "eps_100": 1500,
-        "eps_150": 1850,
-        "eps_200": 1950
+        "eps_50": 677.0,
+        "eps_80": 761.0,
+        "eps_100": 846.0,
+        "eps_150": 1043.0,
+        "eps_200": 1156.0,
+        "polystyrene_30": 790.0,
+        "polystyrene_50": 1015.0,
+        "polystyrene_80": 1314.0,
+        "polystyrene_100": 1720.0,
+        "mesh_0": 553.0
       },
       "combinations": [
         "eps_50",
         "eps_80",
         "eps_100",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "polystyrene_30",
+        "polystyrene_50",
+        "polystyrene_80",
+        "polystyrene_100",
+        "mesh_0"
       ]
     },
     {
       "page": 8,
       "section": "porcelain",
       "sku": "TU-6212",
-      "name": "Керамогранітна термопанель The Strand — чорний",
+      "name": "Керамогранітна термопанель The Strand — Чорний",
       "prices": {
-        "eps_50": 1200,
-        "eps_80": 1350,
-        "eps_100": 1500,
-        "eps_150": 1850,
-        "eps_200": 2050
+        "eps_50": 677.0,
+        "eps_80": 761.0,
+        "eps_100": 846.0,
+        "eps_150": 1043.0,
+        "eps_200": 1156.0,
+        "polystyrene_30": 790.0,
+        "polystyrene_50": 1015.0,
+        "polystyrene_80": 1314.0,
+        "polystyrene_100": 1720.0,
+        "mesh_0": 553.0
       },
       "combinations": [
         "eps_50",
         "eps_80",
         "eps_100",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "polystyrene_30",
+        "polystyrene_50",
+        "polystyrene_80",
+        "polystyrene_100",
+        "mesh_0"
       ]
     },
     {
       "page": 8,
       "section": "porcelain",
       "sku": "TU-7112",
-      "name": "Керамогранітна термопанель Westminster — помаранчевий",
+      "name": "Керамогранітна термопанель Westminster — Коричневий",
       "prices": {
-        "eps_50": 1200,
-        "eps_80": 1350,
-        "eps_100": 1500,
-        "eps_150": 1850,
-        "eps_200": 2050
+        "eps_50": 677.0,
+        "eps_80": 761.0,
+        "eps_100": 846.0,
+        "eps_150": 1043.0,
+        "eps_200": 1156.0,
+        "polystyrene_30": 790.0,
+        "polystyrene_50": 1015.0,
+        "polystyrene_80": 1314.0,
+        "polystyrene_100": 1720.0,
+        "mesh_0": 553.0
       },
       "combinations": [
         "eps_50",
         "eps_80",
         "eps_100",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "polystyrene_30",
+        "polystyrene_50",
+        "polystyrene_80",
+        "polystyrene_100",
+        "mesh_0"
       ]
     },
     {
@@ -757,18 +987,26 @@
       "sku": "TU-8110",
       "name": "Термопанель під фарбування Травертин 500×250 мм",
       "prices": {
-        "eps_20": 460.0
+        "eps_20": 445.0,
+        "eps_30": 460.0,
+        "eps_50": 535.0,
+        "eps_80": 560.0,
+        "eps_100": 590.0,
+        "eps_150": 685.0,
+        "eps_200": 780.0,
+        "eps_40": 490.0,
+        "eps_120": 630.0
       },
       "combinations": [
         "eps_20",
         "eps_30",
-        "eps_40",
         "eps_50",
         "eps_80",
         "eps_100",
-        "eps_120",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "eps_40",
+        "eps_120"
       ]
     },
     {
@@ -777,18 +1015,26 @@
       "sku": "TU-8210",
       "name": "Термопанель під фарбування Руст 500×250 мм",
       "prices": {
-        "eps_20": 460.0
+        "eps_20": 445.0,
+        "eps_30": 460.0,
+        "eps_50": 535.0,
+        "eps_80": 560.0,
+        "eps_100": 590.0,
+        "eps_150": 685.0,
+        "eps_200": 780.0,
+        "eps_40": 490.0,
+        "eps_120": 630.0
       },
       "combinations": [
         "eps_20",
         "eps_30",
-        "eps_40",
         "eps_50",
         "eps_80",
         "eps_100",
-        "eps_120",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "eps_40",
+        "eps_120"
       ]
     },
     {
@@ -796,17 +1042,27 @@
       "section": "paintable",
       "sku": "TU-8310",
       "name": "Термопанель під фарбування Альпійський камінь 500×250 мм",
-      "prices": {},
+      "prices": {
+        "eps_20": 445.0,
+        "eps_30": 460.0,
+        "eps_50": 535.0,
+        "eps_80": 560.0,
+        "eps_100": 590.0,
+        "eps_150": 685.0,
+        "eps_200": 780.0,
+        "eps_40": 490.0,
+        "eps_120": 630.0
+      },
       "combinations": [
         "eps_20",
         "eps_30",
-        "eps_40",
         "eps_50",
         "eps_80",
         "eps_100",
-        "eps_120",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "eps_40",
+        "eps_120"
       ]
     },
     {
@@ -815,18 +1071,26 @@
       "sku": "TU-8410",
       "name": "Термопанель під фарбування Травертин 600×400 мм",
       "prices": {
-        "eps_20": 440.0
+        "eps_20": 425.0,
+        "eps_30": 440.0,
+        "eps_50": 500.0,
+        "eps_80": 560.0,
+        "eps_100": 590.0,
+        "eps_150": 665.0,
+        "eps_200": 760.0,
+        "eps_40": 470.0,
+        "eps_120": 610.0
       },
       "combinations": [
         "eps_20",
         "eps_30",
-        "eps_40",
         "eps_50",
         "eps_80",
         "eps_100",
-        "eps_120",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "eps_40",
+        "eps_120"
       ]
     },
     {
@@ -835,18 +1099,26 @@
       "sku": "TU-8510",
       "name": "Термопанель під фарбування Цегла короїд 600×400 мм",
       "prices": {
-        "eps_20": 440.0
+        "eps_20": 425.0,
+        "eps_30": 440.0,
+        "eps_50": 500.0,
+        "eps_80": 560.0,
+        "eps_100": 590.0,
+        "eps_150": 665.0,
+        "eps_200": 760.0,
+        "eps_40": 470.0,
+        "eps_120": 610.0
       },
       "combinations": [
         "eps_20",
         "eps_30",
-        "eps_40",
         "eps_50",
         "eps_80",
         "eps_100",
-        "eps_120",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "eps_40",
+        "eps_120"
       ]
     },
     {
@@ -855,18 +1127,26 @@
       "sku": "TU-8610",
       "name": "Термопанель під фарбування Гладка цегла 600×400 мм",
       "prices": {
-        "eps_20": 440.0
+        "eps_20": 425.0,
+        "eps_30": 440.0,
+        "eps_50": 500.0,
+        "eps_80": 560.0,
+        "eps_100": 590.0,
+        "eps_150": 665.0,
+        "eps_200": 760.0,
+        "eps_40": 470.0,
+        "eps_120": 610.0
       },
       "combinations": [
         "eps_20",
         "eps_30",
-        "eps_40",
         "eps_50",
         "eps_80",
         "eps_100",
-        "eps_120",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "eps_40",
+        "eps_120"
       ]
     },
     {
@@ -875,18 +1155,26 @@
       "sku": "TU-8710",
       "name": "Термопанель під фарбування Колота цегла 600×400 мм",
       "prices": {
-        "eps_20": 440.0
+        "eps_20": 425.0,
+        "eps_30": 440.0,
+        "eps_50": 500.0,
+        "eps_80": 560.0,
+        "eps_100": 590.0,
+        "eps_150": 665.0,
+        "eps_200": 760.0,
+        "eps_40": 470.0,
+        "eps_120": 610.0
       },
       "combinations": [
         "eps_20",
         "eps_30",
-        "eps_40",
         "eps_50",
         "eps_80",
         "eps_100",
-        "eps_120",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "eps_40",
+        "eps_120"
       ]
     },
     {
@@ -894,17 +1182,27 @@
       "section": "paintable",
       "sku": "TU-8810",
       "name": "Термопанель під фарбування Дранка 600×400 мм",
-      "prices": {},
+      "prices": {
+        "eps_20": 425.0,
+        "eps_30": 440.0,
+        "eps_50": 500.0,
+        "eps_80": 560.0,
+        "eps_100": 590.0,
+        "eps_150": 665.0,
+        "eps_200": 760.0,
+        "eps_40": 470.0,
+        "eps_120": 610.0
+      },
       "combinations": [
         "eps_20",
         "eps_30",
-        "eps_40",
         "eps_50",
         "eps_80",
         "eps_100",
-        "eps_120",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "eps_40",
+        "eps_120"
       ]
     },
     {
@@ -913,18 +1211,26 @@
       "sku": "TU-8910",
       "name": "Термопанель під фарбування Римська кладка 600×400 мм",
       "prices": {
-        "eps_20": 440.0
+        "eps_20": 425.0,
+        "eps_30": 440.0,
+        "eps_50": 500.0,
+        "eps_80": 560.0,
+        "eps_100": 590.0,
+        "eps_150": 665.0,
+        "eps_200": 760.0,
+        "eps_40": 470.0,
+        "eps_120": 610.0
       },
       "combinations": [
         "eps_20",
         "eps_30",
-        "eps_40",
         "eps_50",
         "eps_80",
         "eps_100",
-        "eps_120",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "eps_40",
+        "eps_120"
       ]
     },
     {
@@ -932,17 +1238,27 @@
       "section": "paintable",
       "sku": "TU-9010",
       "name": "Термопанель під фарбування Піщаник колотий 600×400 мм",
-      "prices": {},
+      "prices": {
+        "eps_20": 425.0,
+        "eps_30": 440.0,
+        "eps_50": 500.0,
+        "eps_80": 560.0,
+        "eps_100": 590.0,
+        "eps_150": 665.0,
+        "eps_200": 760.0,
+        "eps_40": 470.0,
+        "eps_120": 610.0
+      },
       "combinations": [
         "eps_20",
         "eps_30",
-        "eps_40",
         "eps_50",
         "eps_80",
         "eps_100",
-        "eps_120",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "eps_40",
+        "eps_120"
       ]
     },
     {
@@ -951,18 +1267,26 @@
       "sku": "TU-9110",
       "name": "Термопанель під фарбування Скельний камінь 600×400 мм",
       "prices": {
-        "eps_20": 440.0
+        "eps_20": 425.0,
+        "eps_30": 440.0,
+        "eps_50": 500.0,
+        "eps_80": 560.0,
+        "eps_100": 590.0,
+        "eps_150": 665.0,
+        "eps_200": 760.0,
+        "eps_40": 470.0,
+        "eps_120": 610.0
       },
       "combinations": [
         "eps_20",
         "eps_30",
-        "eps_40",
         "eps_50",
         "eps_80",
         "eps_100",
-        "eps_120",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "eps_40",
+        "eps_120"
       ]
     },
     {
@@ -970,17 +1294,27 @@
       "section": "paintable",
       "sku": "TU-9210",
       "name": "Термопанель під фарбування Гладка луганка 500×500 мм",
-      "prices": {},
+      "prices": {
+        "eps_20": 425.0,
+        "eps_30": 440.0,
+        "eps_50": 500.0,
+        "eps_80": 560.0,
+        "eps_100": 590.0,
+        "eps_150": 665.0,
+        "eps_200": 760.0,
+        "eps_40": 470.0,
+        "eps_120": 610.0
+      },
       "combinations": [
         "eps_20",
         "eps_30",
-        "eps_40",
         "eps_50",
         "eps_80",
         "eps_100",
-        "eps_120",
         "eps_150",
-        "eps_200"
+        "eps_200",
+        "eps_40",
+        "eps_120"
       ]
     },
     {
@@ -989,10 +1323,14 @@
       "sku": "NASHDVOR-IMK-01-50",
       "name": "Термопанель «Гірський каньйон» з термозамком",
       "prices": {
-        "eps_50": 990.0
+        "polystyrene_100": 540.0,
+        "polystyrene_50": 491.4,
+        "polystyrene_80": 515.7
       },
       "combinations": [
-        "eps_50"
+        "polystyrene_100",
+        "polystyrene_50",
+        "polystyrene_80"
       ]
     },
     {
@@ -1001,10 +1339,14 @@
       "sku": "NASHDVOR-IMK-02-50",
       "name": "Термопанель «Червоний теракот» з термозамком",
       "prices": {
-        "eps_50": 990.0
+        "polystyrene_100": 540.0,
+        "polystyrene_50": 491.4,
+        "polystyrene_80": 515.7
       },
       "combinations": [
-        "eps_50"
+        "polystyrene_100",
+        "polystyrene_50",
+        "polystyrene_80"
       ]
     },
     {
@@ -1013,10 +1355,14 @@
       "sku": "NASHDVOR-IMK-03-50",
       "name": "Термопанель «Ніагара» з термозамком",
       "prices": {
-        "eps_50": 990.0
+        "polystyrene_100": 540.0,
+        "polystyrene_50": 491.4,
+        "polystyrene_80": 515.7
       },
       "combinations": [
-        "eps_50"
+        "polystyrene_100",
+        "polystyrene_50",
+        "polystyrene_80"
       ]
     },
     {
@@ -1025,10 +1371,14 @@
       "sku": "NASHDVOR-IMK-04-50",
       "name": "Термопанель «Рудий теракот» з термозамком",
       "prices": {
-        "eps_50": 990.0
+        "polystyrene_100": 540.0,
+        "polystyrene_50": 491.4,
+        "polystyrene_80": 515.7
       },
       "combinations": [
-        "eps_50"
+        "polystyrene_100",
+        "polystyrene_50",
+        "polystyrene_80"
       ]
     },
     {
@@ -1037,10 +1387,14 @@
       "sku": "NASHDVOR-IMK-05-50",
       "name": "Термопанель «Піщаник» з термозамком",
       "prices": {
-        "eps_50": 990.0
+        "polystyrene_100": 540.0,
+        "polystyrene_50": 491.4,
+        "polystyrene_80": 515.7
       },
       "combinations": [
-        "eps_50"
+        "polystyrene_100",
+        "polystyrene_50",
+        "polystyrene_80"
       ]
     },
     {
@@ -1049,10 +1403,14 @@
       "sku": "NASHDVOR-IMK-06-50",
       "name": "Термопанель «Графіт» з термозамком",
       "prices": {
-        "eps_50": 990.0
+        "polystyrene_100": 540.0,
+        "polystyrene_50": 491.4,
+        "polystyrene_80": 515.7
       },
       "combinations": [
-        "eps_50"
+        "polystyrene_100",
+        "polystyrene_50",
+        "polystyrene_80"
       ]
     },
     {
@@ -1061,10 +1419,14 @@
       "sku": "NASHDVOR-IMK-07-50",
       "name": "Термопанель «Мікс каньйона» з термозамком",
       "prices": {
-        "eps_50": 990.0
+        "polystyrene_100": 540.0,
+        "polystyrene_50": 491.4,
+        "polystyrene_80": 515.7
       },
       "combinations": [
-        "eps_50"
+        "polystyrene_100",
+        "polystyrene_50",
+        "polystyrene_80"
       ]
     },
     {
@@ -1073,10 +1435,14 @@
       "sku": "NASHDVOR-IMK-08-50",
       "name": "Термопанель «Мікс графіту» з термозамком",
       "prices": {
-        "eps_50": 990.0
+        "polystyrene_100": 540.0,
+        "polystyrene_50": 491.4,
+        "polystyrene_80": 515.7
       },
       "combinations": [
-        "eps_50"
+        "polystyrene_100",
+        "polystyrene_50",
+        "polystyrene_80"
       ]
     },
     {
@@ -1085,10 +1451,14 @@
       "sku": "NASHDVOR-IMK-09-50",
       "name": "Термопанель «Білий принц» з термозамком",
       "prices": {
-        "eps_50": 990.0
+        "polystyrene_100": 540.0,
+        "polystyrene_50": 491.4,
+        "polystyrene_80": 515.7
       },
       "combinations": [
-        "eps_50"
+        "polystyrene_100",
+        "polystyrene_50",
+        "polystyrene_80"
       ]
     },
     {
@@ -1097,10 +1467,14 @@
       "sku": "NASHDVOR-IMK-10-50",
       "name": "Термопанель «Туман Ніагара» з термозамком",
       "prices": {
-        "eps_50": 990.0
+        "polystyrene_100": 540.0,
+        "polystyrene_50": 491.4,
+        "polystyrene_80": 515.7
       },
       "combinations": [
-        "eps_50"
+        "polystyrene_100",
+        "polystyrene_50",
+        "polystyrene_80"
       ]
     },
     {
@@ -1109,10 +1483,14 @@
       "sku": "NASHDVOR-IMK-11-50",
       "name": "Термопанель «Гарячий шоколад» з термозамком",
       "prices": {
-        "eps_50": 990.0
+        "polystyrene_100": 540.0,
+        "polystyrene_50": 491.4,
+        "polystyrene_80": 515.7
       },
       "combinations": [
-        "eps_50"
+        "polystyrene_100",
+        "polystyrene_50",
+        "polystyrene_80"
       ]
     },
     {
@@ -1121,10 +1499,14 @@
       "sku": "NASHDVOR-IMK-12-50",
       "name": "Термопанель «Чорний принц» з термозамком",
       "prices": {
-        "eps_50": 990.0
+        "polystyrene_100": 540.0,
+        "polystyrene_50": 491.4,
+        "polystyrene_80": 515.7
       },
       "combinations": [
-        "eps_50"
+        "polystyrene_100",
+        "polystyrene_50",
+        "polystyrene_80"
       ]
     },
     {
@@ -1133,10 +1515,14 @@
       "sku": "NASHDVOR-IMK-13-50",
       "name": "Термопанель «Марс» з термозамком",
       "prices": {
-        "eps_50": 990.0
+        "polystyrene_100": 540.0,
+        "polystyrene_50": 491.4,
+        "polystyrene_80": 515.7
       },
       "combinations": [
-        "eps_50"
+        "polystyrene_100",
+        "polystyrene_50",
+        "polystyrene_80"
       ]
     },
     {
@@ -1145,10 +1531,14 @@
       "sku": "NASHDVOR-IMK-14-50",
       "name": "Термопанель «Вогняна лава» з термозамком",
       "prices": {
-        "eps_50": 990.0
+        "polystyrene_100": 540.0,
+        "polystyrene_50": 491.4,
+        "polystyrene_80": 515.7
       },
       "combinations": [
-        "eps_50"
+        "polystyrene_100",
+        "polystyrene_50",
+        "polystyrene_80"
       ]
     }
   ],
@@ -1157,8 +1547,8 @@
     "onlineQR": 22,
     "missing": 4
   },
-  "knownPrices": 182,
-  "unknownPrices": 109,
+  "knownPrices": 425,
+  "unknownPrices": 9,
   "bookletA3": {
     "sides": 10,
     "sheets": 5,
