@@ -19,6 +19,10 @@
 .header{min-height:116px;gap:24px}.header .brand{padding:16px 0}.footer .brand-logo{width:260px}.brand-accent{width:13px;height:21px;flex-shrink:0}.placeholder-symbol{display:block;width:30px;height:48px;margin:0 auto 12px;opacity:.65}.brand:focus-visible{outline-offset:6px}.header .tagline{letter-spacing:.03em}
 @media(max-width:760px){.header .tagline{display:none}.brand-logo{width:280px}.header{gap:16px}}
 @media(max-width:520px){.header{flex-wrap:wrap;justify-content:center;gap:0;padding-block:16px}.header .brand{padding:0}.header>div{flex-basis:100%;display:flex;justify-content:center}.header .site{padding:12px 0 0;min-height:44px;font-size:12px}.brand-logo{width:280px;max-width:calc(100vw - 48px)}.hero{padding-top:30px}.footer .brand-logo{width:260px}}
+
+.eyebrow{min-height:28px;line-height:1.6;overflow:visible;white-space:normal;gap:12px}
+.eyebrow-text{display:block;min-width:0;overflow-wrap:break-word;letter-spacing:1.3px}
+@media(max-width:360px){.eyebrow-text{font-size:10px;letter-spacing:1px}}
 </style>
 </head>
 <body>
@@ -31,7 +35,7 @@
 <svg x="330" y="0" width="1700" height="440" viewBox="250 160 1700 440"><image data-brand-part="wordmark" width="2172" height="724"/></svg>
 </symbol></defs></svg>
 <header><div class="wrap header"><div><a href="#" class="brand" aria-label="NASH DVOR — головна"><svg class="brand-logo" viewBox="0 0 2030 440" role="img" aria-label="nash dvor — from vision to reality"><use href="#brand-lockup"/></svg></a></div><span class="tagline">Центр благоустрою</span><a class="site site-link" href="https://nashdvor.com.ua" target="_blank" rel="noopener">nashdvor.com.ua ↗</a></div></header>
-<div class="wrap"><section class="hero"><div class="eyebrow"><svg class="brand-accent" viewBox="340 150 660 1040" aria-hidden="true"><use href="#brand-symbol"/></svg>Матеріали для вашого дому</div><h1>Тепло всередині.<br>Характер зовні.</h1><p class="lead">Переглядайте термопанелі з різних колекцій.<br>Порівнюйте фактури, основи та товщину.</p><div class="meta"><span class="date" id="updated"></span><span>Біляївка · Одеська область</span></div></section><p class="demo" id="demo"></p></div>
+<div class="wrap"><section class="hero"><div class="eyebrow"><svg class="brand-accent" viewBox="340 150 660 1040" aria-hidden="true"><use href="#brand-symbol"/></svg><span class="eyebrow-text">Матеріали для вашого дому</span></div><h1>Тепло всередині.<br>Характер зовні.</h1><p class="lead">Переглядайте термопанелі з різних колекцій.<br>Порівнюйте фактури, основи та товщину.</p><div class="meta"><span>Біляївка · Одеська область</span></div></section><p class="demo" id="demo"></p></div>
 <nav class="navigation" aria-label="Розділи каталогу"><div class="wrap tabs" id="tabs"></div></nav>
 <main class="wrap" id="catalog" tabindex="-1"><div class="section-top"><div><h2 id="section-title"></h2><p id="section-description"></p></div><span class="count" id="count"></span></div><div class="grid" id="cards"></div></main>
 <footer><div class="wrap footer"><div><a class="brand" href="#" aria-label="NASH DVOR — головна"><svg class="brand-logo" viewBox="0 0 2030 440" role="img" aria-label="nash dvor — from vision to reality"><use href="#brand-lockup"/></svg></a></div><div><p>Біляївка, Одеська область</p><div id="footer-contacts"></div></div><div><a class="site-link" href="https://nashdvor.com.ua" target="_blank" rel="noopener">nashdvor.com.ua ↗</a><p>Ціни за прайсом. Наявність уточнюйте у менеджера.</p><p><a href="print/nash-dvor-catalog.pdf" download>PDF-каталог для друку</a></p></div></div></footer>
@@ -44,7 +48,7 @@
    Фото: image — главное, gallery — массив дополнительных URL; пустое/битое заменяется плашкой.
    Основа: добавьте {id,name,note} в bases. Толщина: {mm,label} в thicknesses.
    Цена: ключ baseId_mm в price, значение — число за м². combinations содержит разрешённые
-   сочетания baseId_mm; если цена отсутствует, показывается «Ціну уточнюйте». Без combinations
+   сочетания baseId_mm; если цена отсутствует, показывается тире. Без combinations
    список разрешённых сочетаний формируется из price. mm=0 означает отсутствие утеплителя.
    Дата: updated — дата реального обновления цен. demo=false ставьте только после проверки данных.
    Контакты: phone — основной номер, phones — массив дополнительных номеров; все в международном формате. telegram — username без @ (публичный менеджер),
@@ -3391,12 +3395,12 @@ const CATALOG = {
             {
               "id": "eps",
               "name": "Пінопласт",
-              "note": "Пінопласт. Ціни за м² — з прайсу від 01.09.2026."
+              "note": "Пінопласт. Ціна за 1 м²."
             },
             {
               "id": "mesh",
               "name": "Скловолоконна сітка",
-              "note": "Без утеплювача, як зазначено в описі сайту. Ціну уточнюйте."
+              "note": "Без утеплювача."
             }
           ],
           "thicknesses": [
@@ -3462,12 +3466,12 @@ const CATALOG = {
             {
               "id": "eps",
               "name": "Пінопласт",
-              "note": "Пінопласт. Ціни за м² — з прайсу від 01.09.2026."
+              "note": "Пінопласт. Ціна за 1 м²."
             },
             {
               "id": "mesh",
               "name": "Скловолоконна сітка",
-              "note": "Без утеплювача, як зазначено в описі сайту. Ціну уточнюйте."
+              "note": "Без утеплювача."
             }
           ],
           "thicknesses": [
@@ -3531,12 +3535,12 @@ const CATALOG = {
             {
               "id": "eps",
               "name": "Пінопласт",
-              "note": "Пінопласт. Ціни за м² — з прайсу від 01.09.2026."
+              "note": "Пінопласт. Ціна за 1 м²."
             },
             {
               "id": "mesh",
               "name": "Скловолоконна сітка",
-              "note": "Без утеплювача, як зазначено в описі сайту. Ціну уточнюйте."
+              "note": "Без утеплювача."
             }
           ],
           "thicknesses": [
@@ -3600,12 +3604,12 @@ const CATALOG = {
             {
               "id": "eps",
               "name": "Пінопласт",
-              "note": "Пінопласт. Ціни за м² — з прайсу від 01.09.2026."
+              "note": "Пінопласт. Ціна за 1 м²."
             },
             {
               "id": "mesh",
               "name": "Скловолоконна сітка",
-              "note": "Без утеплювача, як зазначено в описі сайту. Ціну уточнюйте."
+              "note": "Без утеплювача."
             }
           ],
           "thicknesses": [
@@ -3669,12 +3673,12 @@ const CATALOG = {
             {
               "id": "eps",
               "name": "Пінопласт",
-              "note": "Пінопласт. Ціни за м² — з прайсу від 01.09.2026."
+              "note": "Пінопласт. Ціна за 1 м²."
             },
             {
               "id": "mesh",
               "name": "Скловолоконна сітка",
-              "note": "Без утеплювача, як зазначено в описі сайту. Ціну уточнюйте."
+              "note": "Без утеплювача."
             }
           ],
           "thicknesses": [
@@ -3738,12 +3742,12 @@ const CATALOG = {
             {
               "id": "eps",
               "name": "Пінопласт",
-              "note": "Пінопласт. Ціни за м² — з прайсу від 01.09.2026."
+              "note": "Пінопласт. Ціна за 1 м²."
             },
             {
               "id": "mesh",
               "name": "Скловолоконна сітка",
-              "note": "Без утеплювача, як зазначено в описі сайту. Ціну уточнюйте."
+              "note": "Без утеплювача."
             }
           ],
           "thicknesses": [
@@ -3807,12 +3811,12 @@ const CATALOG = {
             {
               "id": "eps",
               "name": "Пінопласт",
-              "note": "Пінопласт. Ціни за м² — з прайсу від 01.09.2026."
+              "note": "Пінопласт. Ціна за 1 м²."
             },
             {
               "id": "mesh",
               "name": "Скловолоконна сітка",
-              "note": "Без утеплювача, як зазначено в описі сайту. Ціну уточнюйте."
+              "note": "Без утеплювача."
             }
           ],
           "thicknesses": [
@@ -3876,12 +3880,12 @@ const CATALOG = {
             {
               "id": "eps",
               "name": "Пінопласт",
-              "note": "Пінопласт. Ціни за м² — з прайсу від 01.09.2026."
+              "note": "Пінопласт. Ціна за 1 м²."
             },
             {
               "id": "mesh",
               "name": "Скловолоконна сітка",
-              "note": "Без утеплювача, як зазначено в описі сайту. Ціну уточнюйте."
+              "note": "Без утеплювача."
             }
           ],
           "thicknesses": [
@@ -3945,12 +3949,12 @@ const CATALOG = {
             {
               "id": "eps",
               "name": "Пінопласт",
-              "note": "Пінопласт. Ціни за м² — з прайсу від 01.09.2026."
+              "note": "Пінопласт. Ціна за 1 м²."
             },
             {
               "id": "mesh",
               "name": "Скловолоконна сітка",
-              "note": "Без утеплювача, як зазначено в описі сайту. Ціну уточнюйте."
+              "note": "Без утеплювача."
             }
           ],
           "thicknesses": [
@@ -6591,7 +6595,6 @@ const CATALOG = {
       ]
     }
   ],
-  "priceNotice": "Польський клінкер: прайс 01.09.2026 · решта: дату цін уточнюйте",
   "excludedBases": [
     "Базальтова вата — не виробляється, виключено за вказівкою власника"
   ],
@@ -6614,11 +6617,12 @@ function photo(container,url,name,lazy=true){container.replaceChildren();const p
 function hash(){const p=new URLSearchParams({section:state.section});if(state.item){p.set('item',state.item);if(state.base){p.set('base',state.base);p.set('mm',state.mm)}}return '#'+p}
 function save(){const h=hash();if(location.hash!==h)history.replaceState(null,'',h)}
 function read(){const p=new URLSearchParams(location.hash.slice(1));const s=CATALOG.sections.find(s=>s.id===p.get('section'))||CATALOG.sections[0];state={section:s?.id,item:s?.items.find(i=>i.id===p.get('item'))?.id,base:p.get('base'),mm:Number(p.get('mm'))};render();if(item()){normalize();show(false)}else if($('detail').open)$('detail').close();}
-function render(){const s=section();$('tabs').replaceChildren();for(const sec of CATALOG.sections){const b=el('button','tab',sec.title);b.setAttribute('aria-pressed',sec.id===state.section);b.onclick=()=>{state={section:sec.id};render();save()};$('tabs').append(b)}$('section-title').textContent=s?.title||'Каталог оновлюється';$('section-description').textContent=s?.description||'';$('count').textContent=`${s?.items.length||0} позиції`;$('cards').replaceChildren();for(const i of s?.items||[]){const c=el('button','card');c.setAttribute('aria-label',`Відкрити ${i.name}`);const ph=el('div','photo');photo(ph,i.image,i.name);const body=el('div','card-body');body.append(el('span','label',i.status||(i.available?'КАТАЛОГ / ТЕРМОПАНЕЛІ':'ТИМЧАСОВО НЕДОСТУПНО')),el('h3','',i.name),el('p','',i.description));const bottom=el('div','card-bottom');const prices=pairs(i).map(p=>i.price[`${p.base}_${p.mm}`]).filter(Number.isFinite);bottom.append(el('span','price',prices.length?`від ${fmt(Math.min(...prices))} ${i.currency}`:'Ціну уточнюйте'),el('span','arrow','↗'));body.append(bottom);c.append(ph,body);c.onclick=()=>{returnFocus=c;state.item=i.id;state.base=null;state.mm=null;normalize();show();save()};$('cards').append(c)}}
+function render(){const s=section();$('tabs').replaceChildren();for(const sec of CATALOG.sections){const b=el('button','tab',sec.title);b.setAttribute('aria-pressed',sec.id===state.section);b.onclick=()=>{state={section:sec.id};render();save()};$('tabs').append(b)}$('section-title').textContent=s?.title||'Каталог оновлюється';$('section-description').textContent=s?.description||'';$('count').textContent=`${s?.items.length||0} позиції`;$('cards').replaceChildren();for(const i of s?.items||[]){const c=el('button','card');c.setAttribute('aria-label',`Відкрити ${i.name}`);const ph=el('div','photo');photo(ph,i.image,i.name);const body=el('div','card-body');body.append(el('span','label',i.status||(i.available?'КАТАЛОГ / ТЕРМОПАНЕЛІ':'ТИМЧАСОВО НЕДОСТУПНО')),el('h3','',i.name),el('p','',i.description));const bottom=el('div','card-bottom');const prices=pairs(i).map(p=>i.price[`${p.base}_${p.mm}`]).filter(Number.isFinite);bottom.append(el('span','price',prices.length?`від ${fmt(Math.min(...prices))} ${i.currency}`:'—'),el('span','arrow','↗'));body.append(bottom);c.append(ph,body);c.onclick=()=>{returnFocus=c;state.item=i.id;state.base=null;state.mm=null;normalize();show();save()};$('cards').append(c)}}
 function normalize(){const i=item(),ps=pairs(i);if(!supported(i,state.base,state.mm)){const p=ps.find(p=>p.base===state.base)||ps[0];state.base=p?.base;state.mm=p?.mm}}
 function show(open=true){const i=item();if(!i)return;$('item-title').textContent=i.name;$('item-description').textContent=i.description;$('specs').replaceChildren();for(const [title,value]of [['Колекція',i.collection],['Колір за прайсом',i.color],['Артикул',i.sku],['Артикул на сайті',i.siteSku],['Код виробника',i.manufacturerSku]])if(value)$('specs').append(el('dt','',title),el('dd','',value));$('source-link').hidden=!i.source;$('source-link').href=i.source||'#';$('detail-section').textContent=section().title;photo($('detail-photo'),i.image||i.gallery?.[0],i.name,false);$('gallery').replaceChildren();const photos=[i.image,...(i.gallery||[])].filter(Boolean);photos.forEach((url,index)=>{const b=el('button','thumb');b.setAttribute('aria-label',`Фото ${index+1}`);b.setAttribute('aria-pressed',index===0);const img=el('img');img.src=url;img.alt='';img.width=64;img.height=48;img.loading='lazy';img.onerror=()=>{img.remove();b.textContent='Фото'};b.append(img);b.onclick=()=>{photo($('detail-photo'),url,i.name,false);[...$('gallery').children].forEach(x=>x.setAttribute('aria-pressed',x===b))};$('gallery').append(b)});$('position').textContent=`${section().items.indexOf(i)+1} / ${section().items.length}`;$('prev').disabled=$('next').disabled=section().items.length<2;$('share-status').textContent='';options();if(!$('detail').open)$('detail').showModal();if(open)$('close').focus();}
 function options(){const i=item();$('bases').replaceChildren();for(const b of i.bases){const btn=el('button','segment',b.name);btn.disabled=!pairs(i).some(p=>p.base===b.id);btn.setAttribute('aria-pressed',state.base===b.id);btn.onclick=()=>{state.base=b.id;normalize();options();save()};$('bases').append(btn)}$('base-note').textContent=i.bases.find(b=>b.id===state.base)?.note||'Немає доступних варіантів.';$('thicknesses').replaceChildren();for(const t of i.thicknesses){const b=el('button','segment',t.label);b.disabled=!supported(i,state.base,t.mm);b.setAttribute('aria-pressed',state.mm===t.mm);b.onclick=()=>{state.mm=t.mm;options();save()};$('thicknesses').append(b)}calculate()}
-function calculate(){const i=item();$('unit-label').textContent=i.currency==='грн/панель'?'Ціна за одну панель':'Ціна за 1 м²';$('price-source').textContent=(i.status?i.status+'. ':'')+(i.priceSource||'')+(i.panelArea?' · Площа панелі '+new Intl.NumberFormat('uk-UA',{maximumFractionDigits:3}).format(i.panelArea)+' м²':'');$('unit-price').textContent=priced(i,state.base,state.mm)?`${fmt(i.price[`${state.base}_${state.mm}`])} ${i.currency}`:'Ціну уточнюйте';}
+function calculate(){const i=item();$('unit-label').textContent=i.currency==='грн/панель'?'Ціна за одну панель':'Ціна за 1 м²';const notes=[];if(i.status)notes.push(i.status);if(i.panelArea)notes.push('Площа панелі '+new Intl.NumberFormat('uk-UA',{maximumFractionDigits:3}).format(i.panelArea)+' м²');$('price-source').textContent=notes.join(' · ');$('price-source').hidden=!notes.length;$('unit-price').textContent=priced(i,state.base,state.mm)?`${fmt(i.price[`${state.base}_${state.mm}`])} ${i.currency}`:'—';}
+
 function move(delta){const items=section().items,n=items.indexOf(item());state.item=items[(n+delta+items.length)%items.length].id;normalize();show(false);save()}
 $('prev').onclick=()=>move(-1);$('next').onclick=()=>move(1);let touch=null;$('detail-photo').addEventListener('touchstart',e=>{touch=e.touches.length===1?{x:e.touches[0].clientX,y:e.touches[0].clientY}:null},{passive:true});$('detail-photo').addEventListener('touchend',e=>{if(!touch)return;const dx=e.changedTouches[0].clientX-touch.x,dy=e.changedTouches[0].clientY-touch.y;if(Math.abs(dx)>60&&Math.abs(dx)>Math.abs(dy)*1.5)move(dx<0?1:-1);touch=null},{passive:true});$('detail-photo').addEventListener('touchcancel',()=>touch=null,{passive:true});
 function close(){if($('detail').open)$('detail').close();state.item=null;save();if(returnFocus?.isConnected)returnFocus.focus()}
@@ -6629,7 +6633,7 @@ $('brand-favicon').href=CATALOG.brand.symbol;
 document.documentElement.style.setProperty('--accent',CATALOG.brand.accent);
 document.documentElement.style.setProperty('--ink',CATALOG.brand.ink);
 document.documentElement.style.setProperty('--paper',CATALOG.brand.background);
-$('updated').textContent=CATALOG.priceNotice||`Ціни актуальні на ${CATALOG.updated}`;$('demo').hidden=!CATALOG.demo;$('demo').textContent='ПРИКЛАД КАТАЛОГУ. Розділи, товари та ціни демонстраційні. Перелік із сайту ще не підтверджено; фото й контакти очікуються.';for(const a of document.querySelectorAll('.site-link')){a.href=`https://${CATALOG.contacts.site}`;a.textContent=CATALOG.contacts.site+' ↗'}for(const phone of [CATALOG.contacts.phone,...(CATALOG.contacts.phones||[])])if(/^\+\d{10,15}$/.test(phone)){const a=el('a','',phone);a.href='tel:'+phone;$('footer-contacts').append(a,document.createElement('br'))}read();
+$('demo').hidden=!CATALOG.demo;$('demo').textContent='ПРИКЛАД КАТАЛОГУ. Розділи, товари та ціни демонстраційні. Перелік із сайту ще не підтверджено; фото й контакти очікуються.';for(const a of document.querySelectorAll('.site-link')){a.href=`https://${CATALOG.contacts.site}`;a.textContent=CATALOG.contacts.site+' ↗'}for(const phone of [CATALOG.contacts.phone,...(CATALOG.contacts.phones||[])])if(/^\+\d{10,15}$/.test(phone)){const a=el('a','',phone);a.href='tel:'+phone;$('footer-contacts').append(a,document.createElement('br'))}read();
 </script>
 </body>
 </html>
