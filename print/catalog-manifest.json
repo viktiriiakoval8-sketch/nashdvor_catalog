@@ -1,0 +1,1208 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "kind": "cover",
+      "title": "Каталог фасадних термопанелей"
+    },
+    {
+      "page": 2,
+      "kind": "contents",
+      "title": "Зміст та позначення"
+    },
+    {
+      "page": 3,
+      "kind": "products",
+      "title": "Керамограніт"
+    },
+    {
+      "page": 4,
+      "kind": "products",
+      "title": "Керамограніт"
+    },
+    {
+      "page": 5,
+      "kind": "products",
+      "title": "Керамограніт"
+    },
+    {
+      "page": 6,
+      "kind": "products",
+      "title": "Керамограніт"
+    },
+    {
+      "page": 7,
+      "kind": "products",
+      "title": "Керамограніт"
+    },
+    {
+      "page": 8,
+      "kind": "products",
+      "title": "Керамограніт"
+    },
+    {
+      "page": 9,
+      "kind": "products",
+      "title": "Клінкер · Польща"
+    },
+    {
+      "page": 10,
+      "kind": "products",
+      "title": "Клінкер · Польща"
+    },
+    {
+      "page": 11,
+      "kind": "products",
+      "title": "Клінкер · Польща"
+    },
+    {
+      "page": 12,
+      "kind": "products",
+      "title": "Під фарбування"
+    },
+    {
+      "page": 13,
+      "kind": "products",
+      "title": "Під фарбування"
+    },
+    {
+      "page": 14,
+      "kind": "products",
+      "title": "Під фарбування"
+    },
+    {
+      "page": 15,
+      "kind": "products",
+      "title": "Під фарбування"
+    },
+    {
+      "page": 16,
+      "kind": "products",
+      "title": "Імітація клінкера"
+    },
+    {
+      "page": 17,
+      "kind": "products",
+      "title": "Імітація клінкера"
+    },
+    {
+      "page": 18,
+      "kind": "products",
+      "title": "Імітація клінкера"
+    },
+    {
+      "page": 19,
+      "kind": "products",
+      "title": "Імітація клінкера"
+    },
+    {
+      "page": 20,
+      "kind": "back",
+      "title": "Контакти"
+    }
+  ],
+  "products": [
+    {
+      "page": 3,
+      "section": "porcelain",
+      "sku": "TU-1112",
+      "name": "Керамогранітна термопанель Baker Street — бежевий",
+      "prices": {
+        "eps_50": 1200,
+        "eps_80": 1350,
+        "eps_100": 1500,
+        "eps_150": 1850,
+        "eps_200": 2050
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 3,
+      "section": "porcelain",
+      "sku": "TU-1212",
+      "name": "Керамогранітна термопанель Baker Street — світло-бежевий",
+      "prices": {
+        "eps_50": 1200,
+        "eps_80": 1350,
+        "eps_100": 1500,
+        "eps_150": 1850,
+        "eps_200": 2050
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 3,
+      "section": "porcelain",
+      "sku": "TU-2112",
+      "name": "Керамогранітна термопанель Fino — антрацитовий",
+      "prices": {
+        "eps_50": 1200,
+        "eps_80": 1350,
+        "eps_100": 1500,
+        "eps_150": 1850,
+        "eps_200": 2050
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 3,
+      "section": "porcelain",
+      "sku": "TU-2212",
+      "name": "Керамогранітна термопанель Fino — білий",
+      "prices": {
+        "eps_50": 1200,
+        "eps_80": 1350,
+        "eps_100": 1500,
+        "eps_150": 1850,
+        "eps_200": 2050
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 4,
+      "section": "porcelain",
+      "sku": "TU-2312",
+      "name": "Керамогранітна термопанель Fino — бежевий",
+      "prices": {
+        "eps_50": 1200,
+        "eps_80": 1350,
+        "eps_100": 1500,
+        "eps_150": 1850,
+        "eps_200": 2050
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 4,
+      "section": "porcelain",
+      "sku": "TU-2412",
+      "name": "Керамогранітна термопанель Fino — коричневий",
+      "prices": {
+        "eps_50": 1200,
+        "eps_80": 1350,
+        "eps_100": 1500,
+        "eps_150": 1850,
+        "eps_200": 2050
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 4,
+      "section": "porcelain",
+      "sku": "TU-2612",
+      "name": "Керамогранітна термопанель Fino — світло-бежевий",
+      "prices": {
+        "eps_50": 1200,
+        "eps_80": 1350,
+        "eps_100": 1500,
+        "eps_150": 1850,
+        "eps_200": 2050
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 4,
+      "section": "porcelain",
+      "sku": "TU-2512",
+      "name": "Керамогранітна термопанель Fino — темно-бежевий",
+      "prices": {
+        "eps_50": 1200,
+        "eps_80": 1350,
+        "eps_100": 1500,
+        "eps_150": 1850,
+        "eps_200": 2050
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 5,
+      "section": "porcelain",
+      "sku": "TU-3112",
+      "name": "Керамогранітна термопанель Klinker Brick — білий",
+      "prices": {
+        "eps_50": 1200,
+        "eps_80": 1350,
+        "eps_100": 1500,
+        "eps_150": 1850,
+        "eps_200": 2050
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 5,
+      "section": "porcelain",
+      "sku": "TU-3212",
+      "name": "Керамогранітна термопанель Klinker Brick — бежевий",
+      "prices": {
+        "eps_50": 1200,
+        "eps_80": 1350,
+        "eps_100": 1500,
+        "eps_150": 1850,
+        "eps_200": 2050
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 5,
+      "section": "porcelain",
+      "sku": "TU-3312",
+      "name": "Керамогранітна термопанель Klinker Brick — сірий",
+      "prices": {
+        "eps_50": 1200,
+        "eps_80": 1350,
+        "eps_100": 1500,
+        "eps_150": 1850,
+        "eps_200": 2050
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 5,
+      "section": "porcelain",
+      "sku": "TU-3412",
+      "name": "Керамогранітна термопанель Klinker Brick — помаранчевий",
+      "prices": {
+        "eps_50": 1200,
+        "eps_80": 1350,
+        "eps_100": 1500,
+        "eps_150": 1850,
+        "eps_200": 2050
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 6,
+      "section": "porcelain",
+      "sku": "TU-4112",
+      "name": "Керамогранітна термопанель London — бежевий",
+      "prices": {
+        "eps_50": 1200,
+        "eps_80": 1350,
+        "eps_100": 1500,
+        "eps_150": 1850,
+        "eps_200": 2050
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 6,
+      "section": "porcelain",
+      "sku": "TU-4212",
+      "name": "Керамогранітна термопанель London — димчастий",
+      "prices": {
+        "eps_50": 1200,
+        "eps_80": 1350,
+        "eps_100": 1500,
+        "eps_150": 1850,
+        "eps_200": 2050
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 6,
+      "section": "porcelain",
+      "sku": "TU-4312",
+      "name": "Керамогранітна термопанель London — кремовий",
+      "prices": {
+        "eps_50": 1200,
+        "eps_80": 1350,
+        "eps_100": 1500,
+        "eps_150": 1850,
+        "eps_200": 2050
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 6,
+      "section": "porcelain",
+      "sku": "TU-4412",
+      "name": "Керамогранітна термопанель London — антрацитовий",
+      "prices": {
+        "eps_50": 1200,
+        "eps_80": 1350,
+        "eps_100": 1500,
+        "eps_150": 1850,
+        "eps_200": 2050
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 7,
+      "section": "porcelain",
+      "sku": "TU-5112",
+      "name": "Керамогранітна термопанель Seven Tones — бежевий",
+      "prices": {
+        "eps_50": 1150,
+        "eps_80": 1350,
+        "eps_100": 1450,
+        "eps_150": 1750,
+        "eps_200": 1950
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 7,
+      "section": "porcelain",
+      "sku": "TU-5212",
+      "name": "Керамогранітна термопанель Seven Tones — сірий",
+      "prices": {
+        "eps_50": 1150,
+        "eps_80": 1350,
+        "eps_100": 1450,
+        "eps_150": 1750,
+        "eps_200": 1950
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 7,
+      "section": "porcelain",
+      "sku": "TU-5312",
+      "name": "Керамогранітна термопанель Seven Tones — тютюновий",
+      "prices": {
+        "eps_50": 1150,
+        "eps_80": 1350,
+        "eps_100": 1450,
+        "eps_150": 1750,
+        "eps_200": 1950
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 7,
+      "section": "porcelain",
+      "sku": "TU-5412",
+      "name": "Керамогранітна термопанель Seven Tones — помаранчевий",
+      "prices": {
+        "eps_50": 1150,
+        "eps_80": 1350,
+        "eps_100": 1450,
+        "eps_150": 1750,
+        "eps_200": 1950
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 8,
+      "section": "porcelain",
+      "sku": "TU-6112",
+      "name": "Керамогранітна термопанель The Strand — білий",
+      "prices": {
+        "eps_50": 1200,
+        "eps_80": 1350,
+        "eps_100": 1500,
+        "eps_150": 1850,
+        "eps_200": 1950
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 8,
+      "section": "porcelain",
+      "sku": "TU-6212",
+      "name": "Керамогранітна термопанель The Strand — чорний",
+      "prices": {
+        "eps_50": 1200,
+        "eps_80": 1350,
+        "eps_100": 1500,
+        "eps_150": 1850,
+        "eps_200": 2050
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 8,
+      "section": "porcelain",
+      "sku": "TU-7112",
+      "name": "Керамогранітна термопанель Westminster — помаранчевий",
+      "prices": {
+        "eps_50": 1200,
+        "eps_80": 1350,
+        "eps_100": 1500,
+        "eps_150": 1850,
+        "eps_200": 2050
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 9,
+      "section": "polish-clinker",
+      "sku": "TP-10101",
+      "name": "Клінкерна термопанель Loft Brick Chili — Коричневий, Червоний",
+      "prices": {
+        "eps_50": 1500,
+        "eps_80": 1690,
+        "eps_100": 1830,
+        "eps_150": 2180,
+        "eps_200": 2400
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200",
+        "mesh_0"
+      ]
+    },
+    {
+      "page": 9,
+      "section": "polish-clinker",
+      "sku": "TP-10201",
+      "name": "Клінкерна термопанель Loft Brick Masala — Бежевий",
+      "prices": {
+        "eps_50": 1500,
+        "eps_80": 1690,
+        "eps_100": 1830,
+        "eps_150": 2140,
+        "eps_200": 2400
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200",
+        "mesh_0"
+      ]
+    },
+    {
+      "page": 9,
+      "section": "polish-clinker",
+      "sku": "TP-10301",
+      "name": "Клінкерна термопанель Loft Brick Pepper — Сірий",
+      "prices": {
+        "eps_50": 1500,
+        "eps_80": 1650,
+        "eps_100": 1800,
+        "eps_150": 2100,
+        "eps_200": 2300
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200",
+        "mesh_0"
+      ]
+    },
+    {
+      "page": 10,
+      "section": "polish-clinker",
+      "sku": "TP-10401",
+      "name": "Клінкерна термопанель Loft Brick Masala — Бежевий, Коричневий",
+      "prices": {
+        "eps_50": 1500,
+        "eps_80": 1650,
+        "eps_100": 1800,
+        "eps_150": 2100,
+        "eps_200": 2300
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200",
+        "mesh_0"
+      ]
+    },
+    {
+      "page": 10,
+      "section": "polish-clinker",
+      "sku": "TP-10501",
+      "name": "Клінкерна термопанель Loft Brick Curry — Бежевий, Коричневий",
+      "prices": {
+        "eps_50": 1500,
+        "eps_80": 1650,
+        "eps_100": 1800,
+        "eps_150": 2100,
+        "eps_200": 2300
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200",
+        "mesh_0"
+      ]
+    },
+    {
+      "page": 10,
+      "section": "polish-clinker",
+      "sku": "TP-10601",
+      "name": "Клінкерна термопанель Loft Brick Cardamom — Коричневий",
+      "prices": {
+        "eps_50": 1500,
+        "eps_80": 1650,
+        "eps_100": 1800,
+        "eps_150": 2100,
+        "eps_200": 2300
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200",
+        "mesh_0"
+      ]
+    },
+    {
+      "page": 11,
+      "section": "polish-clinker",
+      "sku": "TP-10701",
+      "name": "Клінкерна термопанель Retro Brick Pepper — Сірий, Графіт",
+      "prices": {
+        "eps_50": 1500,
+        "eps_80": 1650,
+        "eps_100": 1800,
+        "eps_150": 2100,
+        "eps_200": 2300
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200",
+        "mesh_0"
+      ]
+    },
+    {
+      "page": 11,
+      "section": "polish-clinker",
+      "sku": "TP-10801",
+      "name": "Клінкерна термопанель Retro Brick Chili — Коричневий, Теракотовий",
+      "prices": {
+        "eps_50": 1500,
+        "eps_80": 1650,
+        "eps_100": 1800,
+        "eps_150": 2100,
+        "eps_200": 2300
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200",
+        "mesh_0"
+      ]
+    },
+    {
+      "page": 11,
+      "section": "polish-clinker",
+      "sku": "TP-10901",
+      "name": "Клінкерна термопанель Piatto Red — Коричневий, Помаранчевий, Червоний, Теракотовий, Цегляний",
+      "prices": {
+        "eps_50": 1500,
+        "eps_80": 1650,
+        "eps_100": 1800,
+        "eps_150": 2100,
+        "eps_200": 2300
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200",
+        "mesh_0"
+      ]
+    },
+    {
+      "page": 12,
+      "section": "paintable",
+      "sku": "TU-8110",
+      "name": "Термопанель під фарбування Травертин 500×250 мм",
+      "prices": {
+        "eps_20": 460.0
+      },
+      "combinations": [
+        "eps_20",
+        "eps_30",
+        "eps_40",
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_120",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 12,
+      "section": "paintable",
+      "sku": "TU-8210",
+      "name": "Термопанель під фарбування Руст 500×250 мм",
+      "prices": {
+        "eps_20": 460.0
+      },
+      "combinations": [
+        "eps_20",
+        "eps_30",
+        "eps_40",
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_120",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 12,
+      "section": "paintable",
+      "sku": "TU-8310",
+      "name": "Термопанель під фарбування Альпійський камінь 500×250 мм",
+      "prices": {},
+      "combinations": [
+        "eps_20",
+        "eps_30",
+        "eps_40",
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_120",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 13,
+      "section": "paintable",
+      "sku": "TU-8410",
+      "name": "Термопанель під фарбування Травертин 600×400 мм",
+      "prices": {
+        "eps_20": 440.0
+      },
+      "combinations": [
+        "eps_20",
+        "eps_30",
+        "eps_40",
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_120",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 13,
+      "section": "paintable",
+      "sku": "TU-8510",
+      "name": "Термопанель під фарбування Цегла короїд 600×400 мм",
+      "prices": {
+        "eps_20": 440.0
+      },
+      "combinations": [
+        "eps_20",
+        "eps_30",
+        "eps_40",
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_120",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 13,
+      "section": "paintable",
+      "sku": "TU-8610",
+      "name": "Термопанель під фарбування Гладка цегла 600×400 мм",
+      "prices": {
+        "eps_20": 440.0
+      },
+      "combinations": [
+        "eps_20",
+        "eps_30",
+        "eps_40",
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_120",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 14,
+      "section": "paintable",
+      "sku": "TU-8710",
+      "name": "Термопанель під фарбування Колота цегла 600×400 мм",
+      "prices": {
+        "eps_20": 440.0
+      },
+      "combinations": [
+        "eps_20",
+        "eps_30",
+        "eps_40",
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_120",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 14,
+      "section": "paintable",
+      "sku": "TU-8810",
+      "name": "Термопанель під фарбування Дранка 600×400 мм",
+      "prices": {},
+      "combinations": [
+        "eps_20",
+        "eps_30",
+        "eps_40",
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_120",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 14,
+      "section": "paintable",
+      "sku": "TU-8910",
+      "name": "Термопанель під фарбування Римська кладка 600×400 мм",
+      "prices": {
+        "eps_20": 440.0
+      },
+      "combinations": [
+        "eps_20",
+        "eps_30",
+        "eps_40",
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_120",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 15,
+      "section": "paintable",
+      "sku": "TU-9010",
+      "name": "Термопанель під фарбування Піщаник колотий 600×400 мм",
+      "prices": {},
+      "combinations": [
+        "eps_20",
+        "eps_30",
+        "eps_40",
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_120",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 15,
+      "section": "paintable",
+      "sku": "TU-9110",
+      "name": "Термопанель під фарбування Скельний камінь 600×400 мм",
+      "prices": {
+        "eps_20": 440.0
+      },
+      "combinations": [
+        "eps_20",
+        "eps_30",
+        "eps_40",
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_120",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 15,
+      "section": "paintable",
+      "sku": "TU-9210",
+      "name": "Термопанель під фарбування Гладка луганка 500×500 мм",
+      "prices": {},
+      "combinations": [
+        "eps_20",
+        "eps_30",
+        "eps_40",
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_120",
+        "eps_150",
+        "eps_200"
+      ]
+    },
+    {
+      "page": 16,
+      "section": "clinker-imitation",
+      "sku": "NASHDVOR-IMK-01-50",
+      "name": "Термопанель «Гірський каньйон» з термозамком",
+      "prices": {
+        "eps_50": 990.0
+      },
+      "combinations": [
+        "eps_50"
+      ]
+    },
+    {
+      "page": 16,
+      "section": "clinker-imitation",
+      "sku": "NASHDVOR-IMK-02-50",
+      "name": "Термопанель «Червоний теракот» з термозамком",
+      "prices": {
+        "eps_50": 990.0
+      },
+      "combinations": [
+        "eps_50"
+      ]
+    },
+    {
+      "page": 16,
+      "section": "clinker-imitation",
+      "sku": "NASHDVOR-IMK-03-50",
+      "name": "Термопанель «Ніагара» з термозамком",
+      "prices": {
+        "eps_50": 990.0
+      },
+      "combinations": [
+        "eps_50"
+      ]
+    },
+    {
+      "page": 16,
+      "section": "clinker-imitation",
+      "sku": "NASHDVOR-IMK-04-50",
+      "name": "Термопанель «Рудий теракот» з термозамком",
+      "prices": {
+        "eps_50": 990.0
+      },
+      "combinations": [
+        "eps_50"
+      ]
+    },
+    {
+      "page": 17,
+      "section": "clinker-imitation",
+      "sku": "NASHDVOR-IMK-05-50",
+      "name": "Термопанель «Піщаник» з термозамком",
+      "prices": {
+        "eps_50": 990.0
+      },
+      "combinations": [
+        "eps_50"
+      ]
+    },
+    {
+      "page": 17,
+      "section": "clinker-imitation",
+      "sku": "NASHDVOR-IMK-06-50",
+      "name": "Термопанель «Графіт» з термозамком",
+      "prices": {
+        "eps_50": 990.0
+      },
+      "combinations": [
+        "eps_50"
+      ]
+    },
+    {
+      "page": 17,
+      "section": "clinker-imitation",
+      "sku": "NASHDVOR-IMK-07-50",
+      "name": "Термопанель «Мікс каньйона» з термозамком",
+      "prices": {
+        "eps_50": 990.0
+      },
+      "combinations": [
+        "eps_50"
+      ]
+    },
+    {
+      "page": 17,
+      "section": "clinker-imitation",
+      "sku": "NASHDVOR-IMK-08-50",
+      "name": "Термопанель «Мікс графіту» з термозамком",
+      "prices": {
+        "eps_50": 990.0
+      },
+      "combinations": [
+        "eps_50"
+      ]
+    },
+    {
+      "page": 18,
+      "section": "clinker-imitation",
+      "sku": "NASHDVOR-IMK-09-50",
+      "name": "Термопанель «Білий принц» з термозамком",
+      "prices": {
+        "eps_50": 990.0
+      },
+      "combinations": [
+        "eps_50"
+      ]
+    },
+    {
+      "page": 18,
+      "section": "clinker-imitation",
+      "sku": "NASHDVOR-IMK-10-50",
+      "name": "Термопанель «Туман Ніагара» з термозамком",
+      "prices": {
+        "eps_50": 990.0
+      },
+      "combinations": [
+        "eps_50"
+      ]
+    },
+    {
+      "page": 18,
+      "section": "clinker-imitation",
+      "sku": "NASHDVOR-IMK-11-50",
+      "name": "Термопанель «Гарячий шоколад» з термозамком",
+      "prices": {
+        "eps_50": 990.0
+      },
+      "combinations": [
+        "eps_50"
+      ]
+    },
+    {
+      "page": 18,
+      "section": "clinker-imitation",
+      "sku": "NASHDVOR-IMK-12-50",
+      "name": "Термопанель «Чорний принц» з термозамком",
+      "prices": {
+        "eps_50": 990.0
+      },
+      "combinations": [
+        "eps_50"
+      ]
+    },
+    {
+      "page": 19,
+      "section": "clinker-imitation",
+      "sku": "NASHDVOR-IMK-13-50",
+      "name": "Термопанель «Марс» з термозамком",
+      "prices": {
+        "eps_50": 990.0
+      },
+      "combinations": [
+        "eps_50"
+      ]
+    },
+    {
+      "page": 19,
+      "section": "clinker-imitation",
+      "sku": "NASHDVOR-IMK-14-50",
+      "name": "Термопанель «Вогняна лава» з термозамком",
+      "prices": {
+        "eps_50": 990.0
+      },
+      "combinations": [
+        "eps_50"
+      ]
+    }
+  ],
+  "photoCounts": {
+    "embedded": 32,
+    "onlineQR": 22,
+    "missing": 4
+  },
+  "knownPrices": 182,
+  "unknownPrices": 109,
+  "bookletA3": {
+    "sides": 10,
+    "sheets": 5,
+    "order": [
+      [
+        20,
+        1
+      ],
+      [
+        2,
+        19
+      ],
+      [
+        18,
+        3
+      ],
+      [
+        4,
+        17
+      ],
+      [
+        16,
+        5
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        14,
+        7
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        12,
+        9
+      ],
+      [
+        10,
+        11
+      ]
+    ]
+  }
+}
