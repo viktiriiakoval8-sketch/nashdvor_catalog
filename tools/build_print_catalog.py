@@ -45,7 +45,7 @@ pdfmetrics.registerFontFamily('Body', normal='Body', bold='Bold', italic='Body',
 C = canvas.Canvas(str(PDF), pagesize=(W, H), pageCompression=1)
 C.setTitle('NASH DVOR — Каталог фасадних термопанелей')
 C.setAuthor('NASH DVOR · Центр благоустрою')
-C.setSubject('58 панелей, 4 розділи. Основи, товщини та ціни з одиницями виміру.')
+C.setSubject('54 панелі, 4 розділи. Основи, товщини та ціни з одиницями виміру.')
 C.setCreator('NASH DVOR print catalog builder')
 C.setViewerPreference('DisplayDocTitle', 'true')
 IMAGES = {}
@@ -221,7 +221,7 @@ for k, i in enumerate(photos):
     C.rect(M + k * (tilew + gap), 79 * MM, tilew, .8 * MM, stroke=0, fill=1)
 label('04', M, 57 * MM, 24, INK, True)
 label('РОЗДІЛИ', M, 49 * MM, 7.5, MUTED)
-label('58', M + 45 * MM, 57 * MM, 24, INK, True)
+label('54', M + 45 * MM, 57 * MM, 24, INK, True)
 label('ПАНЕЛЕЙ', M + 45 * MM, 49 * MM, 7.5, MUTED)
 para('Інформаційний каталог<br/>для вибору матеріалів фасаду.', M + 92 * MM, 62 * MM, 85 * MM, 10, MUTED)
 line(M, 38 * MM, W - M)
@@ -238,7 +238,7 @@ label('ДОВІДНИК КАТАЛОГУ', M, H - 44 * MM, 7.7, ORANGE, True)
 para('Знайдіть свій фасад.', M, H - 52 * MM, CW, 26, INK, True)
 contents = [('01', 'Керамограніт', '23 панелі · пінопласт / пінополістирол / сітка', 3, 8),
             ('02', 'Клінкер · Польща', '9 панелей · пінопласт / скловолоконна сітка', 9, 11),
-            ('03', 'Під фарбування', '12 фактур · пінопласт 20–200 мм', 12, 15),
+            ('03', 'Під фарбування', '8 фактур · пінопласт 20–200 мм', 12, 15),
             ('04', 'Імітація клінкера', '14 декорів · термозамок', 16, 19)]
 y = H - 78 * MM
 for n, title, sub, first, last in contents:
@@ -260,7 +260,7 @@ footer('ЗМІСТ / ОСНОВИ / ПОЗНАЧЕННЯ')
 page_end()
 
 # Товарные страницы: фиксированная геометрия не допускает разрыва таблиц между страницами.
-per_page = [4, 3, 3, 4]
+per_page = [4, 3, 2, 4]
 expected_pages = [(3, 8), (9, 11), (12, 15), (16, 19)]
 for si, sec in enumerate(CATALOG['sections']):
     chunk_size = per_page[si]
@@ -281,12 +281,12 @@ for si, sec in enumerate(CATALOG['sections']):
         subtitle = 'Ціни за м²' if si in [1, 2] else 'Ціни за одну панель'
         label(subtitle, M + 17 * MM, H - 51 * MM, 7.4, MUTED)
         top = H - 61 * MM
-        row_height = 49 * MM if chunk_size == 4 else 62 * MM
+        row_height = (49 if chunk_size == 4 else (62 if chunk_size == 3 else 93)) * MM
         for idx, i in enumerate(chunk):
             ytop = top - idx * row_height
             tablex = M + 49 * MM
             tablew = CW - 49 * MM
-            imageh = 36 * MM if chunk_size == 4 else 43 * MM
+            imageh = (36 if chunk_size == 4 else (43 if chunk_size == 3 else 60)) * MM
             photo(i, M, ytop - imageh, 43 * MM, imageh)
             # Короткое имя сохраняет фактуру и цвет, убирая повтор названия раздела.
             title = re.sub(r'^(Керамогранітна|Клінкерна) термопанель\s*', '', i['name'])
@@ -312,7 +312,7 @@ for si, sec in enumerate(CATALOG['sections']):
         if si == 1:
             notes = 'Скловолоконна сітка — без утеплювача. «—» — ціна не зазначена або поєднання не передбачене.'
         elif si == 2:
-            notes = 'Пінопласт М25, 11 кг/м³. Панелі постачаються під фарбування. Наявність позначених позицій уточнюйте.'
+            notes = 'Пінопласт М25, 11 кг/м³. Панелі постачаються під фарбування.'
         elif si == 3:
             notes = 'Пінополістирол 50 / 80 / 100 мм. Розмір 975×600 мм, корисна площа 0,54 м². Ціни за одну панель.'
         else:
@@ -346,8 +346,8 @@ para('Переглядайте фактури та порівнюйте варі
 footer('КОНТАКТИ')
 page_end()
 assert len(MANIFEST['pages']) == 20
-assert len(MANIFEST['products']) == 58
-assert len({p['sku'] for p in MANIFEST['products']}) == 58
+assert len(MANIFEST['products']) == 54
+assert len({p['sku'] for p in MANIFEST['products']}) == 54
 assert not any('basalt_' in v for p in MANIFEST['products'] for v in p['combinations'])
 C.save()
 MANIFEST['knownPrices'] = sum(len(p['prices']) for p in MANIFEST['products'])

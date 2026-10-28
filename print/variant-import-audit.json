@@ -2235,87 +2235,6 @@
       "visible": true
     },
     {
-      "parent": "TU-8310",
-      "sku": "TU-8310",
-      "base": "Пінопласт",
-      "mm": 20,
-      "price": 445.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
-      "parent": "TU-8310",
-      "sku": "TU-8311",
-      "base": "Пінопласт",
-      "mm": 30,
-      "price": 460.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
-      "parent": "TU-8310",
-      "sku": "TU-8312",
-      "base": "Пінопласт",
-      "mm": 50,
-      "price": 535.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
-      "parent": "TU-8310",
-      "sku": "TU-8313",
-      "base": "Пінопласт",
-      "mm": 80,
-      "price": 560.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
-      "parent": "TU-8310",
-      "sku": "TU-8314",
-      "base": "Пінопласт",
-      "mm": 100,
-      "price": 590.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
-      "parent": "TU-8310",
-      "sku": "TU-8315",
-      "base": "Пінопласт",
-      "mm": 150,
-      "price": 685.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
-      "parent": "TU-8310",
-      "sku": "TU-8316",
-      "base": "Пінопласт",
-      "mm": 200,
-      "price": 780.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
-      "parent": "TU-8310",
-      "sku": "TU-8317",
-      "base": "Пінопласт",
-      "mm": 40,
-      "price": 490.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
-      "parent": "TU-8310",
-      "sku": "TU-8318",
-      "base": "Пінопласт",
-      "mm": 120,
-      "price": 630.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
       "parent": "TU-8410",
       "sku": "TU-8410",
       "base": "Пінопласт",
@@ -2640,87 +2559,6 @@
       "visible": true
     },
     {
-      "parent": "TU-8810",
-      "sku": "TU-8810",
-      "base": "Пінопласт",
-      "mm": 20,
-      "price": 425.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
-      "parent": "TU-8810",
-      "sku": "TU-8811",
-      "base": "Пінопласт",
-      "mm": 30,
-      "price": 440.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
-      "parent": "TU-8810",
-      "sku": "TU-8812",
-      "base": "Пінопласт",
-      "mm": 50,
-      "price": 500.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
-      "parent": "TU-8810",
-      "sku": "TU-8813",
-      "base": "Пінопласт",
-      "mm": 80,
-      "price": 560.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
-      "parent": "TU-8810",
-      "sku": "TU-8814",
-      "base": "Пінопласт",
-      "mm": 100,
-      "price": 590.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
-      "parent": "TU-8810",
-      "sku": "TU-8815",
-      "base": "Пінопласт",
-      "mm": 150,
-      "price": 665.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
-      "parent": "TU-8810",
-      "sku": "TU-8816",
-      "base": "Пінопласт",
-      "mm": 200,
-      "price": 760.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
-      "parent": "TU-8810",
-      "sku": "TU-8817",
-      "base": "Пінопласт",
-      "mm": 40,
-      "price": 470.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
-      "parent": "TU-8810",
-      "sku": "TU-8818",
-      "base": "Пінопласт",
-      "mm": 120,
-      "price": 610.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
       "parent": "TU-8910",
       "sku": "TU-8910",
       "base": "Пінопласт",
@@ -2802,87 +2640,6 @@
       "visible": true
     },
     {
-      "parent": "TU-9010",
-      "sku": "TU-9010",
-      "base": "Пінопласт",
-      "mm": 20,
-      "price": 425.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
-      "parent": "TU-9010",
-      "sku": "TU-9011",
-      "base": "Пінопласт",
-      "mm": 30,
-      "price": 440.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
-      "parent": "TU-9010",
-      "sku": "TU-9012",
-      "base": "Пінопласт",
-      "mm": 50,
-      "price": 500.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
-      "parent": "TU-9010",
-      "sku": "TU-9013",
-      "base": "Пінопласт",
-      "mm": 80,
-      "price": 560.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
-      "parent": "TU-9010",
-      "sku": "TU-9014",
-      "base": "Пінопласт",
-      "mm": 100,
-      "price": 590.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
-      "parent": "TU-9010",
-      "sku": "TU-9015",
-      "base": "Пінопласт",
-      "mm": 150,
-      "price": 665.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
-      "parent": "TU-9010",
-      "sku": "TU-9016",
-      "base": "Пінопласт",
-      "mm": 200,
-      "price": 760.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
-      "parent": "TU-9010",
-      "sku": "TU-9017",
-      "base": "Пінопласт",
-      "mm": 40,
-      "price": 470.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
-      "parent": "TU-9010",
-      "sku": "TU-9018",
-      "base": "Пінопласт",
-      "mm": 120,
-      "price": 610.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
       "parent": "TU-9110",
       "sku": "TU-9110",
       "base": "Пінопласт",
@@ -2962,87 +2719,6 @@
       "price": 610.0,
       "currency": "грн/м²",
       "visible": true
-    },
-    {
-      "parent": "TU-9210",
-      "sku": "TU-9210",
-      "base": "Пінопласт",
-      "mm": 20,
-      "price": 425.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
-      "parent": "TU-9210",
-      "sku": "TU-9211",
-      "base": "Пінопласт",
-      "mm": 30,
-      "price": 440.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
-      "parent": "TU-9210",
-      "sku": "TU-9212",
-      "base": "Пінопласт",
-      "mm": 50,
-      "price": 500.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
-      "parent": "TU-9210",
-      "sku": "TU-9213",
-      "base": "Пінопласт",
-      "mm": 80,
-      "price": 560.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
-      "parent": "TU-9210",
-      "sku": "TU-9214",
-      "base": "Пінопласт",
-      "mm": 100,
-      "price": 590.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
-      "parent": "TU-9210",
-      "sku": "TU-9215",
-      "base": "Пінопласт",
-      "mm": 150,
-      "price": 665.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
-      "parent": "TU-9210",
-      "sku": "TU-9216",
-      "base": "Пінопласт",
-      "mm": 200,
-      "price": 760.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
-      "parent": "TU-9210",
-      "sku": "TU-9217",
-      "base": "Пінопласт",
-      "mm": 40,
-      "price": 470.0,
-      "currency": "грн/м²",
-      "visible": false
-    },
-    {
-      "parent": "TU-9210",
-      "sku": "TU-9218",
-      "base": "Пінопласт",
-      "mm": 120,
-      "price": 610.0,
-      "currency": "грн/м²",
-      "visible": false
     },
     {
       "parent": "NASHDVOR-IMK-01-50",
@@ -3422,5 +3098,11 @@
       "currency": "грн/панель",
       "visible": true
     }
+  ],
+  "excludedNoPhotoParents": [
+    "TU-8310",
+    "TU-8810",
+    "TU-9010",
+    "TU-9210"
   ]
 }
