@@ -1211,9 +1211,9 @@
       "sku": "NASHDVOR-IMK-01-50",
       "name": "Термопанель «Гірський каньйон» з термозамком",
       "prices": {
-        "polystyrene_100": 540.0,
-        "polystyrene_50": 491.4,
-        "polystyrene_80": 515.7
+        "polystyrene_100": 1100,
+        "polystyrene_50": 990,
+        "polystyrene_80": 1060
       },
       "combinations": [
         "polystyrene_100",
@@ -1227,9 +1227,9 @@
       "sku": "NASHDVOR-IMK-02-50",
       "name": "Термопанель «Червоний теракот» з термозамком",
       "prices": {
-        "polystyrene_100": 540.0,
-        "polystyrene_50": 491.4,
-        "polystyrene_80": 515.7
+        "polystyrene_100": 1100,
+        "polystyrene_50": 990,
+        "polystyrene_80": 1060
       },
       "combinations": [
         "polystyrene_100",
@@ -1243,9 +1243,9 @@
       "sku": "NASHDVOR-IMK-03-50",
       "name": "Термопанель «Ніагара» з термозамком",
       "prices": {
-        "polystyrene_100": 540.0,
-        "polystyrene_50": 491.4,
-        "polystyrene_80": 515.7
+        "polystyrene_100": 1100,
+        "polystyrene_50": 990,
+        "polystyrene_80": 1060
       },
       "combinations": [
         "polystyrene_100",
@@ -1259,9 +1259,9 @@
       "sku": "NASHDVOR-IMK-04-50",
       "name": "Термопанель «Рудий теракот» з термозамком",
       "prices": {
-        "polystyrene_100": 540.0,
-        "polystyrene_50": 491.4,
-        "polystyrene_80": 515.7
+        "polystyrene_100": 1100,
+        "polystyrene_50": 990,
+        "polystyrene_80": 1060
       },
       "combinations": [
         "polystyrene_100",
@@ -1275,9 +1275,9 @@
       "sku": "NASHDVOR-IMK-05-50",
       "name": "Термопанель «Піщаник» з термозамком",
       "prices": {
-        "polystyrene_100": 540.0,
-        "polystyrene_50": 491.4,
-        "polystyrene_80": 515.7
+        "polystyrene_100": 1100,
+        "polystyrene_50": 990,
+        "polystyrene_80": 1060
       },
       "combinations": [
         "polystyrene_100",
@@ -1291,9 +1291,9 @@
       "sku": "NASHDVOR-IMK-06-50",
       "name": "Термопанель «Графіт» з термозамком",
       "prices": {
-        "polystyrene_100": 540.0,
-        "polystyrene_50": 491.4,
-        "polystyrene_80": 515.7
+        "polystyrene_100": 1100,
+        "polystyrene_50": 990,
+        "polystyrene_80": 1060
       },
       "combinations": [
         "polystyrene_100",
@@ -1307,9 +1307,9 @@
       "sku": "NASHDVOR-IMK-07-50",
       "name": "Термопанель «Мікс каньйона» з термозамком",
       "prices": {
-        "polystyrene_100": 540.0,
-        "polystyrene_50": 491.4,
-        "polystyrene_80": 515.7
+        "polystyrene_100": 1100,
+        "polystyrene_50": 990,
+        "polystyrene_80": 1060
       },
       "combinations": [
         "polystyrene_100",
@@ -1323,9 +1323,9 @@
       "sku": "NASHDVOR-IMK-08-50",
       "name": "Термопанель «Мікс графіту» з термозамком",
       "prices": {
-        "polystyrene_100": 540.0,
-        "polystyrene_50": 491.4,
-        "polystyrene_80": 515.7
+        "polystyrene_100": 1100,
+        "polystyrene_50": 990,
+        "polystyrene_80": 1060
       },
       "combinations": [
         "polystyrene_100",
@@ -1339,9 +1339,9 @@
       "sku": "NASHDVOR-IMK-09-50",
       "name": "Термопанель «Білий принц» з термозамком",
       "prices": {
-        "polystyrene_100": 540.0,
-        "polystyrene_50": 491.4,
-        "polystyrene_80": 515.7
+        "polystyrene_100": 1100,
+        "polystyrene_50": 990,
+        "polystyrene_80": 1060
       },
       "combinations": [
         "polystyrene_100",
@@ -1355,9 +1355,9 @@
       "sku": "NASHDVOR-IMK-10-50",
       "name": "Термопанель «Туман Ніагара» з термозамком",
       "prices": {
-        "polystyrene_100": 540.0,
-        "polystyrene_50": 491.4,
-        "polystyrene_80": 515.7
+        "polystyrene_100": 1100,
+        "polystyrene_50": 990,
+        "polystyrene_80": 1060
       },
       "combinations": [
         "polystyrene_100",
@@ -1371,9 +1371,9 @@
       "sku": "NASHDVOR-IMK-11-50",
       "name": "Термопанель «Гарячий шоколад» з термозамком",
       "prices": {
-        "polystyrene_100": 540.0,
-        "polystyrene_50": 491.4,
-        "polystyrene_80": 515.7
+        "polystyrene_100": 1100,
+        "polystyrene_50": 990,
+        "polystyrene_80": 1060
       },
       "combinations": [
         "polystyrene_100",
@@ -1387,9 +1387,9 @@
       "sku": "NASHDVOR-IMK-12-50",
       "name": "Термопанель «Чорний принц» з термозамком",
       "prices": {
-        "polystyrene_100": 540.0,
-        "polystyrene_50": 491.4,
-        "polystyrene_80": 515.7
+        "polystyrene_100": 1100,
+        "polystyrene_50": 990,
+        "polystyrene_80": 1060
       },
       "combinations": [
         "polystyrene_100",
@@ -1403,9 +1403,9 @@
       "sku": "NASHDVOR-IMK-13-50",
       "name": "Термопанель «Марс» з термозамком",
       "prices": {
-        "polystyrene_100": 540.0,
-        "polystyrene_50": 491.4,
-        "polystyrene_80": 515.7
+        "polystyrene_100": 1100,
+        "polystyrene_50": 990,
+        "polystyrene_80": 1060
       },
       "combinations": [
         "polystyrene_100",
@@ -1419,9 +1419,9 @@
       "sku": "NASHDVOR-IMK-14-50",
       "name": "Термопанель «Вогняна лава» з термозамком",
       "prices": {
-        "polystyrene_100": 540.0,
-        "polystyrene_50": 491.4,
-        "polystyrene_80": 515.7
+        "polystyrene_100": 1100,
+        "polystyrene_50": 990,
+        "polystyrene_80": 1060
       },
       "combinations": [
         "polystyrene_100",
