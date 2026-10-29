@@ -106,36 +106,6 @@
       "page": 3,
       "section": "porcelain",
       "sku": "TU-1112",
-      "name": "Керамогранітна термопанель Baker Street — Коричневий",
-      "prices": {
-        "eps_50": 677.0,
-        "eps_80": 761.0,
-        "eps_100": 846.0,
-        "eps_150": 1043.0,
-        "eps_200": 1156.0,
-        "polystyrene_30": 790.0,
-        "polystyrene_50": 1015.0,
-        "polystyrene_80": 1314.0,
-        "polystyrene_100": 1720.0,
-        "mesh_0": 553.0
-      },
-      "combinations": [
-        "eps_50",
-        "eps_80",
-        "eps_100",
-        "eps_150",
-        "eps_200",
-        "polystyrene_30",
-        "polystyrene_50",
-        "polystyrene_80",
-        "polystyrene_100",
-        "mesh_0"
-      ]
-    },
-    {
-      "page": 3,
-      "section": "porcelain",
-      "sku": "TU-1212",
       "name": "Керамогранітна термопанель Baker Street — Бежевий",
       "prices": {
         "eps_50": 677.0,
@@ -165,8 +135,38 @@
     {
       "page": 3,
       "section": "porcelain",
+      "sku": "TU-1212",
+      "name": "Керамогранітна термопанель Baker Street — Світло-бежевий",
+      "prices": {
+        "eps_50": 677.0,
+        "eps_80": 761.0,
+        "eps_100": 846.0,
+        "eps_150": 1043.0,
+        "eps_200": 1156.0,
+        "polystyrene_30": 790.0,
+        "polystyrene_50": 1015.0,
+        "polystyrene_80": 1314.0,
+        "polystyrene_100": 1720.0,
+        "mesh_0": 553.0
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200",
+        "polystyrene_30",
+        "polystyrene_50",
+        "polystyrene_80",
+        "polystyrene_100",
+        "mesh_0"
+      ]
+    },
+    {
+      "page": 3,
+      "section": "porcelain",
       "sku": "TU-2112",
-      "name": "Керамогранітна термопанель Fino — Темно-синій",
+      "name": "Керамогранітна термопанель Fino — Антрацитовий",
       "prices": {
         "eps_50": 677.0,
         "eps_80": 761.0,
@@ -226,7 +226,7 @@
       "page": 4,
       "section": "porcelain",
       "sku": "TU-2312",
-      "name": "Керамогранітна термопанель Fino — Коричневий",
+      "name": "Керамогранітна термопанель Fino — Бежевий",
       "prices": {
         "eps_50": 677.0,
         "eps_80": 761.0,
@@ -256,7 +256,7 @@
       "page": 4,
       "section": "porcelain",
       "sku": "TU-2412",
-      "name": "Керамогранітна термопанель Fino — Чорний",
+      "name": "Керамогранітна термопанель Fino — Коричневий",
       "prices": {
         "eps_50": 677.0,
         "eps_80": 761.0,
@@ -316,7 +316,7 @@
       "page": 4,
       "section": "porcelain",
       "sku": "TU-2512",
-      "name": "Керамогранітна термопанель Fino — Бежевий",
+      "name": "Керамогранітна термопанель Fino — Темно-бежевий",
       "prices": {
         "eps_50": 677.0,
         "eps_80": 761.0,
@@ -376,7 +376,7 @@
       "page": 5,
       "section": "porcelain",
       "sku": "TU-3212",
-      "name": "Керамогранітна термопанель Klinker Brick — Коричневий №1",
+      "name": "Керамогранітна термопанель Klinker Brick — Бежевий",
       "prices": {
         "eps_50": 677.0,
         "eps_80": 761.0,
@@ -436,7 +436,7 @@
       "page": 5,
       "section": "porcelain",
       "sku": "TU-3412",
-      "name": "Керамогранітна термопанель Klinker Brick — Коричневий №2",
+      "name": "Керамогранітна термопанель Klinker Brick — Помаранчевий",
       "prices": {
         "eps_50": 677.0,
         "eps_80": 761.0,
@@ -466,66 +466,6 @@
       "page": 6,
       "section": "porcelain",
       "sku": "TU-4112",
-      "name": "Керамогранітна термопанель London — Коричневий",
-      "prices": {
-        "eps_50": 677.0,
-        "eps_80": 761.0,
-        "eps_100": 846.0,
-        "eps_150": 1043.0,
-        "eps_200": 1156.0,
-        "polystyrene_30": 790.0,
-        "polystyrene_50": 1015.0,
-        "polystyrene_80": 1314.0,
-        "polystyrene_100": 1720.0,
-        "mesh_0": 553.0
-      },
-      "combinations": [
-        "eps_50",
-        "eps_80",
-        "eps_100",
-        "eps_150",
-        "eps_200",
-        "polystyrene_30",
-        "polystyrene_50",
-        "polystyrene_80",
-        "polystyrene_100",
-        "mesh_0"
-      ]
-    },
-    {
-      "page": 6,
-      "section": "porcelain",
-      "sku": "TU-4212",
-      "name": "Керамогранітна термопанель London — Білий",
-      "prices": {
-        "eps_50": 677.0,
-        "eps_80": 761.0,
-        "eps_100": 846.0,
-        "eps_150": 1043.0,
-        "eps_200": 1156.0,
-        "polystyrene_30": 790.0,
-        "polystyrene_50": 1015.0,
-        "polystyrene_80": 1314.0,
-        "polystyrene_100": 1720.0,
-        "mesh_0": 553.0
-      },
-      "combinations": [
-        "eps_50",
-        "eps_80",
-        "eps_100",
-        "eps_150",
-        "eps_200",
-        "polystyrene_30",
-        "polystyrene_50",
-        "polystyrene_80",
-        "polystyrene_100",
-        "mesh_0"
-      ]
-    },
-    {
-      "page": 6,
-      "section": "porcelain",
-      "sku": "TU-4312",
       "name": "Керамогранітна термопанель London — Бежевий",
       "prices": {
         "eps_50": 677.0,
@@ -555,8 +495,68 @@
     {
       "page": 6,
       "section": "porcelain",
+      "sku": "TU-4212",
+      "name": "Керамогранітна термопанель London — Димчастий",
+      "prices": {
+        "eps_50": 677.0,
+        "eps_80": 761.0,
+        "eps_100": 846.0,
+        "eps_150": 1043.0,
+        "eps_200": 1156.0,
+        "polystyrene_30": 790.0,
+        "polystyrene_50": 1015.0,
+        "polystyrene_80": 1314.0,
+        "polystyrene_100": 1720.0,
+        "mesh_0": 553.0
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200",
+        "polystyrene_30",
+        "polystyrene_50",
+        "polystyrene_80",
+        "polystyrene_100",
+        "mesh_0"
+      ]
+    },
+    {
+      "page": 6,
+      "section": "porcelain",
+      "sku": "TU-4312",
+      "name": "Керамогранітна термопанель London — Кремовий",
+      "prices": {
+        "eps_50": 677.0,
+        "eps_80": 761.0,
+        "eps_100": 846.0,
+        "eps_150": 1043.0,
+        "eps_200": 1156.0,
+        "polystyrene_30": 790.0,
+        "polystyrene_50": 1015.0,
+        "polystyrene_80": 1314.0,
+        "polystyrene_100": 1720.0,
+        "mesh_0": 553.0
+      },
+      "combinations": [
+        "eps_50",
+        "eps_80",
+        "eps_100",
+        "eps_150",
+        "eps_200",
+        "polystyrene_30",
+        "polystyrene_50",
+        "polystyrene_80",
+        "polystyrene_100",
+        "mesh_0"
+      ]
+    },
+    {
+      "page": 6,
+      "section": "porcelain",
       "sku": "TU-4412",
-      "name": "Керамогранітна термопанель London — Сірий",
+      "name": "Керамогранітна термопанель London — Антрацитовий",
       "prices": {
         "eps_50": 677.0,
         "eps_80": 761.0,
@@ -646,7 +646,7 @@
       "page": 7,
       "section": "porcelain",
       "sku": "TU-5312",
-      "name": "Керамогранітна термопанель Seven Tones — Коричневий №1",
+      "name": "Керамогранітна термопанель Seven Tones — Тютюновий",
       "prices": {
         "eps_50": 677.0,
         "eps_80": 761.0,
@@ -676,7 +676,7 @@
       "page": 7,
       "section": "porcelain",
       "sku": "TU-5412",
-      "name": "Керамогранітна термопанель Seven Tones — Коричневий №2",
+      "name": "Керамогранітна термопанель Seven Tones — Помаранчевий",
       "prices": {
         "eps_50": 677.0,
         "eps_80": 761.0,
@@ -766,7 +766,7 @@
       "page": 8,
       "section": "porcelain",
       "sku": "TU-7112",
-      "name": "Керамогранітна термопанель Westminster — Коричневий",
+      "name": "Керамогранітна термопанель Westminster — Помаранчевий",
       "prices": {
         "eps_50": 677.0,
         "eps_80": 761.0,
@@ -1431,8 +1431,8 @@
     }
   ],
   "photoCounts": {
-    "embedded": 32,
-    "onlineQR": 22,
+    "embedded": 54,
+    "onlineQR": 0,
     "missing": 0
   },
   "knownPrices": 389,

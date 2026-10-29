@@ -5,7 +5,7 @@
 PNG не изменяются: прозрачные поля ограничиваются только при размещении в PDF.
 """
 from pathlib import Path
-import base64, io, json, math, re
+import base64, io, json, math, re, argparse, hashlib
 from html import escape
 from reportlab.pdfgen import canvas
 from reportlab.lib import colors
@@ -23,6 +23,24 @@ text = (ROOT / 'index.html').read_text()
 start = text.index('const CATALOG = ') + len('const CATALOG = ')
 end = text.index(';\nconst $=', start)
 CATALOG = json.loads(text[start:end])
+parser = argparse.ArgumentParser(description='Сборка печатного каталога NASH DVOR')
+parser.add_argument('--photo-cache', type=Path, help='Каталог проверенных фото с manifest.json')
+args = parser.parse_args()
+PHOTO_CACHE = {}
+if args.photo_cache:
+    cache_root = args.photo_cache.resolve()
+    cache_manifest = json.loads((cache_root / 'manifest.json').read_text())
+    for record in cache_manifest['files']:
+        source_url = record.get('sourceUrl', '')
+        if not source_url.startswith('https://'):
+            continue
+        image_path = (cache_root / record['file']).resolve()
+        if not image_path.is_relative_to(cache_root):
+            raise ValueError('Путь фотографии вне каталога кэша')
+        if hashlib.sha256(image_path.read_bytes()).hexdigest() != record['sha256']:
+            raise ValueError(f'Контрольная сумма не совпадает: {image_path.name}')
+        PHOTO_CACHE[source_url] = image_path
+
 OUT = ROOT / 'print'
 OUT.mkdir(exist_ok=True)
 PDF = OUT / 'nash-dvor-catalog.pdf'
@@ -87,7 +105,7 @@ def line(x1, y, x2, color=LINE, width=.55):
 
 def image_reader(data):
     if data not in IMAGES:
-        IMAGES[data] = ImageReader(io.BytesIO(base64.b64decode(data.split(',', 1)[1])))
+        IMAGES[data] = ImageReader(io.BytesIO(base64.b64decode(data.split(',', 1)[1]))) if data.startswith('data:') else ImageReader(str(PHOTO_CACHE[data]))
     return IMAGES[data]
 
 
@@ -149,7 +167,7 @@ def photo(i, x, y, w, h):
     rgb(PAPER)
     C.roundRect(x, y, w, h, 2 * MM, fill=1, stroke=0)
     src = i.get('image', '')
-    if src.startswith('data:image/'):
+    if src.startswith('data:image/') or src in PHOTO_CACHE:
         im = image_reader(src)
         C.drawImage(im, x, y, w, h, preserveAspectRatio=True, anchor='c', mask='auto')
         MANIFEST['photoCounts']['embedded'] += 1
@@ -254,8 +272,8 @@ para('<b>Одиниці цін зазначені в кожному розділ
      '<b>«—»</b> — ціна не зазначена або поєднання основи й товщини не передбачене.', M, 88 * MM, CW, 9)
 para('Керамограніт: одна панель покриває 0,564 м². Імітація клінкера: корисна площа панелі — 0,54 м². '
      'Для зручного порівняння звертайте увагу на одиниці виміру над таблицями.', M, 65 * MM, CW, 8.3, MUTED)
-para('QR-код у полі фотографії відкриває картку товару на сайті: перегляньте фактуру та деталі онлайн. '
-     'Контакти — на сторінці 20.', M, 43 * MM, CW, 8.3, MUTED)
+para('Артикул панелі — код NASH DVOR. Артикул плитки, якщо він є у прайсі, наведено поруч. '
+     'Контакти та QR-код онлайн-каталогу — на сторінці 20.', M, 43 * MM, CW, 8.3, MUTED)
 footer('ЗМІСТ / ОСНОВИ / ПОЗНАЧЕННЯ')
 page_end()
 
@@ -294,7 +312,7 @@ for si, sec in enumerate(CATALOG['sections']):
             title = re.sub(r'^Термопанель\s*', '', title)
             title = title.replace(' з термозамком', '')
             titleheight = para(escape(title), tablex, ytop + .5 * MM, tablew, 10.3, INK, True, leading=13, maxh=11 * MM)
-            label('АРТИКУЛ  ' + i['sku'], tablex, ytop - titleheight - 3.5 * MM, 6.5, MUTED)
+            label('АРТИКУЛ ПАНЕЛІ  ' + i['sku'] + ('  ·  ПЛИТКИ  ' + i['manufacturerSku'] if i.get('manufacturerSku') else ''), tablex, ytop - titleheight - 3.5 * MM, 6.5, MUTED)
             C.linkURL(i['source'], (tablex, ytop - titleheight - 5 * MM, tablex + tablew, ytop + 2 * MM), relative=0)
             tabtop = ytop - 18 * MM
             th = price_table(i, tablex, tabtop, tablew)
