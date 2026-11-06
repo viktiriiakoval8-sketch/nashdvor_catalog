@@ -36,6 +36,7 @@ window.Facade = (() => {
     <label class="lead-consent"><input type="checkbox" name="Згода на обробку даних" value="Так" required><span>Погоджуюся на обробку фото й контактних даних для підготовки візуалізації та зв’язку щодо заявки. Дані надсилаються команді NASH DVOR через сервіс FormSubmit. Фото не публікуються.</span></label>
     <p id="lead-status" class="lead-status" role="status" aria-live="polite"></p>
     <button class="primary" type="submit" id="lead-submit">Надіслати фото та заявку →</button>
+    <p class="lead-help">Якщо форма не надсилається, <a id="lead-email" href="mailto:nash.dvor.office@gmail.com">надішліть заявку зі своєї пошти</a> та додайте фото до листа.</p>
     <p class="lead-help">Візуалізацію готує наша команда вручну. Після надсилання менеджер зв’яжеться з вами та узгодить деталі. Без оплати на цьому кроці.</p>
   </form></div>`;
   document.body.append(dialog);
@@ -52,6 +53,8 @@ window.Facade = (() => {
       return [p.name, 'Артикул: ' + (p.variantSkus?.[key] || p.sku), p.bases.find(b => b.id === v.base)?.name, p.thicknesses.find(t => t.mm === v.mm)?.label, Number.isFinite(price) ? `${price} ${p.currency}` : 'Без опублікованої ціни', p.source].filter(Boolean).join(' · ');
     }).join('\n\n');
     get('source').value = location.href;
+    const body = ['Заявка на візуалізацію фасаду NASH DVOR', ...['Ім’я', 'Телефон', 'Населений пункт', 'Площа фасаду, м²', 'Спосіб зв’язку', 'Побажання'].map(name => name + ': ' + form.elements.namedItem(name).value), '', get('selection').value, '', 'Сторінка: ' + location.href, '', 'Додайте фото фасаду до цього листа.'].join('\n');
+    get('email').href = 'mailto:nash.dvor.office@gmail.com?subject=' + encodeURIComponent('NASH DVOR — заявка на візуалізацію') + '&body=' + encodeURIComponent(body);
   }
   function render() {
     get('choices').replaceChildren(); get('variants').replaceChildren();
@@ -83,6 +86,7 @@ window.Facade = (() => {
     if (!/\.(jpe?g|png|heic|heif)$/i.test(file.name)) { input.value = ''; input.setCustomValidity('Потрібне фото у форматі JPG, PNG або HEIC.'); input.reportValidity(); return; }
     if (!/\.hei[cf]$/i.test(file.name)) { previewURL = URL.createObjectURL(file); get('preview').src = previewURL; get('preview').hidden = false; }
   };
+  form.addEventListener('input', serialize);
   form.addEventListener('submit', event => {
     if (!selected.size) { event.preventDefault(); get('status').textContent = 'Оберіть хоча б одну термопанель.'; return; }
     serialize();
