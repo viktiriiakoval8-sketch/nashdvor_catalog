@@ -11855,6 +11855,6 @@ document.documentElement.style.setProperty('--ink',CATALOG.brand.ink);
 document.documentElement.style.setProperty('--paper',CATALOG.brand.background);
 $('demo').hidden=!CATALOG.demo;$('demo').textContent='ПРИКЛАД КАТАЛОГУ. Розділи, товари та ціни демонстраційні. Перелік із сайту ще не підтверджено; фото й контакти очікуються.';for(const a of document.querySelectorAll('.site-link')){a.href=`https://${CATALOG.contacts.site}`;a.textContent=CATALOG.contacts.site+' ↗'}for(const phone of [CATALOG.contacts.phone,...(CATALOG.contacts.phones||[])])if(/^\+\d{10,15}$/.test(phone)){const a=el('a','',phone);a.href='tel:'+phone;$('footer-contacts').append(a,document.createElement('br'))}read();
 </script>
-<script src="/facade/lead.js?v=lead-mvp-1"></script>
+<script src="/facade/lead.js?v=manual-20261106-2"></script>
 </body>
 </html>
