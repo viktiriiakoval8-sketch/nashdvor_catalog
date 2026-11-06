@@ -36,7 +36,7 @@ window.NashDvorGoogleMail = {
       sending = true; submit.disabled = true;
       status.textContent = 'Готуємо фото до надсилання…';
       try {
-        const data = {id:requestId, name:field('Ім’я'), phone:field('Телефон'), city:field('Населений пункт'), area:field('Площа фасаду, м²'), contact:field('Спосіб зв’язку'), note:field('Побажання'), selection, source:location.href, consent:form.elements.namedItem('Згода на обробку даних').checked, website:field('_honey'), photo:{base64:await readPhoto(file)}};
+        const data = {id:requestId, name:field('Ім’я'), email:field('Email'), phone:field('Телефон'), city:field('Населений пункт'), area:field('Площа фасаду, м²'), contact:field('Спосіб зв’язку'), note:field('Побажання'), selection, source:location.href, consent:form.elements.namedItem('Згода на обробку даних').checked, website:field('_honey'), photo:{base64:await readPhoto(file)}};
         const post = document.createElement('form'); post.method = 'POST'; post.action = endpoint; post.target = target; post.enctype = 'application/x-www-form-urlencoded'; post.hidden = true;
         const payload = document.createElement('input'); payload.type = 'hidden'; payload.name = 'payload'; payload.value = JSON.stringify(data); post.append(payload); document.body.append(post); post.submit(); post.remove();
         status.textContent = 'Перевірте результат надсилання у новій вкладці. Цю форму залишено відкритою разом із фото та контактами.';

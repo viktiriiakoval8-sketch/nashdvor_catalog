@@ -1,6 +1,6 @@
 'use strict';
 window.Facade = (() => {
-  const sections = new Set(['porcelain', 'polish-clinker', 'clinker-imitation']);
+  const sections = new Set(['porcelain', 'polish-clinker']);
   const panels = CATALOG.sections.filter(s => sections.has(s.id)).flatMap(s => s.items);
   const dialog = document.createElement('dialog');
   dialog.className = 'lead-dialog';
@@ -24,9 +24,10 @@ window.Facade = (() => {
       <fieldset><legend>03 / Як із вами зв’язатися</legend><div class="lead-fields">
         <label>Ім’я<input name="Ім’я" autocomplete="given-name" minlength="2" maxlength="100" required></label>
         <label>Телефон<input name="Телефон" type="tel" inputmode="tel" autocomplete="tel" placeholder="+380…" minlength="9" maxlength="24" required></label>
+        <label class="lead-wide">Email для зворотного зв’язку<input name="Email" type="email" autocomplete="email" maxlength="254" placeholder="you@example.com" required></label>
         <label class="lead-wide">Населений пункт<input name="Населений пункт" autocomplete="address-level2" minlength="2" maxlength="120" required></label>
         <label>Площа фасаду, м²<input name="Площа фасаду, м²" type="number" inputmode="decimal" min="1" max="100000" step="0.01" placeholder="Якщо відома"></label>
-        <label>Зручний зв’язок<select name="Спосіб зв’язку"><option>Телефон</option><option>Viber</option><option>Telegram</option></select></label>
+        <label>Зручний зв’язок<select name="Спосіб зв’язку"><option>Email</option><option>Телефон</option><option>Viber</option><option>Telegram</option></select></label>
         <label class="lead-wide">Побажання<textarea name="Побажання" rows="3" maxlength="3000" placeholder="Наприклад, колір, частина фасаду або питання до менеджера"></textarea></label>
       </div></fieldset>
     </div></div>
@@ -50,7 +51,7 @@ window.Facade = (() => {
       return [p.name, 'Артикул: ' + (p.variantSkus?.[key] || p.sku), p.bases.find(b => b.id === v.base)?.name, p.thicknesses.find(t => t.mm === v.mm)?.label, Number.isFinite(price) ? `${price} ${p.currency}` : 'Без опублікованої ціни', p.source].filter(Boolean).join(' · ');
     }).join('\n\n');
     get('source').value = location.href;
-    const body = ['Заявка на візуалізацію фасаду NASH DVOR', ...['Ім’я', 'Телефон', 'Населений пункт', 'Площа фасаду, м²', 'Спосіб зв’язку', 'Побажання'].map(name => name + ': ' + form.elements.namedItem(name).value), '', get('selection').value, '', 'Сторінка: ' + location.href, '', 'Додайте фото фасаду до цього листа.'].join('\n');
+    const body = ['Заявка на візуалізацію фасаду NASH DVOR', ...['Ім’я', 'Email', 'Телефон', 'Населений пункт', 'Площа фасаду, м²', 'Спосіб зв’язку', 'Побажання'].map(name => name + ': ' + form.elements.namedItem(name).value), '', get('selection').value, '', 'Сторінка: ' + location.href, '', 'Додайте фото фасаду до цього листа.'].join('\n');
     get('email').href = 'mailto:nash.dvor.office@gmail.com?subject=' + encodeURIComponent('NASH DVOR — заявка на візуалізацію') + '&body=' + encodeURIComponent(body);
   }
   function render() {

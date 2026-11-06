@@ -35,6 +35,8 @@ function validateLead(raw) {
   const id = leadText(raw.id, 64, 'номер заявки', true);
   if (!/^[a-zA-Z0-9-]{16,64}$/.test(id)) throw new Error('Не вдалося перевірити номер заявки. Оновіть сторінку.');
   const name = leadText(raw.name, 100, 'Ім’я', true);
+  const email = leadText(raw.email, 254, 'Email', true);
+  if (!/^[^\s@<>]+@[^\s@<>]+\.[^\s@<>]+$/.test(email)) throw new Error('Перевірте адресу електронної пошти.');
   const phone = leadText(raw.phone, 24, 'Телефон', true);
   const digits = phone.replace(/\D/g, '');
   if (!/^[+\d\s().-]+$/.test(phone) || digits.length < 9 || digits.length > 15) throw new Error('Перевірте номер телефону.');
@@ -47,7 +49,7 @@ function validateLead(raw) {
   if (raw.consent !== true) throw new Error('Підтвердьте згоду на обробку фото та контактів.');
   const area = raw.area === '' || raw.area === undefined ? null : Number(raw.area);
   if (area !== null && (!Number.isFinite(area) || area < 1 || area > 100000)) throw new Error('Перевірте площу фасаду.');
-  return {id:id, name:name, phone:phone, city:city, area:area, note:note, contact:contact, source:source, selection:selection, photo:leadPhoto(raw.photo)};
+  return {id:id, name:name, email:email, phone:phone, city:city, area:area, note:note, contact:contact, source:source, selection:selection, photo:leadPhoto(raw.photo)};
 }
 
 function deliverLead(raw) {
@@ -63,14 +65,14 @@ function deliverLead(raw) {
     if (count >= 5) throw new Error('Забагато заявок одночасно. Спробуйте за хвилину.');
     const body = [
       'Нова заявка на ручну візуалізацію фасаду NASH DVOR',
-      'Номер: ' + lead.id, 'Ім’я: ' + lead.name, 'Телефон: ' + lead.phone,
+      'Номер: ' + lead.id, 'Ім’я: ' + lead.name, 'Email: ' + lead.email, 'Телефон: ' + lead.phone,
       'Населений пункт: ' + lead.city, 'Зручний зв’язок: ' + lead.contact,
       'Площа, м²: ' + (lead.area === null ? 'Не вказана' : lead.area),
       '', 'Обрані панелі:', lead.selection, '', 'Побажання:', lead.note,
       '', 'Сторінка каталогу: ' + lead.source, 'Згода на обробку даних: так',
       '', 'Фото фасаду прикріплене до листа. Обробка заявки — вручну.'
     ].join('\n');
-    MailApp.sendEmail({to: LEAD_RECIPIENT, subject: 'NASH DVOR — візуалізація фасаду [' + lead.id + ']', body: body, attachments: [lead.photo], name: 'NASH DVOR — каталог'});
+    MailApp.sendEmail({to: LEAD_RECIPIENT, replyTo: lead.email, subject: 'NASH DVOR — візуалізація фасаду [' + lead.id + ']', body: body, attachments: [lead.photo], name: 'NASH DVOR — каталог'});
     cache.put('sent:' + lead.id, '1', 21600);
     cache.put(minute, String(count + 1), 120);
     return lead.id;
