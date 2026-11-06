@@ -2,6 +2,7 @@
 window.Facade = (() => {
   const sections = new Set(['porcelain', 'polish-clinker']);
   const panels = CATALOG.sections.filter(s => sections.has(s.id)).flatMap(s => s.items);
+  const allItems = CATALOG.sections.flatMap(s => s.items);
   const dialog = document.createElement('dialog');
   dialog.className = 'lead-dialog';
   dialog.setAttribute('aria-labelledby', 'lead-title');
@@ -12,7 +13,7 @@ window.Facade = (() => {
     <input type="text" name="_honey" tabindex="-1" autocomplete="off" class="lead-trap" aria-hidden="true">
     <input type="hidden" name="Обрані панелі" id="lead-selection">
     <input type="hidden" name="Сторінка каталогу" id="lead-source">
-    <div class="lead-layout"><div>
+    <div class="lead-layout"><div id="lead-visual-options">
       <label class="lead-upload"><span class="label">01 / ФОТО БУДИНКУ</span><strong>Оберіть фото фасаду</strong>
         <input type="file" name="attachment" id="lead-photo" accept="image/jpeg,image/png,image/heic,image/heif,.jpg,.jpeg,.png,.heic,.heif" required aria-label="Фото фасаду">
         <span class="lead-help">JPG, PNG або HEIC · до 10 МБ</span><img id="lead-preview" alt="Ваше фото фасаду" hidden>
@@ -45,17 +46,20 @@ window.Facade = (() => {
   const pairs = p => p.bases.flatMap(b => p.thicknesses.filter(t => (p.combinations || Object.keys(p.price)).includes(`${b.id}_${t.mm}`)).map(t => ({base: b.id, mm: t.mm})));
   function serialize() {
     get('selection').value = [...selected].map(([id, v]) => {
-      const p = panels.find(p => p.id === id);
+      const p = allItems.find(p => p.id === id);
       const key = `${v.base}_${v.mm}`;
       const price = p.price[key];
       return [p.name, 'Артикул: ' + (p.variantSkus?.[key] || p.sku), p.bases.find(b => b.id === v.base)?.name, p.thicknesses.find(t => t.mm === v.mm)?.label, Number.isFinite(price) ? `${price} ${p.currency}` : 'Без опублікованої ціни', p.source].filter(Boolean).join(' · ');
     }).join('\n\n');
     get('source').value = location.href;
-    const body = ['Заявка на візуалізацію фасаду NASH DVOR', ...['Ім’я', 'Email', 'Телефон', 'Населений пункт', 'Площа фасаду, м²', 'Спосіб зв’язку', 'Побажання'].map(name => name + ': ' + form.elements.namedItem(name).value), '', get('selection').value, '', 'Сторінка: ' + location.href, '', 'Додайте фото фасаду до цього листа.'].join('\n');
-    get('email').href = 'mailto:nash.dvor.office@gmail.com?subject=' + encodeURIComponent('NASH DVOR — заявка на візуалізацію') + '&body=' + encodeURIComponent(body);
+    const body = [form.dataset.requestType === 'product' ? 'Заявка на товар NASH DVOR' : 'Заявка на візуалізацію фасаду NASH DVOR', ...['Ім’я', 'Email', 'Телефон', 'Населений пункт', 'Площа фасаду, м²', 'Спосіб зв’язку', 'Побажання'].map(name => name + ': ' + form.elements.namedItem(name).value), '', get('selection').value, '', 'Сторінка: ' + location.href, '', form.dataset.requestType === 'product' ? '' : 'Додайте фото фасаду до цього листа.'].join('\n');
+    get('email').href = 'mailto:nash.dvor.office@gmail.com?subject=' + encodeURIComponent(form.dataset.requestType === 'product' ? 'NASH DVOR — заявка на товар' : 'NASH DVOR — заявка на візуалізацію') + '&body=' + encodeURIComponent(body);
   }
   function render() {
     get('choices').replaceChildren(); get('variants').replaceChildren();
+    if (form.dataset.requestType === 'product') {
+      serialize(); get('variants').append(node('p', 'lead-variant', get('selection').value)); return;
+    }
     for (const p of panels) {
       const label = node('label', 'lead-choice');
       const check = node('input'); check.type = 'checkbox'; check.checked = selected.has(p.id); check.disabled = !check.checked && selected.size >= 3;
@@ -89,7 +93,23 @@ window.Facade = (() => {
   get('close').onclick = close;
   dialog.addEventListener('cancel', event => { event.preventDefault(); close(); });
   function open(panel = null, variant = {}) {
-    const p = panel ? panels.find(p => p.id === panel.id) : null; if (panel && !p) return;
+    const p = panel ? allItems.find(p => p.id === panel.id) : null; if (panel && !p) return;
+    const product = !!p && !panels.some(x => x.id === p.id);
+    form.dataset.requestType = product ? 'product' : 'visualization';
+    get('visual-options').hidden = product;
+    dialog.querySelector('.lead-layout').style.gridTemplateColumns = product ? '1fr' : '';
+    dialog.querySelector('.lead-fields').closest('fieldset').querySelector('legend').textContent = product ? 'Як із вами зв’язатися' : '03 / Як із вами зв’язатися';
+    get('photo').required = !product;
+    form.elements.namedItem('Населений пункт').required = !product;
+    const area = form.elements.namedItem('Площа фасаду, м²'); area.closest('label').hidden = product; area.disabled = product;
+    get('title').textContent = product ? 'Залиште заявку на товар' : 'Побачте новий фасад вашого дому';
+    dialog.querySelector('.modal-header .label').textContent = product ? 'NASH DVOR / ЗАЯВКА' : 'NASH DVOR / ВІЗУАЛІЗАЦІЯ';
+    dialog.querySelector('.lead-intro').textContent = product ? 'Залиште контакти та побажання. Менеджер зв’яжеться з вами щодо обраного товару.' : 'Завантажте фото та залиште контакти. Наша команда вручну підготує візуалізацію з обраними термопанелями й зв’яжеться з вами.';
+    get('submit').textContent = product ? 'Надіслати заявку →' : 'Надіслати фото та заявку →';
+    dialog.querySelector('.lead-consent span').textContent = product ? 'Погоджуюся на обробку контактних даних для відповіді щодо заявки. Контакти надсилаються команді NASH DVOR через Google.' : 'Погоджуюся на обробку фото й контактних даних для підготовки візуалізації та зв’язку щодо заявки. Фото та контакти надсилаються команді NASH DVOR через Google. Фото не публікуються.';
+    const helps = form.querySelectorAll(':scope > .lead-help');
+    helps[0].lastChild.textContent = product ? '.' : ' та додайте фото до листа.';
+    helps[1].textContent = product ? 'Менеджер уточнить наявність, кількість та деталі замовлення. Без оплати на цьому кроці.' : 'Візуалізацію готує наша команда вручну. Після надсилання менеджер зв’яжеться з вами та узгодить деталі. Без оплати на цьому кроці.';
     focusBack = document.activeElement;
     const all = p ? pairs(p) : []; const choice = all.find(v => v.base === variant.base && v.mm === variant.mm) || all[0];
     selected = new Map(choice ? [[p.id, choice]] : []); get('status').textContent = ''; render();

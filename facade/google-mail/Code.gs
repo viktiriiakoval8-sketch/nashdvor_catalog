@@ -32,6 +32,7 @@ function leadPhoto(photo) {
 
 function validateLead(raw) {
   if (!raw || typeof raw !== 'object' || raw.website) throw new Error('Не вдалося перевірити заявку. Спробуйте ще раз.');
+  const type = raw.type === 'product' ? 'product' : 'visualization';
   const id = leadText(raw.id, 64, 'номер заявки', true);
   if (!/^[a-zA-Z0-9-]{16,64}$/.test(id)) throw new Error('Не вдалося перевірити номер заявки. Оновіть сторінку.');
   const name = leadText(raw.name, 100, 'Ім’я', true);
@@ -40,7 +41,7 @@ function validateLead(raw) {
   const phone = leadText(raw.phone, 24, 'Телефон', true);
   const digits = phone.replace(/\D/g, '');
   if (!/^[+\d\s().-]+$/.test(phone) || digits.length < 9 || digits.length > 15) throw new Error('Перевірте номер телефону.');
-  const city = leadText(raw.city, 120, 'Населений пункт', true);
+  const city = leadText(raw.city, 120, 'Населений пункт', type !== 'product');
   const selection = leadText(raw.selection, 12000, 'Обрані панелі', true);
   const note = leadText(raw.note, 3000, 'Побажання', false);
   const contact = leadText(raw.contact, 40, 'Спосіб зв’язку', false);
@@ -49,7 +50,7 @@ function validateLead(raw) {
   if (raw.consent !== true) throw new Error('Підтвердьте згоду на обробку фото та контактів.');
   const area = raw.area === '' || raw.area === undefined ? null : Number(raw.area);
   if (area !== null && (!Number.isFinite(area) || area < 1 || area > 100000)) throw new Error('Перевірте площу фасаду.');
-  return {id:id, name:name, email:email, phone:phone, city:city, area:area, note:note, contact:contact, source:source, selection:selection, photo:leadPhoto(raw.photo)};
+  return {type:type, id:id, name:name, email:email, phone:phone, city:city, area:area, note:note, contact:contact, source:source, selection:selection, photo:type === 'product' ? null : leadPhoto(raw.photo)};
 }
 
 function deliverLead(raw) {
@@ -64,15 +65,15 @@ function deliverLead(raw) {
     const count = Number(cache.get(minute) || '0');
     if (count >= 5) throw new Error('Забагато заявок одночасно. Спробуйте за хвилину.');
     const body = [
-      'Нова заявка на ручну візуалізацію фасаду NASH DVOR',
+      lead.type === 'product' ? 'Нова заявка на товар NASH DVOR' : 'Нова заявка на ручну візуалізацію фасаду NASH DVOR',
       'Номер: ' + lead.id, 'Ім’я: ' + lead.name, 'Email: ' + lead.email, 'Телефон: ' + lead.phone,
       'Населений пункт: ' + lead.city, 'Зручний зв’язок: ' + lead.contact,
       'Площа, м²: ' + (lead.area === null ? 'Не вказана' : lead.area),
-      '', 'Обрані панелі:', lead.selection, '', 'Побажання:', lead.note,
+      '', 'Обрані товари:', lead.selection, '', 'Побажання:', lead.note,
       '', 'Сторінка каталогу: ' + lead.source, 'Згода на обробку даних: так',
-      '', 'Фото фасаду прикріплене до листа. Обробка заявки — вручну.'
+      '', lead.type === 'product' ? 'Зв’яжіться з клієнтом щодо товару.' : 'Фото фасаду прикріплене до листа. Обробка заявки — вручну.'
     ].join('\n');
-    MailApp.sendEmail({to: LEAD_RECIPIENT, replyTo: lead.email, subject: 'NASH DVOR — візуалізація фасаду [' + lead.id + ']', body: body, attachments: [lead.photo], name: 'NASH DVOR — каталог'});
+    MailApp.sendEmail({to: LEAD_RECIPIENT, replyTo: lead.email, subject: 'NASH DVOR — ' + (lead.type === 'product' ? 'заявка на товар' : 'візуалізація фасаду') + ' [' + lead.id + ']', body: body, attachments: lead.photo ? [lead.photo] : [], name: 'NASH DVOR — каталог'});
     cache.put('sent:' + lead.id, '1', 21600);
     cache.put(minute, String(count + 1), 120);
     return lead.id;
@@ -81,9 +82,9 @@ function deliverLead(raw) {
 
 function leadEscape(s) { return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 
-function leadPage(success, message) {
+function leadPage(success, message, product) {
   const title = success ? 'Заявку надіслано' : 'Заявку не надіслано';
-  const content = '<!doctype html><html lang="uk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head><body style="margin:0;background:#f5f1e8;color:#202020;font:16px/1.6 Arial,sans-serif;padding:24px"><main style="max-width:600px;margin:8vh auto;padding:28px;background:white;border-radius:12px"><p>NASH DVOR / ВІЗУАЛІЗАЦІЯ</p><h1>' + title + '</h1><p>' + leadEscape(message) + '</p><p>' + (success ? 'Наша команда підготує візуалізацію вручну та зв’яжеться з вами.' : 'Поверніться у попередню вкладку — фото й заповнені поля залишилися там. Повторіть спробу або зателефонуйте +380 98 578 87 87.') + '</p><a href="' + LEAD_SITE + '" target="_top">Повернутися до каталогу</a></main></body></html>';
+  const content = '<!doctype html><html lang="uk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head><body style="margin:0;background:#f5f1e8;color:#202020;font:16px/1.6 Arial,sans-serif;padding:24px"><main style="max-width:600px;margin:8vh auto;padding:28px;background:white;border-radius:12px"><p>NASH DVOR / ВІЗУАЛІЗАЦІЯ</p><h1>' + title + '</h1><p>' + leadEscape(message) + '</p><p>' + (success ? (product ? 'Менеджер зв’яжеться з вами щодо обраного товару.' : 'Наша команда підготує візуалізацію вручну та зв’яжеться з вами.') : 'Поверніться у попередню вкладку — фото й заповнені поля залишилися там. Повторіть спробу або зателефонуйте +380 98 578 87 87.') + '</p><a href="' + LEAD_SITE + '" target="_top">Повернутися до каталогу</a></main></body></html>';
   return HtmlService.createHtmlOutput(content).setTitle(title).addMetaTag('viewport', 'width=device-width, initial-scale=1');
 }
 
@@ -94,7 +95,7 @@ function doPost(e) {
     let raw;
     try { raw = JSON.parse(value); } catch (_) { throw new Error('Не вдалося прочитати заявку. Повторіть надсилання.'); }
     const id = deliverLead(raw);
-    return leadPage(true, 'Фото та контакти надіслані команді NASH DVOR. Номер заявки: ' + id);
+    return leadPage(true, (raw.type === 'product' ? 'Заявка на товар надіслана' : 'Фото та контакти надіслані') + ' команді NASH DVOR. Номер заявки: ' + id, raw.type === 'product');
   } catch (error) {
     const known = /^(Перевірте|Потрібне|Оберіть|Не вдалося|Підтвердьте|Надішліть|Надсилання|Забагато|Сервіс|Завеликий)/.test(error.message || '');
     return leadPage(false, known ? error.message : 'Не вдалося передати заявку поштовій службі. Спробуйте пізніше.');

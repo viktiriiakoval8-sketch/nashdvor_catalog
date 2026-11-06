@@ -26,7 +26,8 @@ window.NashDvorGoogleMail = {
       event.preventDefault(); event.stopImmediatePropagation();
       if (sending) return;
       const file = document.getElementById('lead-photo').files[0];
-      if (!file || file.size > 10 * 1024 * 1024) { status.textContent = 'Оберіть фото розміром до 10 МБ.'; return; }
+      const product = form.dataset.requestType === 'product';
+      if (!product && (!file || file.size > 10 * 1024 * 1024)) { status.textContent = 'Оберіть фото розміром до 10 МБ.'; return; }
       const selection = document.getElementById('lead-selection').value;
       if (!selection) { status.textContent = 'Оберіть хоча б одну термопанель.'; status.scrollIntoView({block:'nearest'}); return; }
       requestId = requestId || crypto.randomUUID();
@@ -34,9 +35,9 @@ window.NashDvorGoogleMail = {
       const result = window.open('', target);
       if (!result) { status.textContent = 'Дозвольте відкриття нової вкладки для надсилання заявки та натисніть кнопку ще раз. Фото й поля збережені.'; return; }
       sending = true; submit.disabled = true;
-      status.textContent = 'Готуємо фото до надсилання…';
+      status.textContent = 'Готуємо заявку до надсилання…';
       try {
-        const data = {id:requestId, name:field('Ім’я'), email:field('Email'), phone:field('Телефон'), city:field('Населений пункт'), area:field('Площа фасаду, м²'), contact:field('Спосіб зв’язку'), note:field('Побажання'), selection, source:location.href, consent:form.elements.namedItem('Згода на обробку даних').checked, website:field('_honey'), photo:{base64:await readPhoto(file)}};
+        const data = {type:product ? 'product' : 'visualization', id:requestId, name:field('Ім’я'), email:field('Email'), phone:field('Телефон'), city:field('Населений пункт'), area:product ? '' : field('Площа фасаду, м²'), contact:field('Спосіб зв’язку'), note:field('Побажання'), selection, source:location.href, consent:form.elements.namedItem('Згода на обробку даних').checked, website:field('_honey'), photo:product ? null : {base64:await readPhoto(file)}};
         const post = document.createElement('form'); post.method = 'POST'; post.action = endpoint; post.target = target; post.enctype = 'application/x-www-form-urlencoded'; post.hidden = true;
         const payload = document.createElement('input'); payload.type = 'hidden'; payload.name = 'payload'; payload.value = JSON.stringify(data); post.append(payload); document.body.append(post); post.submit(); post.remove();
         status.textContent = 'Перевірте результат надсилання у новій вкладці. Цю форму залишено відкритою разом із фото та контактами.';
