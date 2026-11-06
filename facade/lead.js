@@ -100,6 +100,7 @@ window.Facade = (() => {
     dialog.querySelector('.lead-layout').style.gridTemplateColumns = product ? '1fr' : '';
     dialog.querySelector('.lead-fields').closest('fieldset').querySelector('legend').textContent = product ? 'Як із вами зв’язатися' : '03 / Як із вами зв’язатися';
     get('photo').required = !product;
+    get('photo').disabled = product;
     form.elements.namedItem('Населений пункт').required = !product;
     const area = form.elements.namedItem('Площа фасаду, м²'); area.closest('label').hidden = product; area.disabled = product;
     get('title').textContent = product ? 'Залиште заявку на товар' : 'Побачте новий фасад вашого дому';
@@ -113,6 +114,7 @@ window.Facade = (() => {
     focusBack = document.activeElement;
     const all = p ? pairs(p) : []; const choice = all.find(v => v.base === variant.base && v.mm === variant.mm) || all[0];
     selected = new Map(choice ? [[p.id, choice]] : []); get('status').textContent = ''; render();
+    form.dispatchEvent(new Event('input', {bubbles:true}));
     document.getElementById('detail')?.close(); dialog.showModal(); get('close').focus();
   }
   document.getElementById('lead-open')?.addEventListener('click', () => open());
