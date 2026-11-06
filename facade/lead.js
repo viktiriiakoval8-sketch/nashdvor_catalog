@@ -8,10 +8,7 @@ window.Facade = (() => {
   dialog.innerHTML = `<div class="modal-header"><span class="label">NASH DVOR / ВІЗУАЛІЗАЦІЯ</span><button type="button" class="icon" id="lead-close" aria-label="Закрити заявку">×</button></div>
   <div class="lead-body"><h2 id="lead-title">Побачте новий фасад вашого дому</h2>
   <p class="lead-intro">Завантажте фото та залиште контакти. Наша команда вручну підготує візуалізацію з обраними термопанелями й зв’яжеться з вами.</p>
-  <form id="lead-form" method="POST" action="https://formsubmit.co/nash.dvor.office@gmail.com" enctype="multipart/form-data">
-    <input type="hidden" name="_subject" value="NASH DVOR — заявка на візуалізацію фасаду">
-    <input type="hidden" name="_template" value="table">
-    <input type="hidden" name="_next" value="https://catalog.nashdvor.com.ua/thanks.html">
+  <form id="lead-form" method="POST" action="https://script.google.com/macros/s/AKfycbzH_-9DTUU7ecUg6K6hZSee7Yl-VKjlsFYuPMTemGRgcrZJ6t8ZYEWzcONeIZ18_Tq2/exec" enctype="multipart/form-data">
     <input type="text" name="_honey" tabindex="-1" autocomplete="off" class="lead-trap" aria-hidden="true">
     <input type="hidden" name="Обрані панелі" id="lead-selection">
     <input type="hidden" name="Сторінка каталогу" id="lead-source">
@@ -33,7 +30,7 @@ window.Facade = (() => {
         <label class="lead-wide">Побажання<textarea name="Побажання" rows="3" maxlength="3000" placeholder="Наприклад, колір, частина фасаду або питання до менеджера"></textarea></label>
       </div></fieldset>
     </div></div>
-    <label class="lead-consent"><input type="checkbox" name="Згода на обробку даних" value="Так" required><span>Погоджуюся на обробку фото й контактних даних для підготовки візуалізації та зв’язку щодо заявки. Дані надсилаються команді NASH DVOR через сервіс FormSubmit. Фото не публікуються.</span></label>
+    <label class="lead-consent"><input type="checkbox" name="Згода на обробку даних" value="Так" required><span>Погоджуюся на обробку фото й контактних даних для підготовки візуалізації та зв’язку щодо заявки. Фото та контакти надсилаються команді NASH DVOR через Google. Фото не публікуються.</span></label>
     <p id="lead-status" class="lead-status" role="status" aria-live="polite"></p>
     <button class="primary" type="submit" id="lead-submit">Надіслати фото та заявку →</button>
     <p class="lead-help">Якщо форма не надсилається, <a id="lead-email" href="mailto:nash.dvor.office@gmail.com">надішліть заявку зі своєї пошти</a> та додайте фото до листа.</p>
@@ -87,13 +84,6 @@ window.Facade = (() => {
     if (!/\.hei[cf]$/i.test(file.name)) { previewURL = URL.createObjectURL(file); get('preview').src = previewURL; get('preview').hidden = false; }
   };
   form.addEventListener('input', serialize);
-  form.addEventListener('submit', event => {
-    if (!selected.size) { event.preventDefault(); get('status').textContent = 'Оберіть хоча б одну термопанель.'; return; }
-    serialize();
-    // Native multipart submission preserves the photo attachment. The provider
-    // redirects to thanks.html only after handling the submitted form.
-    get('status').textContent = 'Надсилаємо фото та заявку…';
-  });
   function close() { dialog.close(); focusBack?.focus(); }
   get('close').onclick = close;
   dialog.addEventListener('cancel', event => { event.preventDefault(); close(); });
@@ -105,5 +95,6 @@ window.Facade = (() => {
     document.getElementById('detail')?.close(); dialog.showModal(); get('close').focus();
   }
   document.getElementById('lead-open')?.addEventListener('click', () => open());
+  window.NashDvorGoogleMail.connect("https://script.google.com/macros/s/AKfycbzH_-9DTUU7ecUg6K6hZSee7Yl-VKjlsFYuPMTemGRgcrZJ6t8ZYEWzcONeIZ18_Tq2/exec");
   return {open};
 })();
