@@ -1,0 +1,421 @@
+{
+  "checked": "2026-11-07",
+  "source": "https://nashdvor.com.ua/keramichna-plytka/filter/page=all/",
+  "count": 41,
+  "matchedBefore": 39,
+  "corrected": 2,
+  "matchedAfter": 41,
+  "method": "Visible prices from all 41 category cards; discrepancies also checked in product detail pages.",
+  "items": [
+    {
+      "sku": "CM2980",
+      "name": "Керамограніт Terragres Carisma сірий 1200×600×8 мм, Сірий",
+      "source": "https://nashdvor.com.ua/keramohranit-terragres-carisma-siryi-12006008-mm/",
+      "before": 872,
+      "site": 872,
+      "after": 872,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "CS1980",
+      "name": "Керамограніт Terragres Cloudy Stone бежевий 1200×600×8 мм, Бежевий",
+      "source": "https://nashdvor.com.ua/keramohranit-terragres-cloudy-stone-bezhevyi-12006008-mm/",
+      "before": 872,
+      "site": 872,
+      "after": 872,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "DL2980",
+      "name": "Керамограніт Terragres Dolomiti сірий 1200×600×8 мм, Сірий",
+      "source": "https://nashdvor.com.ua/keramohranit-terragres-dolomiti-siryi-12006008-mm/",
+      "before": 1,
+      "site": 1060,
+      "after": 1060,
+      "changed": true,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "FM1980",
+      "name": "Керамограніт Terragres Florentine Marble бежевий 1200×600×8 мм, Бежевий",
+      "source": "https://nashdvor.com.ua/keramohranit-terragres-florentine-marble-bezhevyi-12006008-mm/",
+      "before": 872,
+      "site": 872,
+      "after": 872,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "LE0980",
+      "name": "Керамограніт Terragres Leonardo білий 1200×600×8 мм, Білий",
+      "source": "https://nashdvor.com.ua/keramohranit-terragres-leonardo-bilyi-12006008-mm/",
+      "before": 872,
+      "site": 872,
+      "after": 872,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "MOС980",
+      "name": "Керамограніт Terragres Mountain Stone чорний 1200×600×8 мм, Чорний",
+      "source": "https://nashdvor.com.ua/keramohranit-terragres-mountain-stone-chornyi-12006008-mm/",
+      "before": 872,
+      "site": 872,
+      "after": 872,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "ON0980",
+      "name": "Керамограніт Terragres Onyx Oro білий 1200×600×8 мм, Білий",
+      "source": "https://nashdvor.com.ua/keramohranit-terragres-onyx-oro-bilyi-12006008-mm/",
+      "before": 799,
+      "site": 799,
+      "after": 799,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "ODG980",
+      "name": "Керамограніт Terragres Onyx Rio Grande світло-сірий 1200×600×8 мм, Світло-сірий",
+      "source": "https://nashdvor.com.ua/keramohranit-terragres-onyx-rio-grande-svitlo-siryi-12006008-mm/",
+      "before": 836,
+      "site": 836,
+      "after": 836,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "RT2980",
+      "name": "Керамограніт Terragres Ritz сірий 1200×600×8 мм, Сірий",
+      "source": "https://nashdvor.com.ua/keramohranit-terragres-ritz-siryi-12006008-mm/",
+      "before": 799,
+      "site": 799,
+      "after": 799,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "RLG980",
+      "name": "Керамограніт Terragres Rockland світло-сірий 1200×600×8 мм, Світло-сірий",
+      "source": "https://nashdvor.com.ua/keramohranit-terragres-rockland-svitlo-siryi-12006008-mm/",
+      "before": 872,
+      "site": 872,
+      "after": 872,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "SEГ980",
+      "name": "Керамограніт Terragres Sky Stone кремовий 1200×600×8 мм, Кремовий",
+      "source": "https://nashdvor.com.ua/keramohranit-terragres-sky-stone-kremovyi-12006008-mm/",
+      "before": 799,
+      "site": 799,
+      "after": 799,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "SF1980",
+      "name": "Керамограніт Terragres Soft Stone бежевий 1200×600×8 мм, Бежевий",
+      "source": "https://nashdvor.com.ua/keramohranit-terragres-soft-stone-bezhevyi-12006008-mm/",
+      "before": 872,
+      "site": 872,
+      "after": 872,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "TS0980",
+      "name": "Керамограніт Terragres Tempesta білий 1200×600×8 мм, Білий",
+      "source": "https://nashdvor.com.ua/keramohranit-terragres-tempesta-bilyi-12006008-mm/",
+      "before": 1,
+      "site": 1060,
+      "after": 1060,
+      "changed": true,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "TE1980",
+      "name": "Керамограніт Terragres Travertino Ever бежевий 1200×600×8 мм, Бежевий",
+      "source": "https://nashdvor.com.ua/keramohranit-terragres-travertino-ever-bezhevyi-12006008-mm/",
+      "before": 872,
+      "site": 872,
+      "after": 872,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "ES2580",
+      "name": "Керамограніт Terragres Essential сірий 600×600×8 мм, Сірий",
+      "source": "https://nashdvor.com.ua/keramohranit-terragres-essential-siryi-6006008-mm/",
+      "before": 699,
+      "site": 699,
+      "after": 699,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "MPС580",
+      "name": "Керамограніт Terragres Marmo Perlanera чорний 600×600×8 мм, Чорний",
+      "source": "https://nashdvor.com.ua/keramohranit-terragres-marmo-perlanera-chornyi-6006008-mm/",
+      "before": 699,
+      "site": 699,
+      "after": 699,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "OT1580",
+      "name": "Керамограніт Terragres Onyx Toscano бежевий 600×600×8 мм, Бежевий",
+      "source": "https://nashdvor.com.ua/keramohranit-terragres-onyx-toscano-bezhevyi-6006008-mm/",
+      "before": 699,
+      "site": 699,
+      "after": 699,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "SEG580",
+      "name": "Керамограніт Terragres Sky Stone світло-сірий 600×600×8 мм, Світло-сірий",
+      "source": "https://nashdvor.com.ua/keramohranit-terragres-sky-stone-svitlo-siryi-6006008-mm/",
+      "before": 699,
+      "site": 699,
+      "after": 699,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "MV0580",
+      "name": "Керамограніт Terragres Marmo Verona білий 600×600×8 мм, Білий",
+      "source": "https://nashdvor.com.ua/keramohranit-terragres-marmo-verona-bilyi-6006008-mm/",
+      "before": 699,
+      "site": 699,
+      "after": 699,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "781580",
+      "name": "Керамограніт Terragres Metallica бежевий 600×600×8 мм, Бежевий",
+      "source": "https://nashdvor.com.ua/keramohranit-terragres-metallica-bezhevyi-6006008-mm/",
+      "before": 738,
+      "site": 738,
+      "after": 738,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "782580",
+      "name": "Керамограніт Terragres Metallica сірий 600×600×8 мм, Сірий",
+      "source": "https://nashdvor.com.ua/keramohranit-terragres-metallica-siryi-6006008-mm/",
+      "before": 738,
+      "site": 738,
+      "after": 738,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "787580",
+      "name": "Керамограніт Terragres Metallica коричневий 600×600×8 мм, Коричневий",
+      "source": "https://nashdvor.com.ua/keramohranit-terragres-metallica-korychnevyi-6006008-mm/",
+      "before": 738,
+      "site": 738,
+      "after": 738,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "5VА580",
+      "name": "Керамограніт Terragres Space Stone айворі 600×600×8 мм, Айворі",
+      "source": "https://nashdvor.com.ua/keramohranit-terragres-space-stone-aivori-6006008-mm/",
+      "before": 615,
+      "site": 615,
+      "after": 615,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "S92590",
+      "name": "Керамограніт Terragres Silver Roots сірий 600×600×8 мм, Сірий",
+      "source": "https://nashdvor.com.ua/keramohranit-terragres-silver-roots-siryi-6006008-mm/",
+      "before": 699,
+      "site": 699,
+      "after": 699,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "6N0580",
+      "name": "Керамограніт Terragres Calacatta Vera білий 600×600×8 мм, Білий",
+      "source": "https://nashdvor.com.ua/keramohranit-terragres-calacatta-vera-bilyi-6006008-mm/",
+      "before": 699,
+      "site": 699,
+      "after": 699,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "5F2580",
+      "name": "Керамограніт Terragres Corso сірий 600×600×8 мм, Сірий",
+      "source": "https://nashdvor.com.ua/keramohranit-terragres-corso-siryi-6006008-mm/",
+      "before": 699,
+      "site": 699,
+      "after": 699,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "5V2580",
+      "name": "Керамограніт Terragres Space Stone сірий 600×600×8 мм, Сірий",
+      "source": "https://nashdvor.com.ua/keramohranit-terragres-space-stone-siryi-6006008-mm/",
+      "before": 615,
+      "site": 615,
+      "after": 615,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "BEG580",
+      "name": "Керамограніт Terragres Betonova світло-сірий 600×600×8 мм, Світло-сірий",
+      "source": "https://nashdvor.com.ua/keramohranit-terragres-betonova-svitlo-siryi-6006008-mm/",
+      "before": 699,
+      "site": 699,
+      "after": 699,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "Н90580",
+      "name": "Керамограніт Terragres Calacatta Extra білий 600×600×8 мм, Білий",
+      "source": "https://nashdvor.com.ua/keramohranit-terragres-calacatta-extra-bilyi-6006008-mm/",
+      "before": 615,
+      "site": 615,
+      "after": 615,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "DRС580",
+      "name": "Керамограніт Terragres Dark Rock чорний 600×600×8 мм, Чорний",
+      "source": "https://nashdvor.com.ua/keramohranit-terragres-dark-rock-chornyi-6006008-mm/",
+      "before": 699,
+      "site": 699,
+      "after": 699,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "ND-TILE-AL1088-M-60120",
+      "name": "Плитка AL-1088 Matt 60×120 см, матова",
+      "source": "https://nashdvor.com.ua/plytka-al-1088-matt-60-120/",
+      "before": 1173,
+      "site": 1173,
+      "after": 1173,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "ND-TILE-TERONE-CREMA-M-60120",
+      "name": "Плитка Terone Crema Matt 60×120 см, матова",
+      "source": "https://nashdvor.com.ua/plytka-terone-crema-matt-60-120/",
+      "before": 1173,
+      "site": 1173,
+      "after": 1173,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "ND-TILE-RAIZER-NATURAL-M-60120",
+      "name": "Плитка Raizer Natural Matt 60×120 см, матова",
+      "source": "https://nashdvor.com.ua/plytka-raizer-natural-matt-60-120/",
+      "before": 1173,
+      "site": 1173,
+      "after": 1173,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "ND-TILE-CICORA-WHITE-P-6060",
+      "name": "Плитка Cicora White Polished 60×60 см, глянцева",
+      "source": "https://nashdvor.com.ua/plytka-cicora-white-polished-60-60/",
+      "before": 1303,
+      "site": 1303,
+      "after": 1303,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "ND-TILE-ONYX-ASIA-GREY-P-6060",
+      "name": "Плитка Onyx Asia Grey Polished 60×60 см, глянцева",
+      "source": "https://nashdvor.com.ua/plytka-onyx-asia-grey-polished-60-60/",
+      "before": 1326,
+      "site": 1326,
+      "after": 1326,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "ND-TILE-ICEBERG-ONYX-GREY-P-6060",
+      "name": "Плитка Iceberg Onyx Grey Polished 60×60 см, глянцева",
+      "source": "https://nashdvor.com.ua/plytka-iceberg-onyx-grey-polished-60-60/",
+      "before": 1303,
+      "site": 1303,
+      "after": 1303,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "ND-TILE-GENOVA-PISTA-P-6060",
+      "name": "Плитка Genova Pista Polished 60×60 см, глянцева",
+      "source": "https://nashdvor.com.ua/plytka-genova-pista-polished-60-60/",
+      "before": 1303,
+      "site": 1303,
+      "after": 1303,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "ND-TILE-PLAIN-WHITE-M-60120",
+      "name": "Плитка Plain White Matt 60×120 см, матова",
+      "source": "https://nashdvor.com.ua/plytka-plain-white-matt-60-120/",
+      "before": 1173,
+      "site": 1173,
+      "after": 1173,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "ND-TILE-1154-DOLMEN-BIANCO-P-60120",
+      "name": "Плитка 1154 Dolmen Bianco Polished 60×120 см, глянцева",
+      "source": "https://nashdvor.com.ua/plytka-1154-dolmen-bianco-polished-60-120/",
+      "before": 1326,
+      "site": 1326,
+      "after": 1326,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "ND-TILE-KWIK-ONYX-CREMA-P-60120",
+      "name": "Плитка Kwik Onyx Crema Polished 60×120 см, глянцева",
+      "source": "https://nashdvor.com.ua/plytka-kwik-onyx-crema-polished-60-120/",
+      "before": 1368,
+      "site": 1368,
+      "after": 1368,
+      "changed": false,
+      "unit": "грн/м²"
+    },
+    {
+      "sku": "ND-TILE-KWIK-ONYX-WHITE-P-60120",
+      "name": "Плитка Kwik Onyx White Polished 60×120 см, глянцева",
+      "source": "https://nashdvor.com.ua/plytka-kwik-onyx-white-polished-60-120/",
+      "before": 1368,
+      "site": 1368,
+      "after": 1368,
+      "changed": false,
+      "unit": "грн/м²"
+    }
+  ]
+}
