@@ -1,0 +1,471 @@
+{
+  "date": "2026-11-07",
+  "source": "Образцы плитки.xlsx",
+  "sheet": "Лист8",
+  "unit": "грн/м²",
+  "updated": 46,
+  "zeroPricesSkipped": 2,
+  "unmatched": 19,
+  "items": [
+    {
+      "sku": "НЗ0251",
+      "name": "Керамічна плитка Golden Tile Satin білий 300×600 мм",
+      "old": 526,
+      "price": 699,
+      "sourceRow": 2,
+      "sourceSku": "НЗ0251",
+      "url": "https://nashdvor.com.ua/keramichna-plytka-dlia-stin/3065/",
+      "section": "ceramic-tiles"
+    },
+    {
+      "sku": "Нз0451",
+      "name": "Керамічна плитка Golden Tile Satin білий рельєфна 300×600 мм",
+      "old": 526,
+      "price": 699,
+      "sourceRow": 3,
+      "sourceSku": "Нз0451",
+      "url": "https://nashdvor.com.ua/keramichna-plytka-dlia-stin/3066/",
+      "section": "ceramic-tiles"
+    },
+    {
+      "sku": "57G051",
+      "name": "Керамічна плитка Golden Tile Doha світло-сірий 300×600 мм",
+      "old": 566,
+      "price": 699,
+      "sourceRow": 4,
+      "sourceSku": "57G051",
+      "url": "https://nashdvor.com.ua/keramichna-plytka-dlia-stin/3067/",
+      "section": "ceramic-tiles"
+    },
+    {
+      "sku": "57V051",
+      "name": "Керамічна плитка Golden Tile Doha світло-бежевий 300×600 мм",
+      "old": 566,
+      "price": 699,
+      "sourceRow": 5,
+      "sourceSku": "57V051",
+      "url": "https://nashdvor.com.ua/keramichna-plytka-dlia-stin/3068/",
+      "section": "ceramic-tiles"
+    },
+    {
+      "sku": "FMG051",
+      "name": "Керамічна плитка Golden Tile Florentine Marble світло-сірий 300×600 мм",
+      "old": 566,
+      "price": 699,
+      "sourceRow": 6,
+      "sourceSku": "FMG051",
+      "url": "https://nashdvor.com.ua/keramichna-plytka-dlia-stin/3069/",
+      "section": "ceramic-tiles"
+    },
+    {
+      "sku": "GL2051",
+      "name": "Керамічна плитка Golden Tile Gloria сірий 300×600 мм",
+      "old": 566,
+      "price": 699,
+      "sourceRow": 7,
+      "sourceSku": "GL2051",
+      "url": "https://nashdvor.com.ua/keramichna-plytka-dlia-stin/3070/",
+      "section": "ceramic-tiles"
+    },
+    {
+      "sku": "GL2151",
+      "name": "Керамічна плитка Golden Tile Gloria Flowers сірий 300×600 мм",
+      "old": 582,
+      "price": 719,
+      "sourceRow": 8,
+      "sourceSku": "GL2151",
+      "url": "https://nashdvor.com.ua/keramichna-plytka-dlia-stin/3071/",
+      "section": "ceramic-tiles"
+    },
+    {
+      "sku": "JU2061",
+      "name": "Керамічна плитка Golden Tile Jungle Leaf сірий 300×600 мм",
+      "old": 582,
+      "price": 719,
+      "sourceRow": 9,
+      "sourceSku": "JU2061",
+      "url": "https://nashdvor.com.ua/keramichna-plytka-dlia-stin/3072/",
+      "section": "ceramic-tiles"
+    },
+    {
+      "sku": "JU2051",
+      "name": "Керамічна плитка Golden Tile Jungle сірий 300×600 мм",
+      "old": 566,
+      "price": 699,
+      "sourceRow": 10,
+      "sourceSku": "JU2051",
+      "url": "https://nashdvor.com.ua/keramichna-plytka-dlia-stin/3073/",
+      "section": "ceramic-tiles"
+    },
+    {
+      "sku": "MV0161",
+      "name": "Керамічна плитка Golden Tile Marmo Verona Kaleidoscope 2 білий 300×600 мм",
+      "old": 670,
+      "price": 719,
+      "sourceRow": 11,
+      "sourceSku": "MV0161",
+      "url": "https://nashdvor.com.ua/keramichna-plytka-dlia-stin/3074/",
+      "section": "ceramic-tiles"
+    },
+    {
+      "sku": "ZN1051",
+      "name": "Керамічна плитка Golden Tile Zen бежевий 300×600 мм",
+      "old": 566,
+      "price": 699,
+      "sourceRow": 14,
+      "sourceSku": "ZN1051",
+      "url": "https://nashdvor.com.ua/keramichna-plytka-dlia-stin/3077/",
+      "section": "ceramic-tiles"
+    },
+    {
+      "sku": "ZN1061",
+      "name": "Керамічна плитка Golden Tile Zen Hexagons бежевий 300×600 мм",
+      "old": 582,
+      "price": 719,
+      "sourceRow": 15,
+      "sourceSku": "ZN1061",
+      "url": "https://nashdvor.com.ua/keramichna-plytka-dlia-stin/3078/",
+      "section": "ceramic-tiles"
+    },
+    {
+      "sku": "ZN2051",
+      "name": "Керамічна плитка Golden Tile Zen сірий 300×600 мм",
+      "old": 566,
+      "price": 699,
+      "sourceRow": 16,
+      "sourceSku": "ZN2051",
+      "url": "https://nashdvor.com.ua/keramichna-plytka-dlia-stin/3079/",
+      "section": "ceramic-tiles"
+    },
+    {
+      "sku": "ZN2061",
+      "name": "Керамічна плитка Golden Tile Zen Laps сірий 300×600 мм",
+      "old": 582,
+      "price": 719,
+      "sourceRow": 17,
+      "sourceSku": "ZN2061",
+      "url": "https://nashdvor.com.ua/keramichna-plytka-dlia-stin/3080/",
+      "section": "ceramic-tiles"
+    },
+    {
+      "sku": "MV0051",
+      "name": "Керамічна плитка Golden Tile Marmo Verona білий 300×600 мм",
+      "old": 566,
+      "price": 699,
+      "sourceRow": 18,
+      "sourceSku": "MV0051",
+      "url": "https://nashdvor.com.ua/keramichna-plytka-dlia-stin/3081/",
+      "section": "ceramic-tiles"
+    },
+    {
+      "sku": "FMV051",
+      "name": "Керамічна плитка Golden Tile Florentine Marble світло-бежевий 300×600 мм",
+      "old": 566,
+      "price": 699,
+      "sourceRow": 19,
+      "sourceSku": "FMV051",
+      "url": "https://nashdvor.com.ua/keramichna-plytka-dlia-stin/3082/",
+      "section": "ceramic-tiles"
+    },
+    {
+      "sku": "CM2980",
+      "name": "Керамограніт Terragres Carisma сірий 1200×600×8 мм, Сірий",
+      "old": 872,
+      "price": 1179,
+      "sourceRow": 20,
+      "sourceSku": "CM2980",
+      "url": "https://nashdvor.com.ua/keramohranit-terragres-carisma-siryi-12006008-mm/",
+      "section": "porcelain-tiles"
+    },
+    {
+      "sku": "CS1980",
+      "name": "Керамограніт Terragres Cloudy Stone бежевий 1200×600×8 мм, Бежевий",
+      "old": 872,
+      "price": 1179,
+      "sourceRow": 21,
+      "sourceSku": "CS1980",
+      "url": "https://nashdvor.com.ua/keramohranit-terragres-cloudy-stone-bezhevyi-12006008-mm/",
+      "section": "porcelain-tiles"
+    },
+    {
+      "sku": "DL2980",
+      "name": "Керамограніт Terragres Dolomiti сірий 1200×600×8 мм, Сірий",
+      "old": 1060,
+      "price": 1429,
+      "sourceRow": 22,
+      "sourceSku": "DL2980",
+      "url": "https://nashdvor.com.ua/keramohranit-terragres-dolomiti-siryi-12006008-mm/",
+      "section": "porcelain-tiles"
+    },
+    {
+      "sku": "FM1980",
+      "name": "Керамограніт Terragres Florentine Marble бежевий 1200×600×8 мм, Бежевий",
+      "old": 872,
+      "price": 1179,
+      "sourceRow": 23,
+      "sourceSku": "FM1980",
+      "url": "https://nashdvor.com.ua/keramohranit-terragres-florentine-marble-bezhevyi-12006008-mm/",
+      "section": "porcelain-tiles"
+    },
+    {
+      "sku": "LE0980",
+      "name": "Керамограніт Terragres Leonardo білий 1200×600×8 мм, Білий",
+      "old": 872,
+      "price": 1179,
+      "sourceRow": 24,
+      "sourceSku": "LE0980",
+      "url": "https://nashdvor.com.ua/keramohranit-terragres-leonardo-bilyi-12006008-mm/",
+      "section": "porcelain-tiles"
+    },
+    {
+      "sku": "MOС980",
+      "name": "Керамограніт Terragres Mountain Stone чорний 1200×600×8 мм, Чорний",
+      "old": 872,
+      "price": 1179,
+      "sourceRow": 25,
+      "sourceSku": "MOС980",
+      "url": "https://nashdvor.com.ua/keramohranit-terragres-mountain-stone-chornyi-12006008-mm/",
+      "section": "porcelain-tiles"
+    },
+    {
+      "sku": "ON0980",
+      "name": "Керамограніт Terragres Onyx Oro білий 1200×600×8 мм, Білий",
+      "old": 799,
+      "price": 1079,
+      "sourceRow": 26,
+      "sourceSku": "ON0980",
+      "url": "https://nashdvor.com.ua/keramohranit-terragres-onyx-oro-bilyi-12006008-mm/",
+      "section": "porcelain-tiles"
+    },
+    {
+      "sku": "ODG980",
+      "name": "Керамограніт Terragres Onyx Rio Grande світло-сірий 1200×600×8 мм, Світло-сірий",
+      "old": 836,
+      "price": 1129,
+      "sourceRow": 27,
+      "sourceSku": "ODG980",
+      "url": "https://nashdvor.com.ua/keramohranit-terragres-onyx-rio-grande-svitlo-siryi-12006008-mm/",
+      "section": "porcelain-tiles"
+    },
+    {
+      "sku": "RT2980",
+      "name": "Керамограніт Terragres Ritz сірий 1200×600×8 мм, Сірий",
+      "old": 799,
+      "price": 1079,
+      "sourceRow": 28,
+      "sourceSku": "RT2980",
+      "url": "https://nashdvor.com.ua/keramohranit-terragres-ritz-siryi-12006008-mm/",
+      "section": "porcelain-tiles"
+    },
+    {
+      "sku": "RLG980",
+      "name": "Керамограніт Terragres Rockland світло-сірий 1200×600×8 мм, Світло-сірий",
+      "old": 872,
+      "price": 1179,
+      "sourceRow": 29,
+      "sourceSku": "RLG980",
+      "url": "https://nashdvor.com.ua/keramohranit-terragres-rockland-svitlo-siryi-12006008-mm/",
+      "section": "porcelain-tiles"
+    },
+    {
+      "sku": "SEГ980",
+      "name": "Керамограніт Terragres Sky Stone кремовий 1200×600×8 мм, Кремовий",
+      "old": 799,
+      "price": 1079,
+      "sourceRow": 30,
+      "sourceSku": "SEГ980",
+      "url": "https://nashdvor.com.ua/keramohranit-terragres-sky-stone-kremovyi-12006008-mm/",
+      "section": "porcelain-tiles"
+    },
+    {
+      "sku": "SF1980",
+      "name": "Керамограніт Terragres Soft Stone бежевий 1200×600×8 мм, Бежевий",
+      "old": 872,
+      "price": 1179,
+      "sourceRow": 31,
+      "sourceSku": "SF1980",
+      "url": "https://nashdvor.com.ua/keramohranit-terragres-soft-stone-bezhevyi-12006008-mm/",
+      "section": "porcelain-tiles"
+    },
+    {
+      "sku": "TS0980",
+      "name": "Керамограніт Terragres Tempesta білий 1200×600×8 мм, Білий",
+      "old": 1060,
+      "price": 1429,
+      "sourceRow": 32,
+      "sourceSku": "TS0980",
+      "url": "https://nashdvor.com.ua/keramohranit-terragres-tempesta-bilyi-12006008-mm/",
+      "section": "porcelain-tiles"
+    },
+    {
+      "sku": "TE1980",
+      "name": "Керамограніт Terragres Travertino Ever бежевий 1200×600×8 мм, Бежевий",
+      "old": 872,
+      "price": 1179,
+      "sourceRow": 33,
+      "sourceSku": "TE1980",
+      "url": "https://nashdvor.com.ua/keramohranit-terragres-travertino-ever-bezhevyi-12006008-mm/",
+      "section": "porcelain-tiles"
+    },
+    {
+      "sku": "ES2580",
+      "name": "Керамограніт Terragres Essential сірий 600×600×8 мм, Сірий",
+      "old": 699,
+      "price": 879,
+      "sourceRow": 34,
+      "sourceSku": "ES2580",
+      "url": "https://nashdvor.com.ua/keramohranit-terragres-essential-siryi-6006008-mm/",
+      "section": "porcelain-tiles"
+    },
+    {
+      "sku": "MPС580",
+      "name": "Керамограніт Terragres Marmo Perlanera чорний 600×600×8 мм, Чорний",
+      "old": 699,
+      "price": 879,
+      "sourceRow": 35,
+      "sourceSku": "MPС580",
+      "url": "https://nashdvor.com.ua/keramohranit-terragres-marmo-perlanera-chornyi-6006008-mm/",
+      "section": "porcelain-tiles"
+    },
+    {
+      "sku": "OT1580",
+      "name": "Керамограніт Terragres Onyx Toscano бежевий 600×600×8 мм, Бежевий",
+      "old": 699,
+      "price": 879,
+      "sourceRow": 36,
+      "sourceSku": "OT1580",
+      "url": "https://nashdvor.com.ua/keramohranit-terragres-onyx-toscano-bezhevyi-6006008-mm/",
+      "section": "porcelain-tiles"
+    },
+    {
+      "sku": "SEG580",
+      "name": "Керамограніт Terragres Sky Stone світло-сірий 600×600×8 мм, Світло-сірий",
+      "old": 699,
+      "price": 879,
+      "sourceRow": 37,
+      "sourceSku": "SEG580",
+      "url": "https://nashdvor.com.ua/keramohranit-terragres-sky-stone-svitlo-siryi-6006008-mm/",
+      "section": "porcelain-tiles"
+    },
+    {
+      "sku": "MV0580",
+      "name": "Керамограніт Terragres Marmo Verona білий 600×600×8 мм, Білий",
+      "old": 699,
+      "price": 879,
+      "sourceRow": 38,
+      "sourceSku": "MV0580",
+      "url": "https://nashdvor.com.ua/keramohranit-terragres-marmo-verona-bilyi-6006008-mm/",
+      "section": "porcelain-tiles"
+    },
+    {
+      "sku": "781580",
+      "name": "Керамограніт Terragres Metallica бежевий 600×600×8 мм, Бежевий",
+      "old": 738,
+      "price": 929,
+      "sourceRow": 39,
+      "sourceSku": "781580",
+      "url": "https://nashdvor.com.ua/keramohranit-terragres-metallica-bezhevyi-6006008-mm/",
+      "section": "porcelain-tiles"
+    },
+    {
+      "sku": "782580",
+      "name": "Керамограніт Terragres Metallica сірий 600×600×8 мм, Сірий",
+      "old": 738,
+      "price": 929,
+      "sourceRow": 40,
+      "sourceSku": "782580",
+      "url": "https://nashdvor.com.ua/keramohranit-terragres-metallica-siryi-6006008-mm/",
+      "section": "porcelain-tiles"
+    },
+    {
+      "sku": "787580",
+      "name": "Керамограніт Terragres Metallica коричневий 600×600×8 мм, Коричневий",
+      "old": 738,
+      "price": 929,
+      "sourceRow": 41,
+      "sourceSku": "787580",
+      "url": "https://nashdvor.com.ua/keramohranit-terragres-metallica-korychnevyi-6006008-mm/",
+      "section": "porcelain-tiles"
+    },
+    {
+      "sku": "5VА580",
+      "name": "Керамограніт Terragres Space Stone айворі 600×600×8 мм, Айворі",
+      "old": 615,
+      "price": 879,
+      "sourceRow": 42,
+      "sourceSku": "5VА580",
+      "url": "https://nashdvor.com.ua/keramohranit-terragres-space-stone-aivori-6006008-mm/",
+      "section": "porcelain-tiles"
+    },
+    {
+      "sku": "S92590",
+      "name": "Керамограніт Terragres Silver Roots сірий 600×600×8 мм, Сірий",
+      "old": 699,
+      "price": 879,
+      "sourceRow": 43,
+      "sourceSku": "S92590",
+      "url": "https://nashdvor.com.ua/keramohranit-terragres-silver-roots-siryi-6006008-mm/",
+      "section": "porcelain-tiles"
+    },
+    {
+      "sku": "6N0580",
+      "name": "Керамограніт Terragres Calacatta Vera білий 600×600×8 мм, Білий",
+      "old": 699,
+      "price": 879,
+      "sourceRow": 44,
+      "sourceSku": "6N0580",
+      "url": "https://nashdvor.com.ua/keramohranit-terragres-calacatta-vera-bilyi-6006008-mm/",
+      "section": "porcelain-tiles"
+    },
+    {
+      "sku": "5F2580",
+      "name": "Керамограніт Terragres Corso сірий 600×600×8 мм, Сірий",
+      "old": 699,
+      "price": 879,
+      "sourceRow": 45,
+      "sourceSku": "5F2580",
+      "url": "https://nashdvor.com.ua/keramohranit-terragres-corso-siryi-6006008-mm/",
+      "section": "porcelain-tiles"
+    },
+    {
+      "sku": "5V2580",
+      "name": "Керамограніт Terragres Space Stone сірий 600×600×8 мм, Сірий",
+      "old": 615,
+      "price": 879,
+      "sourceRow": 46,
+      "sourceSku": "5V2580",
+      "url": "https://nashdvor.com.ua/keramohranit-terragres-space-stone-siryi-6006008-mm/",
+      "section": "porcelain-tiles"
+    },
+    {
+      "sku": "BEG580",
+      "name": "Керамограніт Terragres Betonova світло-сірий 600×600×8 мм, Світло-сірий",
+      "old": 699,
+      "price": 879,
+      "sourceRow": 47,
+      "sourceSku": "BEG580",
+      "url": "https://nashdvor.com.ua/keramohranit-terragres-betonova-svitlo-siryi-6006008-mm/",
+      "section": "porcelain-tiles"
+    },
+    {
+      "sku": "Н90580",
+      "name": "Керамограніт Terragres Calacatta Extra білий 600×600×8 мм, Білий",
+      "old": 615,
+      "price": 879,
+      "sourceRow": 48,
+      "sourceSku": "Н90580",
+      "url": "https://nashdvor.com.ua/keramohranit-terragres-calacatta-extra-bilyi-6006008-mm/",
+      "section": "porcelain-tiles"
+    },
+    {
+      "sku": "DRС580",
+      "name": "Керамограніт Terragres Dark Rock чорний 600×600×8 мм, Чорний",
+      "old": 699,
+      "price": 879,
+      "sourceRow": 49,
+      "sourceSku": "DRС580",
+      "url": "https://nashdvor.com.ua/keramohranit-terragres-dark-rock-chornyi-6006008-mm/",
+      "section": "porcelain-tiles"
+    }
+  ]
+}
