@@ -18,6 +18,39 @@ window.NashDvorGoogleMail = {
       reader.onerror = () => reject(new Error('Не вдалося прочитати фото. Оберіть його повторно.'));
       reader.readAsDataURL(file);
     });
+    // Prepare locally while the visitor fills in contacts; never upload before submit.
+    let preparedFile = null, preparedPhoto = null;
+    async function optimizePhoto(file) {
+      if (file.size <= 1024 * 1024 || /\.hei[cf]$/i.test(file.name)) return file;
+      let image;
+      try {
+        image = await createImageBitmap(file);
+        const scale = Math.min(1, 2560 / Math.max(image.width, image.height));
+        const canvas = document.createElement('canvas');
+        canvas.width = Math.max(1, Math.round(image.width * scale));
+        canvas.height = Math.max(1, Math.round(image.height * scale));
+        const context = canvas.getContext('2d');
+        context.fillStyle = '#fff'; context.fillRect(0, 0, canvas.width, canvas.height);
+        context.drawImage(image, 0, 0, canvas.width, canvas.height);
+        const blob = await new Promise(resolve => canvas.toBlob(resolve, 'image/jpeg', 0.9));
+        return blob && blob.size < file.size ? blob : file;
+      } catch (_) { return file; }
+      finally { image?.close(); }
+    }
+    function preparePhoto(file) {
+      if (preparedFile !== file || !preparedPhoto) {
+        preparedFile = file;
+        preparedPhoto = optimizePhoto(file).then(readPhoto);
+        // Report read errors on submission, without an unhandled background rejection.
+        preparedPhoto.catch(() => {});
+      }
+      return preparedPhoto;
+    }
+    document.getElementById('lead-photo').addEventListener('change', event => {
+      const file = event.target.files[0];
+      preparedFile = null; preparedPhoto = null;
+      if (file && file.size <= 10 * 1024 * 1024) preparePhoto(file);
+    });
     form.action = endpoint;
     const consent = form.querySelector('.lead-consent span');
     if (consent) consent.textContent = 'Погоджуюся на обробку фото й контактних даних для підготовки візуалізації та зв’язку щодо заявки. Фото та контакти надсилаються команді NASH DVOR через Google. Фото не публікуються.';
@@ -37,7 +70,8 @@ window.NashDvorGoogleMail = {
       sending = true; submit.disabled = true;
       status.textContent = 'Готуємо заявку до надсилання…';
       try {
-        const data = {type:product ? 'product' : 'visualization', id:requestId, name:field('Ім’я'), email:field('Email'), phone:field('Телефон'), city:field('Населений пункт'), area:product ? '' : field('Площа фасаду, м²'), contact:field('Спосіб зв’язку'), note:field('Побажання'), selection, source:location.href, consent:form.elements.namedItem('Згода на обробку даних').checked, website:field('_honey'), photo:product ? null : {base64:await readPhoto(file)}};
+        const data = {type:product ? 'product' : 'visualization', id:requestId, name:field('Ім’я'), email:field('Email'), phone:field('Телефон'), city:field('Населений пункт'), area:product ? '' : field('Площа фасаду, м²'), contact:field('Спосіб зв’язку'), note:field('Побажання'), selection, source:location.href, consent:form.elements.namedItem('Згода на обробку даних').checked, website:field('_honey'), photo:null};
+        if (!product) data.photo = {base64:await preparePhoto(file)};
         const post = document.createElement('form'); post.method = 'POST'; post.action = endpoint; post.target = target; post.enctype = 'application/x-www-form-urlencoded'; post.hidden = true;
         const payload = document.createElement('input'); payload.type = 'hidden'; payload.name = 'payload'; payload.value = JSON.stringify(data); post.append(payload); document.body.append(post); post.submit(); post.remove();
         status.textContent = 'Перевірте результат надсилання у новій вкладці. Цю форму залишено відкритою разом із фото та контактами.';
