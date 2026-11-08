@@ -10,6 +10,17 @@ window.NashDvorGoogleMail = {
     form.dataset.googleConnected = 'true';
     const status = document.getElementById('lead-status');
     const submit = document.getElementById('lead-submit');
+    let connectionPrepared = false;
+    function prepareConnection() {
+      if (connectionPrepared) return;
+      connectionPrepared = true;
+      for (const origin of ['https://script.google.com', 'https://script.googleusercontent.com']) {
+        const link = document.createElement('link');
+        link.rel = 'preconnect'; link.href = origin; document.head.append(link);
+      }
+    }
+    form.addEventListener('focusin', prepareConnection, {once:true});
+    form.addEventListener('pointerenter', prepareConnection, {once:true});
     let sending = false, requestId = null;
     const field = name => form.elements.namedItem(name)?.value || '';
     const readPhoto = file => new Promise((resolve, reject) => {
@@ -21,18 +32,22 @@ window.NashDvorGoogleMail = {
     // Prepare locally while the visitor fills in contacts; never upload before submit.
     let preparedFile = null, preparedPhoto = null;
     async function optimizePhoto(file) {
-      if (file.size <= 1024 * 1024 || /\.hei[cf]$/i.test(file.name)) return file;
+      if (file.size <= 512 * 1024 || /\.hei[cf]$/i.test(file.name)) return file;
       let image;
       try {
         image = await createImageBitmap(file);
-        const scale = Math.min(1, 2560 / Math.max(image.width, image.height));
+        const scale = Math.min(1, 2048 / Math.max(image.width, image.height));
         const canvas = document.createElement('canvas');
         canvas.width = Math.max(1, Math.round(image.width * scale));
         canvas.height = Math.max(1, Math.round(image.height * scale));
         const context = canvas.getContext('2d');
         context.fillStyle = '#fff'; context.fillRect(0, 0, canvas.width, canvas.height);
         context.drawImage(image, 0, 0, canvas.width, canvas.height);
-        const blob = await new Promise(resolve => canvas.toBlob(resolve, 'image/jpeg', 0.9));
+        let blob;
+        for (const quality of [0.85, 0.78, 0.7]) {
+          blob = await new Promise(resolve => canvas.toBlob(resolve, 'image/jpeg', quality));
+          if (!blob || blob.size <= 1024 * 1024) break;
+        }
         return blob && blob.size < file.size ? blob : file;
       } catch (_) { return file; }
       finally { image?.close(); }
@@ -81,3 +96,4 @@ window.NashDvorGoogleMail = {
     }, true);
   }
 };
+
