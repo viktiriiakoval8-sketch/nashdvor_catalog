@@ -1,0 +1,9 @@
+.git
+.venv
+.facade-data
+__pycache__
+.pytest_cache
+.test-temp
+*.zip
+print/*.png
+print/*booklet*.pdf

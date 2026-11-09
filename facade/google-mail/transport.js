@@ -21,7 +21,7 @@ window.NashDvorGoogleMail = {
     }
     form.addEventListener('focusin', prepareConnection, {once:true});
     form.addEventListener('pointerenter', prepareConnection, {once:true});
-    let sending = false, requestId = null;
+    let sending = false, requestId = null, lastPayload = null, lastFile = null;
     const field = name => form.elements.namedItem(name)?.value || '';
     const readPhoto = file => new Promise((resolve, reject) => {
       const reader = new FileReader();
@@ -55,9 +55,10 @@ window.NashDvorGoogleMail = {
     function preparePhoto(file) {
       if (preparedFile !== file || !preparedPhoto) {
         preparedFile = file;
-        preparedPhoto = optimizePhoto(file).then(readPhoto);
+        const pending = optimizePhoto(file).then(readPhoto);
+        preparedPhoto = pending;
         // Report read errors on submission, without an unhandled background rejection.
-        preparedPhoto.catch(() => {});
+        pending.catch(() => { if (preparedPhoto === pending) preparedPhoto = null; });
       }
       return preparedPhoto;
     }
@@ -69,23 +70,33 @@ window.NashDvorGoogleMail = {
     form.action = endpoint;
     const consent = form.querySelector('.lead-consent span');
     if (consent) consent.textContent = 'Погоджуюся на обробку фото й контактних даних для підготовки візуалізації та зв’язку щодо заявки. Фото та контакти надсилаються команді NASH DVOR через Google. Фото не публікуються.';
-    form.addEventListener('input', () => { requestId = null; });
     form.addEventListener('submit', async event => {
       event.preventDefault(); event.stopImmediatePropagation();
       if (sending) return;
+      if (!form.reportValidity()) return;
+      if (!/^https?:$/.test(location.protocol) || location.hostname !== 'catalog.nashdvor.com.ua' || (location.port && !['80', '443'].includes(location.port))) {
+        status.textContent = 'Це локальний перегляд. Надсилання заявок доступне в каталозі catalog.nashdvor.com.ua. Поля та фото залишилися у формі.';
+        return;
+      }
       const file = document.getElementById('lead-photo').files[0];
       const product = form.dataset.requestType === 'product';
       if (!product && (!file || file.size > 10 * 1024 * 1024)) { status.textContent = 'Оберіть фото розміром до 10 МБ.'; return; }
       const selection = document.getElementById('lead-selection').value;
       if (!selection) { status.textContent = 'Оберіть хоча б одну термопанель.'; status.scrollIntoView({block:'nearest'}); return; }
-      requestId = requestId || crypto.randomUUID();
+      const data = {type:product ? 'product' : 'visualization', name:field('Ім’я'), email:field('Email'), phone:field('Телефон'), city:field('Населений пункт'), area:product ? '' : field('Площа фасаду, м²'), contact:field('Спосіб зв’язку'), note:field('Побажання'), selection, source:location.href, consent:form.elements.namedItem('Згода на обробку даних').checked, website:field('_honey'), photo:null};
+      const fingerprint = JSON.stringify(data), attachedFile = product ? null : file;
+      // Compare actual submitted values, including programmatic variant changes.
+      // An unchanged retry retains its ID so the receiver cannot send it twice.
+      if (!requestId || fingerprint !== lastPayload || attachedFile !== lastFile) {
+        requestId = crypto.randomUUID(); lastPayload = fingerprint; lastFile = attachedFile;
+      }
+      data.id = requestId;
       const target = 'nd-lead-' + requestId;
       const result = window.open('', target);
       if (!result) { status.textContent = 'Дозвольте відкриття нової вкладки для надсилання заявки та натисніть кнопку ще раз. Фото й поля збережені.'; return; }
       sending = true; submit.disabled = true;
       status.textContent = 'Готуємо заявку до надсилання…';
       try {
-        const data = {type:product ? 'product' : 'visualization', id:requestId, name:field('Ім’я'), email:field('Email'), phone:field('Телефон'), city:field('Населений пункт'), area:product ? '' : field('Площа фасаду, м²'), contact:field('Спосіб зв’язку'), note:field('Побажання'), selection, source:location.href, consent:form.elements.namedItem('Згода на обробку даних').checked, website:field('_honey'), photo:null};
         if (!product) data.photo = {base64:await preparePhoto(file)};
         const post = document.createElement('form'); post.method = 'POST'; post.action = endpoint; post.target = target; post.enctype = 'application/x-www-form-urlencoded'; post.hidden = true;
         const payload = document.createElement('input'); payload.type = 'hidden'; payload.name = 'payload'; payload.value = JSON.stringify(data); post.append(payload); document.body.append(post); post.submit(); post.remove();
@@ -96,4 +107,3 @@ window.NashDvorGoogleMail = {
     }, true);
   }
 };
-

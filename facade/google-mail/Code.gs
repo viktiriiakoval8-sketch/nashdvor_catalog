@@ -46,7 +46,7 @@ function validateLead(raw) {
   const note = leadText(raw.note, 3000, 'Побажання', false);
   const contact = leadText(raw.contact, 40, 'Спосіб зв’язку', false);
   const source = leadText(raw.source, 2000, 'Сторінка', true);
-  if (source.indexOf(LEAD_SITE) !== 0) throw new Error('Надішліть заявку зі сторінки каталогу NASH DVOR.');
+  if (!/^https?:\/\/catalog\.nashdvor\.com\.ua(?::(?:80|443))?(?:[/?#]|$)/i.test(source)) throw new Error('Надішліть заявку зі сторінки каталогу NASH DVOR.');
   if (raw.consent !== true) throw new Error('Підтвердьте згоду на обробку фото та контактів.');
   const area = raw.area === '' || raw.area === undefined ? null : Number(raw.area);
   if (area !== null && (!Number.isFinite(area) || area < 1 || area > 100000)) throw new Error('Перевірте площу фасаду.');
