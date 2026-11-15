@@ -18,7 +18,7 @@ with tempfile.TemporaryDirectory(prefix='nashdvor-pages-') as tmp:
     with zipfile.ZipFile(archive, 'w', compression=zipfile.ZIP_STORED) as z:
         for p in paths:
             z.write(p, p.name)
-        z.writestr('README.txt', f'NASH DVOR — актуальні сторінки PDF-каталогу\n{len(paths)} PNG повних сторінок A4, 150 dpi.\nУсі ціни — у гривнях (грн). Для імітації клінкера ціни наведено за м².\nSHA-256 PDF: {hashlib.sha256(PDF.read_bytes()).hexdigest()}\n')
+        z.writestr('README.txt', f'NASH DVOR — актуальні сторінки PDF-каталогу\n{len(paths)} PNG повних сторінок A4, 150 dpi.\nУсі ціни — у гривнях (грн). Польський клінкер: ціни за одну панель площею 0,576 м². Для імітації клінкера ціни наведено за м².\nSHA-256 PDF: {hashlib.sha256(PDF.read_bytes()).hexdigest()}\n')
     width, height, gap, label, cols = 240, 340, 18, 24, 5
     rows = ceil(len(paths) / cols)
     overview = Image.new('RGB', (cols * width + (cols + 1) * gap, rows * (height + label) + (rows + 1) * gap), '#e7e4dd')
