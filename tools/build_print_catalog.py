@@ -19,10 +19,10 @@ from reportlab.graphics.shapes import Drawing
 from reportlab.graphics import renderPDF
 
 ROOT = Path(__file__).resolve().parents[1]
-text = (ROOT / 'index.html').read_text()
-start = text.index('const CATALOG = ') + len('const CATALOG = ')
-end = text.index(';\nconst $=', start)
-CATALOG = json.loads(text[start:end])
+text = (ROOT / 'index.html').read_text(encoding='utf-8')
+CATALOG, _ = json.JSONDecoder().raw_decode(text.split('const CATALOG = ', 1)[1])
+CATALOG['sections'] = [section for section in CATALOG['sections']
+                       if section['id'] in {'porcelain', 'polish-clinker', 'paintable', 'clinker-imitation'}]
 parser = argparse.ArgumentParser(description='Сборка печатного каталога NASH DVOR')
 parser.add_argument('--photo-cache', type=Path, help='Каталог проверенных фото с manifest.json')
 args = parser.parse_args()
@@ -268,9 +268,9 @@ for n, title, sub, first, last in contents:
     line(M, y - 12 * MM, W - M)
     y -= 28 * MM
 para('Як читати таблиці', M, 98 * MM, CW, 14, INK, True)
-para('<b>Усі ціни наведено у гривнях (грн).</b> Керамограніт — грн/панель; польський клінкер, панелі під фарбування та імітація клінкера — грн/м². Стовпці — товщина в мм, рядки — основа. '
+para('<b>Усі ціни наведено у гривнях (грн).</b> Керамограніт і польський клінкер — грн/панель; панелі під фарбування та імітація клінкера — грн/м². Стовпці — товщина в мм, рядки — основа. '
      '<b>«—»</b> — ціна не зазначена або поєднання основи й товщини не передбачене.', M, 88 * MM, CW, 9)
-para('Керамограніт: одна панель покриває 0,564 м². Імітація клінкера: корисна площа панелі — 0,54 м². '
+para('Керамограніт: 0,564 м² за панель. Польський клінкер: 0,576 м² за панель. Імітація клінкера: корисна площа — 0,54 м². '
      'Для зручного порівняння звертайте увагу на одиниці виміру над таблицями.', M, 65 * MM, CW, 8.3, MUTED)
 para('Артикул панелі — код NASH DVOR. Артикул плитки, якщо він є у прайсі, наведено поруч. '
      'Контакти та QR-код онлайн-каталогу — на сторінці 20.', M, 43 * MM, CW, 8.3, MUTED)
@@ -296,7 +296,7 @@ for si, sec in enumerate(CATALOG['sections']):
         label(f'{si + 1:02d}', M, H - 44 * MM, 20, ORANGE, True)
         label(sec['title'], M + 17 * MM, H - 43 * MM, 19, INK, True)
         right(f'{pi + 1} / {len(chunks)}', W - M, H - 43 * MM, 8, MUTED)
-        subtitle = 'Ціни за 1 м², грн' if si in [1, 2, 3] else 'Ціни за одну панель, грн'
+        subtitle = 'Ціни за одну панель, грн' if chunk[0]['currency'] == 'грн/панель' else 'Ціни за 1 м², грн'
         label(subtitle, M + 17 * MM, H - 51 * MM, 7.4, MUTED)
         top = H - 61 * MM
         row_height = (49 if chunk_size == 4 else (62 if chunk_size == 3 else 93)) * MM
@@ -326,9 +326,11 @@ for si, sec in enumerate(CATALOG['sections']):
                 line(M, ytop - row_height + 4 * MM, W - M)
             MANIFEST['products'].append({'page': page, 'section': sec['id'], 'sku': i['sku'],
                                          'name': i['name'], 'prices': i['price'],
+                                         'currency': i['currency'], 'panelArea': i.get('panelArea'),
                                          'combinations': i.get('combinations', list(i['price']))})
         if si == 1:
-            notes = 'Скловолоконна сітка — без утеплювача. «—» — ціна не зазначена або поєднання не передбачене.'
+            area = str(chunk[0]['panelArea']).replace('.', ',')
+            notes = f'Одна панель покриває {area} м². Скловолоконна сітка — без утеплювача.'
         elif si == 2:
             notes = 'Пінопласт М25, 11 кг/м³. Панелі постачаються під фарбування.'
         elif si == 3:
