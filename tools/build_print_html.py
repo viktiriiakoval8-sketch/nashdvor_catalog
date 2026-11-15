@@ -4,7 +4,9 @@ import json,re
 from pathlib import Path
 from html import escape as e
 ROOT=Path(__file__).resolve().parents[1]
-s=(ROOT/'index.html').read_text();a=s.index('const CATALOG = ')+len('const CATALOG = ');c=json.loads(s[a:s.index(';\nconst $=',a)])
+s = (ROOT / 'index.html').read_text(encoding='utf-8')
+c, _ = json.JSONDecoder().raw_decode(s.split('const CATALOG = ', 1)[1])
+c['sections'] = [section for section in c['sections'] if section['id'] in {'porcelain', 'polish-clinker', 'paintable', 'clinker-imitation'}]
 def fmt(n):
  whole,frac=f'{n:.2f}'.split('.');return f'{int(whole):,}'.replace(',',' ')+(','+frac if frac!='00'else'')
 def logo():return '<svg class="logo" viewBox="0 0 2030 440" role="img" aria-label="nash dvor — from vision to reality"><use href="#brand-lockup"/></svg>'
@@ -24,7 +26,7 @@ def product(i):
 parts=[]
 parts.append('<section class="sheet cover">'+logo()+'<div class="overline">ЦЕНТР БЛАГОУСТРОЮ</div><h1>Фасадні<br>термопанелі.</h1><p class="lead">Фактури. Основи. Товщина. Ціни.</p><div class="cover-photos">'+''.join('<img src="'+i['image']+'" alt="Фактура панелі">'for i in [c['sections'][0]['items'][0],c['sections'][1]['items'][2],c['sections'][0]['items'][10]])+'</div><div class="cover-meta"><strong>04 <small>РОЗДІЛИ</small></strong><strong>54 <small>ПАНЕЛЕЙ</small></strong><p>Інформаційний каталог<br>для вибору матеріалів фасаду.</p></div><p>nashdvor.com.ua · Біляївка, Одеська область</p>'+foot(1,'ВІД ІДЕЇ ДО ВТІЛЕННЯ')+'</section>')
 toc=''.join(f'<div class="toc"><b>0{k+1}</b><div><h3>{e(sec["title"])}</h3><p>{len(sec["items"])} панелей</p></div><strong>{rng}</strong></div>'for k,(sec,rng)in enumerate(zip(c['sections'],['03—08','09—11','12—15','16—19'])))
-parts.append('<section class="sheet">'+logo()+'<div class="overline">ДОВІДНИК КАТАЛОГУ</div><h2>Знайдіть свій фасад.</h2>'+toc+'<div class="guide"><h3>Як читати таблиці</h3><p>Стовпці — товщина утеплювача в мм, рядки — основа. «—» означає, що ціна відсутня або поєднання не передбачене.</p><p><b>Усі ціни наведено у гривнях (грн).</b> Керамограніт: ціни за одну панель. Польський клінкер, панелі під фарбування та імітація клінкера: ціни за м². Одиниці вказані над таблицями.</p><p>Керамограніт: площа панелі 0,564 м². Імітація клінкера: корисна площа 0,54 м².</p></div>'+foot(2,'ЗМІСТ / ОСНОВИ / ПОЗНАЧЕННЯ')+'</section>')
+parts.append('<section class="sheet">'+logo()+'<div class="overline">ДОВІДНИК КАТАЛОГУ</div><h2>Знайдіть свій фасад.</h2>'+toc+'<div class="guide"><h3>Як читати таблиці</h3><p>Стовпці — товщина утеплювача в мм, рядки — основа. «—» означає, що ціна відсутня або поєднання не передбачене.</p><p><b>Усі ціни наведено у гривнях (грн).</b> Керамограніт і польський клінкер: ціни за одну панель. Панелі під фарбування та імітація клінкера: ціни за м². Одиниці вказані над таблицями.</p><p>Керамограніт: 0,564 м² за панель. Польський клінкер: 0,576 м² за панель. Імітація клінкера: корисна площа 0,54 м².</p></div>'+foot(2,'ЗМІСТ / ОСНОВИ / ПОЗНАЧЕННЯ')+'</section>')
 page=3
 for n,sec in enumerate(c['sections']):
  size=[4,3,2,4][n];chunks=[sec['items'][k:k+size]for k in range(0,len(sec['items']),size)]
@@ -47,5 +49,5 @@ const ready=Promise.all(images.map(image=>new Promise(resolve=>{let done=false;c
 button.addEventListener('click',async()=>{await ready;window.print()});
 '''
 html='<!doctype html><html lang="uk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>NASH DVOR — каталог із фотографіями для друку</title><style>'+css+'</style></head><body>'+defs+'<aside class="toolbar"><button id="print-button" disabled>Зберегти PDF / Друк</button><div><span id="photo-status">Завантаження фотографій…</span><small>У вікні друку: A4, масштаб 100%, поля «Немає», фонові зображення увімкнені, колонтитули вимкнені.</small></div><a href="../">Повернутися до каталогу</a></aside>'+''.join(parts)+'<script>'+js+'</script></body></html>'
-(ROOT/'print/catalog-with-photos.html').write_text(html)
+(ROOT / 'print/catalog-with-photos.html').write_text(html, encoding='utf-8')
 print('Created print HTML: 20 sheets, 54 products, 32 embedded + 22 remote main photos, no missing-photo products; bytes',len(html.encode()))
