@@ -28,6 +28,7 @@ def test_exact_catalog_export():
     for id, panel in CATALOG.items():
         assert panel['price'] == eligible[id]['price']
         assert panel['currency'] == eligible[id]['currency']
+        assert panel.get('panelArea') == eligible[id].get('panelArea')
         assert panel['image'] == eligible[id]['image']
         assert panel['tileSize'] == eligible[id].get('tileSize')
 
@@ -43,7 +44,7 @@ def test_user_confirmed_tile_dimensions_are_scoped_to_correct_categories():
 
 
 def test_all_eligible_prices_exported():
-    assert sum(len(p['price']) for p in CATALOG.values()) == 317
+    assert sum(len(p['price']) for p in CATALOG.values()) == 326
 
 
 def test_quotes_units_and_missing_values():
@@ -55,9 +56,14 @@ def test_quotes_units_and_missing_values():
     assert q['accessories'] is q['delivery'] is q['installation'] is None
     assert quote(porcelain,None,None,80,CONFIG)['panels'] is None
     assert quote(porcelain,'eps',50,None,CONFIG)['panels'] is None
-    clinker=CATALOG['tp-10101']
-    assert quote(clinker,'eps',50,3.333,CONFIG)['panels']==4999.5
-    assert quote(clinker,'mesh',0,50,CONFIG)['panels'] is None
+    clinker = CATALOG['tp-10101']
+    q = quote(clinker, 'eps', 50, 3.333, CONFIG, now)
+    assert q['panelCount'] == 6 and q['panels'] == 5184
+    q = quote(clinker, 'mesh', 0, 0.577, CONFIG, now)
+    assert q['panelCount'] == 2 and q['panels'] == 1440
+    q = quote(clinker, 'mesh', 0, 0.576, CONFIG, now)
+    assert q['panelCount'] == 1 and q['panels'] == 720
+    assert quote(clinker, 'mesh', 50, 1, CONFIG, now)['panels'] is None
     for value in [0,-1,float('inf'),float('nan')]:
         with pytest.raises(ValueError):quote(clinker,'eps',50,value,CONFIG)
 
