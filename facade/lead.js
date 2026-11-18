@@ -119,5 +119,8 @@ window.Facade = (() => {
   }
   document.getElementById('lead-open')?.addEventListener('click', () => open());
   window.NashDvorGoogleMail.connect("https://script.google.com/macros/s/AKfycbzH_-9DTUU7ecUg6K6hZSee7Yl-VKjlsFYuPMTemGRgcrZJ6t8ZYEWzcONeIZ18_Tq2/exec");
+  if (new URLSearchParams(location.search).get('form') === 'visualization') {
+    open();
+  }
   return {open};
 })();
